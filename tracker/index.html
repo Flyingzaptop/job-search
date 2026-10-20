@@ -133,9 +133,14 @@ function render() {
   }).join("");
 }
 
+let base = [], marks = {};
+function merge() { jobs = base.map(j => ({...j, ...(marks[j._id] || {})})); render(); }
+const docId = id => id.replace(/[^A-Za-z0-9_\-.~:@+]/g, "_");
+
 async function save(id, patch) {
   if (!db) return;
-  try { await db.doc("jobs/" + id).update({...patch, updatedAt: new Date().toISOString()}); }
+  marks[id] = {...(marks[id] || {}), ...patch}; merge();
+  try { await db.doc("status/" + docId(id)).set({...marks[id], updatedAt: new Date().toISOString()}); }
   catch (e) { if (e?.code === "invalid_argument") { canWrite = false; render(); } }
 }
 $("list").addEventListener("change", e => {
@@ -144,14 +149,19 @@ $("list").addEventListener("change", e => {
   if (e.target.matches(".note")) save(card.dataset.id, {note: e.target.value});
 });
 
+fetch("jobs.json").then(r => r.json()).then(rows => {
+  base = rows.map(j => ({...j, _id: docId(j.id)})).sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  merge();
+}).catch(() => {});
+
 (async () => {
   db = await claude.use("db");
   const user = await claude.use("user");
   if (user && (await user.can("data.write")) === false) canWrite = false;
-  if (!db) return;
-  db.collection("jobs").orderBy("score", "desc").limit(1000).onSnapshot(snap => {
-    jobs = snap.docs.map(d => ({_id: d.id, ...d.data()}));
-    render();
+  if (!db) { canWrite = false; render(); return; }
+  db.collection("status").limit(1000).onSnapshot(snap => {
+    marks = Object.fromEntries(snap.docs.map(d => [d.id, d.data()]));
+    merge();
   }, () => {});
 })();
 </script>
