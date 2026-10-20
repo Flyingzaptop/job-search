@@ -47,15 +47,17 @@ def fantastic():
     rows = [{"source": "fantastic", "id": f"fantastic:{j['id']}", "title": j["title"], "company": j.get("organization"),
              "location": ", ".join(j.get("locations_alt") or []), "type": j.get("location_type"),
              "salary": j.get("salary"), "posted": (j.get("date_posted") or "")[:10], "url": j["url"],
-             "text": (j.get("description_text") or "")[:4000]} for j in d]
+             "text": " | ".join(f"{k[3:]}: {j[k]}" for k in ("ai_experience_level", "ai_work_arrangement",
+             "ai_work_arrangement_office_days", "ai_job_language", "ai_key_skills", "ai_requirements_summary",
+             "ai_core_responsibilities") if j.get(k))[:4000]} for j in d]
     save("fantastic", rows)
 
-def apify_linkedin():
+def apify_linkedin(urls=None, out="linkedin", cap="1.5"):
     tok = os.environ["APIFY_TOKEN"]
     base = "https://www.linkedin.com/jobs/search/?"
     def u(kw, loc, extra): return base + urllib.parse.urlencode({"keywords": kw, "location": loc, **extra})
     entry = {"f_E": "1,2"}  # internship, entry level
-    urls = [
+    urls = urls or [
         u('automation engineer OR PLC OR robotics OR automatyk', "Wrocław, Dolnośląskie, Poland", {**entry, "distance": "50"}),
         u('mechanical engineer OR design engineer OR konstruktor OR CAD', "Wrocław, Dolnośląskie, Poland", {**entry, "distance": "50"}),
         u('python OR machine learning OR AI OR data', "Wrocław, Dolnośląskie, Poland", {**entry, "distance": "25"}),
@@ -65,7 +67,7 @@ def apify_linkedin():
     ]
     inp = {"urls": urls, "datePosted": "anyTime", "scrapeCompany": False, "limitPerSource": 100,
            "splitByLocation": False, "autoConvertToAiSearch": False}
-    run = http(f"https://api.apify.com/v2/acts/curious_coder~linkedin-jobs-scraper/runs?token={tok}&maxTotalChargeUsd=1.5",
+    run = http(f"https://api.apify.com/v2/acts/curious_coder~linkedin-jobs-scraper/runs?token={tok}&maxTotalChargeUsd={cap}",
                json.dumps(inp).encode(), {"Content-Type": "application/json"})["data"]
     while run["status"] in ("READY", "RUNNING"):
         time.sleep(15)
@@ -78,7 +80,7 @@ def apify_linkedin():
              "posted": str(j.get("postedAt") or "")[:10], "url": j.get("link") or j.get("applyUrl"),
              "text": (j.get("descriptionText") or j.get("description") or "")[:4000],
              "level": j.get("seniorityLevel"), "applicants": j.get("applicantsCount")} for j in items]
-    save("linkedin", rows)
+    save(out, rows)
 
 def arbeitnow():
     rows = []
@@ -99,6 +101,25 @@ def remotive():
              "posted": j["publication_date"][:10], "url": j["url"], "text": j["description"][:4000]}
             for j in d["jobs"]]
     save("remotive", rows)
+
+def apify_linkedin2():
+    """Round 2: many narrow local queries (round 1 showed local LinkedIn is the best source)."""
+    base = "https://www.linkedin.com/jobs/search/?"
+    loc = "Wrocław, Dolnośląskie, Poland"
+    def u(kw, dist="50", extra=None):
+        return base + urllib.parse.urlencode({"keywords": kw, "location": loc, "distance": dist, "f_E": "1,2", **(extra or {})})
+    urls = [
+        u("staż inżynier OR praktyki techniczne OR internship engineering"),
+        u("R&D engineer OR inżynier R&D OR product development"),
+        u("test engineer OR validation engineer OR inżynier testów"),
+        u("mechatronik OR mechatronics OR robot programmer OR programista robotów"),
+        u("process engineer OR inżynier procesu OR technolog OR manufacturing engineer"),
+        u("FEA OR CAE OR simulation engineer OR symulacje"),
+        u("junior python OR data analyst OR machine learning intern"),
+        u("PLM OR CAD support OR engineering tools OR application engineer"),
+        u("automation engineer OR mechanical engineer", "100", {"f_WT": "2,3"}),
+    ]
+    apify_linkedin(urls, out="linkedin2", cap="1.9")
 
 if __name__ == "__main__":
     for name in sys.argv[1:] or ["jooble", "fantastic", "arbeitnow", "remotive", "apify_linkedin"]:
