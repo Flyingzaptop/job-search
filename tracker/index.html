@@ -1,0 +1,157 @@
+<title>Denis Job Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: drawing-sheet title block on top, then a dense, filterable job register below. */
+:root {
+  --paper: #f4f6f8; --sheet: #ffffff; --ink: #18232e; --muted: #5d6b78; --rule: #d3dbe2;
+  --accent: #1f5fa8; --accent-soft: #e3edf8;
+  --good: #1e7a4a; --warn: #a86a12; --bad: #b2362b;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f161d; --sheet: #16202a; --ink: #e4ebf1; --muted: #93a3b1; --rule: #2a3946;
+  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0f161d; --sheet: #16202a; --ink: #e4ebf1; --muted: #93a3b1; --rule: #2a3946;
+  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71; color-scheme: dark }
+body { background: var(--paper); color: var(--ink); font: 14px/1.45 var(--sans); }
+.wrap { max-width: 1100px; margin: 0 auto; padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.block { display: grid; grid-template-columns: 2fr 1fr 1fr; border: 1.5px solid var(--ink); background: var(--sheet); }
+.block > div { padding: 10px 14px; border-left: 1px solid var(--rule); min-width: 0; }
+.block > div:first-child { border-left: 0; }
+.lbl { font: 500 10.5px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 4px 0 0; font-size: 22px; font-weight: 600; text-wrap: balance; }
+.val { margin-top: 4px; font: 500 15px var(--mono); overflow-wrap: anywhere; }
+button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--rule); color: var(--accent); border-radius: 3px; padding: 1px 7px; cursor: pointer; margin-left: 6px; }
+.stats { display: flex; flex-wrap: wrap; gap: 0; margin-top: 14px; border: 1px solid var(--rule); background: var(--sheet); }
+.stat { flex: 1 1 90px; padding: 8px 12px; border-left: 1px solid var(--rule); }
+.stat:first-child { border-left: 0; }
+.stat b { display: block; font: 600 20px var(--mono); font-variant-numeric: tabular-nums; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 10px; align-items: center; }
+.filters input, .filters select { font: 14px var(--sans); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: 6px 8px; }
+.filters input[type=search] { flex: 1 1 220px; min-width: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.list { display: grid; gap: 6px; }
+.job { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: start; background: var(--sheet); border: 1px solid var(--rule); padding: 10px 12px; }
+.score { font: 600 18px var(--mono); text-align: center; padding: 6px 0; border: 1.5px solid currentColor; font-variant-numeric: tabular-nums; }
+.s-hi { color: var(--good); } .s-mid { color: var(--warn); } .s-lo { color: var(--muted); }
+.main { min-width: 0; }
+.title { font-weight: 600; font-size: 15px; color: var(--ink); text-decoration: none; }
+.title:hover { color: var(--accent); text-decoration: underline; }
+.meta { color: var(--muted); font-size: 13px; margin-top: 2px; overflow-wrap: anywhere; }
+.why { margin-top: 5px; }
+.flags { margin-top: 3px; color: var(--bad); font-size: 13px; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.chip { font: 500 11px var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 1px 6px; border: 1px solid var(--rule); color: var(--muted); }
+.chip.track { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.side { display: grid; gap: 6px; justify-items: end; }
+.side select, .side input { font: 13px var(--sans); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: 4px 6px; width: 150px; }
+.st-applied, .st-reply, .st-interview { border-color: var(--accent) !important; }
+.st-offer { border-color: var(--good) !important; }
+.st-rejected, .st-skip { opacity: .6; }
+.empty { border: 1px dashed var(--rule); padding: 28px; text-align: center; color: var(--muted); background: var(--sheet); }
+@media (max-width: 640px) {
+  .block { grid-template-columns: 1fr 1fr; } .block > div:first-child { grid-column: 1 / -1; border-bottom: 1px solid var(--rule); }
+  .block > div:nth-child(2) { border-left: 0; }
+  .job { grid-template-columns: 44px 1fr; } .side { grid-column: 1 / -1; justify-items: stretch; grid-template-columns: 1fr 1fr; }
+  .side select, .side input { width: 100%; }
+}
+</style>
+
+<div class="wrap">
+  <header class="block">
+    <div><div class="lbl">Поиск работы · Denis Gruszkiewicz</div><h1>Реестр вакансий</h1></div>
+    <div><div class="lbl">Email для откликов</div><div class="val"><span id="mail">flyingzaptop@gmail.com</span><button class="copy" id="copyMail" type="button">копировать</button></div></div>
+    <div><div class="lbl">Дедлайн</div><div class="val">01.01.2027</div></div>
+  </header>
+
+  <section class="stats" id="stats" aria-label="Сводка по статусам"></section>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Поиск: компания, должность, город" aria-label="Поиск">
+    <select id="fTrack" aria-label="Направление"><option value="">Все направления</option><option value="eng">Инженерия</option><option value="it">IT</option></select>
+    <select id="fMin" aria-label="Минимальная оценка"><option value="7">Оценка 7+</option><option value="5">Оценка 5+</option><option value="0">Все оценки</option></select>
+    <select id="fStatus" aria-label="Статус"><option value="active">Без пропущенных</option><option value="">Все статусы</option></select>
+  </div>
+
+  <div class="list" id="list"><div class="empty">Вакансии появятся здесь, когда Claude загрузит оценённую базу.</div></div>
+</div>
+
+<script>
+const STATUSES = [["new","Новая"],["shortlist","Подать"],["applied","Отклик отправлен"],["reply","Есть ответ"],["interview","Собеседование"],["offer","Оффер"],["rejected","Отказ"],["skip","Пропустить"]];
+const LABEL = Object.fromEntries(STATUSES);
+const $ = id => document.getElementById(id);
+let jobs = [], db = null, canWrite = true;
+
+for (const [v, l] of STATUSES) $("fStatus").add(new Option(l, v));
+try { const s = JSON.parse(localStorage.getItem("jb-filters") || "{}"); for (const k of ["fTrack","fMin","fStatus"]) if (s[k] != null) $(k).value = s[k]; } catch {}
+
+$("copyMail").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText($("mail").textContent); $("copyMail").textContent = "скопировано"; }
+  catch { getSelection().selectAllChildren($("mail")); }
+});
+for (const id of ["q","fTrack","fMin","fStatus"]) $(id).addEventListener("input", () => {
+  try { localStorage.setItem("jb-filters", JSON.stringify({fTrack: $("fTrack").value, fMin: $("fMin").value, fStatus: $("fStatus").value})); } catch {}
+  render();
+});
+
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function renderStats() {
+  const c = {}; for (const j of jobs) c[j.status || "new"] = (c[j.status || "new"] || 0) + 1;
+  const hi = jobs.filter(j => j.score >= 7).length;
+  $("stats").innerHTML = `<div class="stat"><span class="lbl">Всего</span><b>${jobs.length}</b></div>
+    <div class="stat"><span class="lbl">Оценка 7+</span><b>${hi}</b></div>` +
+    ["shortlist","applied","reply","interview","offer"].map(s => `<div class="stat"><span class="lbl">${LABEL[s]}</span><b>${c[s] || 0}</b></div>`).join("");
+}
+
+function render() {
+  renderStats();
+  const q = $("q").value.trim().toLowerCase(), tr = $("fTrack").value, min = +$("fMin").value, st = $("fStatus").value;
+  const rows = jobs.filter(j => (j.score ?? 0) >= min && (!tr || j.track === tr)
+    && (st === "" || (st === "active" ? !["skip","rejected"].includes(j.status) : (j.status || "new") === st))
+    && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
+  if (!rows.length) { $("list").innerHTML = `<div class="empty">${jobs.length ? "Под эти фильтры ничего нет. Ослабьте оценку или статус." : "Вакансии появятся здесь, когда Claude загрузит оценённую базу."}</div>`; return; }
+  $("list").innerHTML = rows.map(j => {
+    const sc = j.score >= 7 ? "s-hi" : j.score >= 5 ? "s-mid" : "s-lo", status = j.status || "new";
+    return `<article class="job st-${status}" data-id="${esc(j._id)}">
+      <div class="score ${sc}" title="Оценка соответствия">${esc(j.score)}</div>
+      <div class="main">
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="meta">${esc(j.company)} · ${esc(j.location)}${j.posted ? " · " + esc(j.posted) : ""} · ${esc(j.source)}</div>
+        ${j.why ? `<div class="why">${esc(j.why)}</div>` : ""}
+        ${j.red_flags ? `<div class="flags">⚠ ${esc(j.red_flags)}</div>` : ""}
+        <div class="chips"><span class="chip track">${j.track === "eng" ? "инженерия" : "IT"}</span><span class="chip">${esc(j.level)}</span><span class="chip">${esc(j.format)}</span><span class="chip">CV: ${esc(j.cv)}</span></div>
+      </div>
+      <div class="side">
+        <select class="st" aria-label="Статус" ${canWrite ? "" : "disabled"}>${STATUSES.map(([v,l]) => `<option value="${v}" ${v===status?"selected":""}>${l}</option>`).join("")}</select>
+        <input class="note" placeholder="Заметка" value="${esc(j.note)}" aria-label="Заметка" ${canWrite ? "" : "disabled"}>
+      </div></article>`;
+  }).join("");
+}
+
+async function save(id, patch) {
+  if (!db) return;
+  try { await db.doc("jobs/" + id).update({...patch, updatedAt: new Date().toISOString()}); }
+  catch (e) { if (e?.code === "invalid_argument") { canWrite = false; render(); } }
+}
+$("list").addEventListener("change", e => {
+  const card = e.target.closest(".job"); if (!card) return;
+  if (e.target.matches(".st")) save(card.dataset.id, {status: e.target.value});
+  if (e.target.matches(".note")) save(card.dataset.id, {note: e.target.value});
+});
+
+(async () => {
+  db = await claude.use("db");
+  const user = await claude.use("user");
+  if (user && (await user.can("data.write")) === false) canWrite = false;
+  if (!db) return;
+  db.collection("jobs").orderBy("score", "desc").limit(1000).onSnapshot(snap => {
+    jobs = snap.docs.map(d => ({_id: d.id, ...d.data()}));
+    render();
+  }, () => {});
+})();
+</script>
