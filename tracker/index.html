@@ -50,6 +50,8 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .side { display: grid; gap: 6px; justify-items: end; }
 .side select, .side input { font: 13px var(--sans); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: 4px 6px; width: 150px; }
 .cvs { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+.msgbtn { font: 500 12px var(--sans); color: var(--ink); background: none; border: 1px solid var(--rule); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
+.msgbox { width: 100%; min-height: 140px; font: 13px/1.4 var(--sans); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); padding: 6px; grid-column: 1 / -1; }
 .cvbtn { font: 500 12px var(--sans); color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
 .st-applied, .st-reply, .st-interview { border-color: var(--accent) !important; }
 .st-offer { border-color: var(--good) !important; }
@@ -164,7 +166,9 @@ function render() {
         <select class="st" aria-label="Статус" ${canWrite ? "" : "disabled"}>${STATUSES.map(([v,l]) => `<option value="${v}" ${v===status?"selected":""}>${l}</option>`).join("")}</select>
         <input class="note" placeholder="Заметка" value="${esc(j.note)}" aria-label="Заметка" ${canWrite ? "" : "disabled"}>
         <div class="cvs">${j.cv_file ? `<button type="button" class="cvbtn" data-file="${esc(j.cv_file)}">CV под вакансию</button>` : ""}
-          <button type="button" class="cvbtn" data-file="${cvFile(j, "PL")}">CV PL</button><button type="button" class="cvbtn" data-file="${cvFile(j, "EN")}">CV EN</button></div>
+          <button type="button" class="cvbtn" data-file="${cvFile(j, "PL")}">CV PL</button><button type="button" class="cvbtn" data-file="${cvFile(j, "EN")}">CV EN</button>
+          <button type="button" class="msgbtn" data-lang="PL">Сообщение PL</button><button type="button" class="msgbtn" data-lang="EN">Сообщение EN</button></div>
+        <textarea class="msgbox" readonly hidden aria-label="Мотивационное сообщение"></textarea>
       </div></article>`;
   }).join("");
 }
@@ -181,7 +185,27 @@ async function save(id, patch) {
 }
 // Base CVs per track and language; a tailored CV (cv_file) is offered first when the search built one.
 const cvFile = (j, lang) => `cv/Denis_Gruszkiewicz_CV_${(j.cv || j.track) === "eng" ? "Engineering" : "IT"}_${lang}.pdf`;
+// Motivation message: a tailored one from the search (j.message) when present, otherwise a template per track and language.
+const MSG = {
+  eng: {
+    PL: j => `Dzień dobry, aplikuję na stanowisko ${j.title} w ${j.company}. Studiuję Robotykę i Automatyzację Procesów na Politechnice Wrocławskiej (ukończony V semestr). Samodzielnie programowałem trzy roboty przemysłowe (ABB SCARA, Mitsubishi 6-osiowy, pneumatyczny układ XZ Bosch), pracowałem w TIA Portal, projektuję w Fusion 360 i AutoCAD. Moje projekty to m.in. przekładnia cykloidalna z dokumentacją techniczną, koncepcja osiowego silnika odrzutowego z analizą MES oraz stanowiska zrobotyzowane w RobotStudio. Od ponad roku pracuję też jako Młodszy Administrator IT, a w Pythonie tworzę narzędzia do analizy danych i automatyzacji. Zależy mi na elastycznych godzinach; od marca 2027 mogę pracować w biurze we Wrocławiu 1–2 dni w tygodniu, resztę zdalnie. Chętnie porozmawiam.\n\nPozdrawiam,\nDenis Gruszkiewicz`,
+    EN: j => `Hello, I am applying for the ${j.title} position at ${j.company}. I study Robotics and Process Automation at Wrocław University of Science and Technology (5 semesters completed). I programmed three industrial robots myself (ABB SCARA, Mitsubishi 6-axis, Bosch pneumatic XZ), worked with Siemens TIA Portal and design in Fusion 360 and AutoCAD. My projects include a cycloidal drive with full technical drawings, an axial turbojet concept with centrifugal-force FEA and robotic welding and palletizing cells in RobotStudio. I have also worked for over a year as a Junior IT Administrator and build Python tools for data analysis and automation. I am looking for flexible hours; from March 2027 I can work onsite in Wrocław 1–2 days a week and remotely the rest. I would be glad to talk.\n\nBest regards,\nDenis Gruszkiewicz`,
+  },
+  it: {
+    PL: j => `Dzień dobry, aplikuję na stanowisko ${j.title} w ${j.company}. Od ponad roku pracuję jako Młodszy Administrator IT w szpitalu: wspieram użytkowników, diagnozuję problemy sprzętowe, systemowe i sieciowe oraz testuję aplikacje. Bardzo dobrze znam Microsoft 365, pracuję z Windows i podstawami Linuxa. Tworzę też własne aplikacje i automatyzacje w Pythonie, Django/React i n8n, m.in. LabFlow i JobHunter (github.com/Flyingzaptop), a od dwóch lat rozwijam projekty ML na danych finansowych. Studiuję na Politechnice Wrocławskiej i WSB Merito. Zależy mi na elastycznych godzinach; od marca 2027 mogę pracować w biurze we Wrocławiu 1–2 dni w tygodniu, resztę zdalnie. Chętnie porozmawiam.\n\nPozdrawiam,\nDenis Gruszkiewicz`,
+    EN: j => `Hello, I am applying for the ${j.title} position at ${j.company}. For over a year I have worked as a Junior IT Administrator in a hospital, supporting users, troubleshooting hardware, system and network issues and testing applications. I know Microsoft 365 very well and work with Windows and basic Linux. I also build my own applications and automations with Python, Django/React and n8n, including LabFlow and JobHunter (github.com/Flyingzaptop), and have spent two years on machine-learning research with financial time series. I study at Wrocław University of Science and Technology and WSB Merito. I am looking for flexible hours; from March 2027 I can work onsite in Wrocław 1–2 days a week and remotely the rest. I would be glad to talk.\n\nBest regards,\nDenis Gruszkiewicz`,
+  },
+};
+const messageFor = (j, lang) => (j.message && j.message[lang]) || MSG[(j.cv || j.track) === "eng" ? "eng" : "it"][lang](j);
 $("list").addEventListener("click", async e => {
+  const m = e.target.closest(".msgbtn");
+  if (m) {
+    const card = m.closest(".job"), j = jobs.find(x => x._id === card.dataset.id), text = messageFor(j, m.dataset.lang), label = m.textContent;
+    try { await navigator.clipboard.writeText(text); m.textContent = "Скопировано"; }
+    catch { const box = card.querySelector(".msgbox"); box.value = text; box.hidden = false; box.focus(); box.select(); m.textContent = "Выделено, Ctrl+C"; }
+    setTimeout(() => { m.textContent = label; }, 2500);
+    return;
+  }
   const b = e.target.closest(".cvbtn"); if (!b) return;
   const label = b.textContent, dl = await claude.use("downloads");
   if (!dl) { b.textContent = "Недоступно здесь"; return; }
