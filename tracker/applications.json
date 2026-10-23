@@ -1,0 +1,195 @@
+{
+ "checked": "2026-10-23",
+ "mailbox": "r3dflzp.ns@gmail.com",
+ "applications": [
+  {
+   "company": "StoryGold",
+   "role": "CAD Evaluation Engineer",
+   "applied": "2026-10-22",
+   "channel": "JustJoin.it",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "Подтверждение JustJoin, ID 01a16565"
+  },
+  {
+   "company": "FOTC",
+   "role": "Junior Cloud Support",
+   "applied": "2026-10-22",
+   "channel": "PeopleForce",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "CV получено"
+  },
+  {
+   "company": "Smith+Nephew",
+   "role": "IT Service Desk Level 1 Intern",
+   "applied": "2026-10-22",
+   "channel": "Workday",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "Рассматривают"
+  },
+  {
+   "company": "Centrum Usług Informatycznych Wrocław",
+   "role": "Administrator IT / utrzymanie systemów dziedzinowych",
+   "applied": "2026-10-22",
+   "channel": "theprotocol.it",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "Работодатель получил"
+  },
+  {
+   "company": "Opera",
+   "role": "AI Engineer",
+   "applied": "2026-10-22",
+   "channel": "Teamtailor",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "С cover letter и обзором ML"
+  },
+  {
+   "company": "AmRest",
+   "role": "IT Menu Junior Administrator",
+   "applied": "2026-10-22",
+   "channel": "SyncPeople",
+   "status": "confirmed",
+   "updated": "2026-10-22",
+   "note": "Аккаунт создан, заявка получена"
+  },
+  {
+   "company": "Linear",
+   "role": "Product Support Specialist, Europe",
+   "applied": "2026-10-22",
+   "channel": "Ashby",
+   "status": "rejected",
+   "updated": "2026-10-22",
+   "note": "Отказ"
+  },
+  {
+   "company": "DELVE",
+   "role": "AI Engineer",
+   "applied": "2026-10-14",
+   "channel": "BambooHR",
+   "status": "on_hold",
+   "updated": "2026-10-23",
+   "note": "Набор приостановлен; вернутся к шорт-листу"
+  },
+  {
+   "company": "Grape Up",
+   "role": "Fullstack (Java/React)",
+   "applied": "2026-10-14",
+   "channel": "Grape Up",
+   "status": "rejected",
+   "updated": "2026-10-21",
+   "note": "Отказ"
+  },
+  {
+   "company": "CodeTwo",
+   "role": "Web Developer",
+   "applied": "2026-10-14",
+   "channel": "Recruitee",
+   "status": "rejected",
+   "updated": "2026-10-20",
+   "note": "Отказ"
+  },
+  {
+   "company": "Positive User",
+   "role": "Backend Developer (Django)",
+   "applied": "2026-10-14",
+   "channel": "Teamtailor",
+   "status": "rejected",
+   "updated": "2026-10-15",
+   "note": "Отказ"
+  },
+  {
+   "company": "Sii",
+   "role": "AI Engineer – GenAI & Cloud",
+   "applied": "2026-10-14",
+   "channel": "Sii",
+   "status": "rejected",
+   "updated": "2026-10-14",
+   "note": "Отказ"
+  },
+  {
+   "company": "Cloudfide",
+   "role": "Fullstack Engineer (Python + React)",
+   "applied": "2026-10-14",
+   "channel": "Traffit",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": ""
+  },
+  {
+   "company": "Devapo",
+   "role": "AI Architect",
+   "applied": "2026-10-14",
+   "channel": "Traffit",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": "Smart Tracker"
+  },
+  {
+   "company": "Rossmann",
+   "role": "DevOps Cloud Engineer",
+   "applied": "2026-10-14",
+   "channel": "e-mail",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": ""
+  },
+  {
+   "company": "Addepto",
+   "role": "Data Scientist / AI Engineer",
+   "applied": "2026-10-14",
+   "channel": "Recruitee",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": ""
+  },
+  {
+   "company": "Coherent Solutions",
+   "role": "ML Engineer",
+   "applied": "2026-10-14",
+   "channel": "Coherent",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": ""
+  },
+  {
+   "company": "Connectis",
+   "role": "QA Engineer Python",
+   "applied": "2026-10-14",
+   "channel": "Connectis",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": ""
+  },
+  {
+   "company": "? (recruitify.ai, вероятно GET IT TOGETHER)",
+   "role": "Full Stack Developer (Python / React / AI)",
+   "applied": "2026-10-14",
+   "channel": "recruitify.ai",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": "Компания в письме не названа"
+  },
+  {
+   "company": "? (recruitify.ai)",
+   "role": "QA Automation Engineer",
+   "applied": "2026-10-14",
+   "channel": "recruitify.ai",
+   "status": "confirmed",
+   "updated": "2026-10-14",
+   "note": "Компания в письме не названа"
+  }
+ ],
+ "no_email_trace": [
+  "DRACO — Junior IT Support",
+  "BPX — Młodszy Specjalista IT",
+  "DCG — Młodszy Specjalista Bezpieczeństwa IT",
+  "iClan3D — Konstruktor",
+  "Greenbrier — Młodszy Konstruktor",
+  "Остальные из 45 от 14.10 (pracuj.pl)",
+  "9 вакансий от 17.10 (Pretius, C&F, Scalo…)"
+ ]
+}
