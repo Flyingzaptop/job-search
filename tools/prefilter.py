@@ -9,7 +9,16 @@ RELEVANT = re.compile(r"(automat|robot|plc|mechani|mechatron|konstrukt|design en
                       r"python|machine learning|\bml\b|\bai\b|data|llm|qa|test|support|intern|trainee|praktyk|staż|stażyst|junior|student|"
                       r"engineer|inżynier|technik)", re.I)
 
-seen, keys, out = set(), set(), []
+def norm(s): return re.sub(r"[^a-z0-9ąćęłńóśźż ]", " ", (s or "").lower())
+EXCL = [(norm(e["company"]).strip(), set(norm(e["role"]).split())) for e in json.load(open(ROOT / "data" / "exclusions.json"))]
+def applied(r):
+    """Same company and a clearly overlapping role title -> already applied."""
+    c, t = norm(r["company"]), set(norm(r["title"]).split())
+    for ec, er in EXCL:
+        if ec and (ec in c or (c.strip() and c.strip() in ec)) and len(t & er) >= max(1, len(er) // 2): return True
+    return False
+
+seen, keys, out, skipped = set(), set(), [], 0
 for f in sorted((ROOT / "data" / "raw").glob("*.jsonl")):
     for line in f.open():
         r = json.loads(line)
@@ -19,8 +28,9 @@ for f in sorted((ROOT / "data" / "raw").glob("*.jsonl")):
         title, text = r["title"] or "", r.get("text") or ""
         if SENIOR.search(title) or not RELEVANT.search(title): continue
         if GERMAN.search(text) or (r["source"] == "arbeitnow" and re.search(r"\b(m/w/d|w/m/d)\b", title) and not re.search(r"[a-z]{3,} engineer", title, re.I)): continue
+        if applied(r): skipped += 1; continue
         out.append(r)
 with open(ROOT / "data" / "candidates.jsonl", "w") as fh:
     for r in out: fh.write(json.dumps(r, ensure_ascii=False) + "\n")
 from collections import Counter
-print(len(out), Counter(r["source"] for r in out))
+print(len(out), Counter(r["source"] for r in out), "already applied:", skipped)

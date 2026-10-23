@@ -1,0 +1,127 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_FOTC_EN.pdf",
+ "title": "Denis Gruszkiewicz - FOTC_EN",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Junior Cloud Support | IT troubleshooting and workflow automation"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "github.com/Flyingzaptop | antillia.tech"
+  ],
+  [
+   "section",
+   "PROFILE"
+  ],
+  [
+   "body",
+   "Junior IT Administrator with over a year of hands-on experience supporting hospital staff, troubleshooting Windows, hardware and application issues, and configuring workstations. I combine user support with basic Linux and networking knowledge and practical web application projects. I want to bring this troubleshooting approach to FOTC and develop expertise in Google Workspace and SaaS support."
+  ],
+  [
+   "section",
+   "RELEVANT SKILLS"
+  ],
+  [
+   "bullet",
+   "User support: understanding reported issues, reproducing errors, explaining solutions and checking that fixes work."
+  ],
+  [
+   "bullet",
+   "Windows and Microsoft 365: strong application familiarity and day-to-day user support; workstation setup and PC troubleshooting."
+  ],
+  [
+   "bullet",
+   "Networking: LAN cabling, connecting switches and devices, basic DHCP and routing concepts, connectivity troubleshooting."
+  ],
+  [
+   "bullet",
+   "Linux: basic administration and diagnostics. Active Directory: practical experience joining computers to a domain."
+  ],
+  [
+   "bullet",
+   "Automation and data: Python, n8n, PostgreSQL/SQLite, basic SQL; Git/GitHub and automated testing in personal projects."
+  ],
+  [
+   "section",
+   "PROFESSIONAL EXPERIENCE"
+  ],
+  [
+   "title",
+   "Junior IT Administrator | ZOZ w Bolesławcu | 06.2025 - present"
+  ],
+  [
+   "bullet",
+   "Provide day-to-day technical support to hospital staff and diagnose hardware, operating system and application issues."
+  ],
+  [
+   "bullet",
+   "Configure workstations and network devices, connect switches and LAN cabling, and investigate connectivity problems."
+  ],
+  [
+   "bullet",
+   "Analyse user needs, reproduce reported errors and test application scenarios and fixes."
+  ],
+  [
+   "bullet",
+   "Develop internal tools for repetitive tasks; worked on separate employee-management, scheduling and laboratory-process applications."
+  ],
+  [
+   "section",
+   "SELECTED PROJECTS"
+  ],
+  [
+   "title",
+   "JobHunter - workflow automation"
+  ],
+  [
+   "body",
+   "Personal automation platform combining n8n, PostgreSQL, local LLM services, Playwright and a React dashboard. Worked with structured data, workflow validation, automated tests and GitHub Actions CI. This supports a systematic approach to investigating problems across connected services."
+  ],
+  [
+   "body",
+   "LabFlow: Django/React laboratory workflow demo with user roles, validation and audit history; Windows/Ubuntu setup and recovery documentation."
+  ],
+  [
+   "section",
+   "EDUCATION"
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - present"
+  ],
+  [
+   "body",
+   "Network, systems and IT security engineering; part-time engineering studies, second semester."
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - present"
+  ],
+  [
+   "body",
+   "Robotics and Process Automation; engineering studies in progress, five semesters completed."
+  ],
+  [
+   "section",
+   "LANGUAGES AND AVAILABILITY"
+  ],
+  [
+   "body",
+   "Polish - advanced; English - advanced / technical; Ukrainian and Russian - native. IT Step Python AI course, 02.2024 - 12.2024. Category B driving licence."
+  ],
+  [
+   "body",
+   "Seeking flexible working hours. From March 2027: available onsite in Wrocław up to 1-2 days per week, with remaining work remote. Open to part-time arrangements; start date by agreement."
+  ]
+ ]
+}

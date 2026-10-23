@@ -1,0 +1,139 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_iClan3D_CAD_PL.pdf",
+ "title": "Denis Gruszkiewicz - iClan3D_CAD_PL",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Konstruktor CAD 3D / dokumentacja 2D | Fusion 360 i AutoCAD"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "Projekty mechaniczne: przekładnia cykloidalna, prototypowanie FDM"
+  ],
+  [
+   "section",
+   "PROFIL ZAWODOWY"
+  ],
+  [
+   "body",
+   "Student Robotyki i Automatyzacji Procesów na Politechnice Wrocławskiej, po ukończeniu V semestru. Modeluję części i złożenia w Fusion 360, pracuję z AutoCAD oraz rozwijam dokumentację techniczną własnych projektów. Projekt przekładni cykloidalnej obejmuje rysunek złożeniowy, zestawienie części i rysunki elementów. Chcę wykorzystać to zaplecze w iClan3D przy modelowaniu 3D i przygotowywaniu dokumentacji 2D oraz rozwijać pracę w Inventor i Navisworks."
+  ],
+  [
+   "section",
+   "KOMPETENCJE CAD I DOKUMENTACJA"
+  ],
+  [
+   "bullet",
+   "Fusion 360 - modelowanie części i złożeń, analiza geometrii oraz współpracy elementów konstrukcji."
+  ],
+  [
+   "bullet",
+   "AutoCAD - rysunek 2D i dokumentacja techniczna; czytanie rysunków i przestrzenna interpretacja konstrukcji."
+  ],
+  [
+   "bullet",
+   "Rysunki części i złożenia: wymiary, przekroje, oznaczenia elementów i zestawienie części; wybrane pasowania, tolerancje i chropowatość w projekcie przekładni."
+  ],
+  [
+   "bullet",
+   "STEP/STL, przygotowanie modeli pod druk 3D; uwzględnianie ograniczeń FDM, montażu i praktycznego wykonania."
+  ],
+  [
+   "bullet",
+   "Podstawy mechaniki, konstrukcji maszyn, materiałów i procesów obróbki ze studiów. Siemens NX - podstawy; RobotStudio - projekty akademickie."
+  ],
+  [
+   "section",
+   "WYBRANE PROJEKTY INŻYNIERSKIE"
+  ],
+  [
+   "title",
+   "Cyclo - przekładnia cykloidalna | projekt własny"
+  ],
+  [
+   "bullet",
+   "Opracowanie geometrii i modelowanie części przekładni; analiza zasady działania, współpracy elementów i zagadnień montażu."
+  ],
+  [
+   "bullet",
+   "Dokumentacja obejmująca 7 arkuszy: złożenie oraz wał wejściowy, koło cykloidalne, korpus, mocowanie, tarczę wyjściową i sworzeń."
+  ],
+  [
+   "bullet",
+   "Przekroje, oznaczenia części i zestawienie elementów zespołu; wymiary oraz wybrane pasowania, tolerancje i oznaczenia chropowatości."
+  ],
+  [
+   "title",
+   "Osiowy silnik odrzutowy | projekt koncepcyjny"
+  ],
+  [
+   "body",
+   "Koncepcja i modele głównych elementów konstrukcyjnych; analiza geometrii, układu przepływu i rozmieszczenia komponentów."
+  ],
+  [
+   "title",
+   "RobotStudio i prototypowanie FDM"
+  ],
+  [
+   "body",
+   "Akademickie stanowiska spawania i paletyzacji: trajektorie, zasięg robota i organizacja procesu. Własne elementy pod druk 3D oraz praca z modelami STEP/STL."
+  ],
+  [
+   "section",
+   "DOŚWIADCZENIE I DODATKOWE UMIEJĘTNOŚCI"
+  ],
+  [
+   "title",
+   "Młodszy Administrator IT | ZOZ w Bolesławcu | 06.2025 - obecnie"
+  ],
+  [
+   "body",
+   "Wsparcie użytkowników, diagnozowanie usterek, testowanie aplikacji i rozwój wewnętrznych narzędzi. Praktyka samodzielnego rozwiązywania problemów technicznych i analizy potrzeb użytkowników."
+  ],
+  [
+   "body",
+   "Python, NumPy/Pandas, podstawy SQL; bardzo dobra znajomość Microsoft 365. LabFlow - aplikacja procesowa; JobHunter - automatyzacja workflow. Portfolio software: github.com/Flyingzaptop."
+  ],
+  [
+   "section",
+   "WYKSZTAŁCENIE"
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - obecnie"
+  ],
+  [
+   "body",
+   "Robotyka i Automatyzacja Procesów; studia inżynierskie w toku, ukończony V semestr."
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - obecnie"
+  ],
+  [
+   "body",
+   "Inżynieria sieci, systemów i bezpieczeństwa IT; studia inżynierskie niestacjonarne, II semestr."
+  ],
+  [
+   "section",
+   "JĘZYKI I DOSTĘPNOŚĆ"
+  ],
+  [
+   "body",
+   "Polski - zaawansowany; angielski - zaawansowany / techniczny; ukraiński i rosyjski - ojczyste. Prawo jazdy kat. B. IT Step: Python AI, 02.2024 - 12.2024."
+  ],
+  [
+   "body",
+   "Elastyczne godziny pracy; możliwa część etatu. Od marca 2027 maksymalnie 1-2 dni w tygodniu stacjonarnie we Wrocławiu, pozostała praca zdalnie. Termin rozpoczęcia do uzgodnienia."
+  ]
+ ]
+}

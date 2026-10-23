@@ -1,0 +1,135 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_DCG_Security_PL.pdf",
+ "title": "Denis Gruszkiewicz - DCG_Security_PL",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Młodszy Specjalista Bezpieczeństwa IT | wsparcie IT i diagnostyka"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "Portfolio techniczne: github.com/Flyingzaptop"
+  ],
+  [
+   "section",
+   "PROFIL ZAWODOWY"
+  ],
+  [
+   "body",
+   "Młodszy Administrator IT z ponad rokiem doświadczenia we wsparciu pracowników szpitala. Diagnozuję problemy sprzętowe, systemowe i aplikacyjne, odtwarzam błędy oraz weryfikuję poprawki. Studiuję inżynierię sieci, systemów i bezpieczeństwa IT. Chcę wykorzystać doświadczenie w obsłudze problemów użytkowników i analizie danych w zespole bezpieczeństwa DCG, rozwijając kompetencje w analizie alertów SIEM, EDR/XDR i DLP."
+  ],
+  [
+   "section",
+   "KOMPETENCJE PRZYDATNE W OPERACJACH BEZPIECZEŃSTWA"
+  ],
+  [
+   "bullet",
+   "Diagnostyka: zbieranie informacji o problemie, odtwarzanie błędów, weryfikacja działania aplikacji i poprawności danych."
+  ],
+  [
+   "bullet",
+   "Windows i sprzęt PC: konfiguracja stanowisk, rozwiązywanie problemów systemowych, modernizacja i serwis komputerów."
+  ],
+  [
+   "bullet",
+   "Sieci: okablowanie LAN, podłączanie switchy i urządzeń, podstawy DHCP i routingu oraz diagnostyka połączeń."
+  ],
+  [
+   "bullet",
+   "Linux - podstawowa administracja i diagnostyka. Active Directory - dołączanie komputerów do domeny. Microsoft 365 - bardzo dobra znajomość pakietu."
+  ],
+  [
+   "bullet",
+   "Python, podstawy SQL, PostgreSQL/SQLite; Git/GitHub, testowanie aplikacji i automatyzacja workflow w projektach własnych."
+  ],
+  [
+   "section",
+   "DOŚWIADCZENIE ZAWODOWE"
+  ],
+  [
+   "title",
+   "Młodszy Administrator IT | ZOZ w Bolesławcu | 06.2025 - obecnie"
+  ],
+  [
+   "bullet",
+   "Bieżące wsparcie techniczne pracowników oraz diagnozowanie problemów sprzętowych, systemowych i aplikacyjnych."
+  ],
+  [
+   "bullet",
+   "Konfiguracja stanowisk i urządzeń sieciowych, okablowanie LAN oraz podstawowa diagnostyka połączeń."
+  ],
+  [
+   "bullet",
+   "Analiza potrzeb użytkowników, odtwarzanie zgłaszanych błędów, testowanie scenariuszy i sprawdzanie poprawności danych."
+  ],
+  [
+   "bullet",
+   "Rozwój wewnętrznych narzędzi usprawniających powtarzalne czynności; oddzielne aplikacje dla pracowników, grafików i procesów laboratoryjnych."
+  ],
+  [
+   "section",
+   "PROJEKTY TECHNICZNE"
+  ],
+  [
+   "title",
+   "LabFlow | role użytkowników, walidacja i historia operacji"
+  ],
+  [
+   "body",
+   "Demonstracyjny system Django/React do koordynacji procesów laboratoryjnych. Role i uprawnienia użytkowników, audyt operacji, PostgreSQL/SQLite oraz testowanie reguł aplikacji. Dokumentacja konfiguracji Windows/Ubuntu, backupu i odtwarzania."
+  ],
+  [
+   "title",
+   "JobHunter | automatyzacja i kontrola jakości danych"
+  ],
+  [
+   "body",
+   "n8n, PostgreSQL, lokalna LLM, Playwright i panel React. Deterministyczne przetwarzanie danych, walidacja wyników, testy oraz GitHub Actions CI. Praktyka analizowania problemów na styku kilku usług."
+  ],
+  [
+   "body",
+   "Dodatkowe zaplecze inżynierskie: Fusion 360, AutoCAD i RobotStudio; projekt przekładni cykloidalnej."
+  ],
+  [
+   "section",
+   "WYKSZTAŁCENIE"
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - obecnie"
+  ],
+  [
+   "body",
+   "Inżynieria sieci, systemów i bezpieczeństwa IT; studia inżynierskie niestacjonarne, II semestr."
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - obecnie"
+  ],
+  [
+   "body",
+   "Robotyka i Automatyzacja Procesów; studia inżynierskie w toku, ukończony V semestr."
+  ],
+  [
+   "section",
+   "JĘZYKI I DOSTĘPNOŚĆ"
+  ],
+  [
+   "body",
+   "Polski - zaawansowany; angielski - zaawansowany / techniczny; ukraiński i rosyjski - ojczyste. Prawo jazdy kat. B. IT Step: Python AI, 02.2024 - 12.2024."
+  ],
+  [
+   "body",
+   "Elastyczne godziny pracy; możliwa część etatu. Od marca 2027 maksymalnie 1-2 dni w tygodniu stacjonarnie we Wrocławiu, pozostała praca zdalnie. Termin rozpoczęcia do uzgodnienia."
+  ]
+ ]
+}

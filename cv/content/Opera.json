@@ -1,0 +1,195 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Opera.pdf",
+ "title": "Denis Gruszkiewicz - Opera",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "AI / ML Engineering | Python, neural networks and experimental research"
+  ],
+  [
+   "contact",
+   "Wrocław, Poland | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "GitHub: github.com/Flyingzaptop"
+  ],
+  [
+   "section",
+   "PROFILE"
+  ],
+  [
+   "body",
+   "Engineering student and Junior IT Administrator with multi-year independent research in financial time series and neural networks. I build data pipelines, design features and training targets, compare model architectures and investigate failure modes. My projects combine Python/PyTorch, causal validation and reproducible experiments with local LLM integrations and application development. I am interested in contributing this research and software foundation to Opera’s AI team in Wrocław."
+  ],
+  [
+   "section",
+   "CORE SKILLS"
+  ],
+  [
+   "bullet",
+   "Python, PyTorch, NumPy, Pandas, Polars and PyArrow/Parquet; Jupyter/Colab and Matplotlib for analysis and visualization."
+  ],
+  [
+   "bullet",
+   "Neural sequence modeling: TCN, LSTM and RetNet-lite; feature/label design, custom losses, checkpointing and evaluation."
+  ],
+  [
+   "bullet",
+   "Experimental methods: chronological validation, data-leakage checks, baseline comparisons, error analysis and interpretation of negative results."
+  ],
+  [
+   "bullet",
+   "LLM applications: local Ollama/LM Studio, OpenAI API integration and academic Hugging Face Transformers text-generation practice."
+  ],
+  [
+   "bullet",
+   "Software: Django REST Framework, REST APIs, PostgreSQL/SQLite, basic SQL, React/TypeScript; GitHub Actions, pytest and native Rust/PyO3 components."
+  ],
+  [
+   "section",
+   "SELECTED MACHINE LEARNING RESEARCH"
+  ],
+  [
+   "title",
+   "XAUUSD angular sequence research | independent project"
+  ],
+  [
+   "bullet",
+   "Implemented experimental PyTorch TCN models and an asynchronous event branch with learned attention pooling, custom losses and geometric output constraints."
+  ],
+  [
+   "bullet",
+   "Investigated chronological forecasting, distillation and reconstruction as separate tasks; used causality tests and controlled baseline comparisons."
+  ],
+  [
+   "body",
+   "github.com/Flyingzaptop/xauusd"
+  ],
+  [
+   "title",
+   "stargazin | sequence models and offline/online consistency"
+  ],
+  [
+   "bullet",
+   "Built a pipeline covering Parquet ingestion, normalization, features, labels, dataset assembly, training/checkpointing and offline scoring."
+  ],
+  [
+   "bullet",
+   "Explored CT-LSTM and RetNet-lite variants, three-class output heads and margin objectives; investigated unstable predictions and preprocessing consistency."
+  ],
+  [
+   "bullet",
+   "Used Rust/PyO3 extensions for selected preprocessing paths and maintained unit, integration and regression tests."
+  ],
+  [
+   "body",
+   "github.com/Flyingzaptop/stargazin"
+  ],
+  [
+   "page",
+   ""
+  ],
+  [
+   "section",
+   "DATA QUALITY AND EXPERIMENT VALIDATION"
+  ],
+  [
+   "title",
+   "GC MBO research | event-level market-data experiments"
+  ],
+  [
+   "bullet",
+   "Python feature engineering and model experiments on CME Gold MBO/L3 data; Rust replay and conservative FIFO execution simulation."
+  ],
+  [
+   "bullet",
+   "Evaluated hypotheses using walk-forward analysis, causality checks and execution-cost/latency stress. Documented failed hypotheses and limits rather than treating backtests as proof of a usable strategy."
+  ],
+  [
+   "body",
+   "github.com/Flyingzaptop/gc-mbo-research"
+  ],
+  [
+   "body",
+   "Additional practice: stargaze-l2-vwap - async collectors and recoverable Parquet storage; Python-Colab - scikit-learn preprocessing/regression, NLTK and TF-IDF/SVD/SVC text classification."
+  ],
+  [
+   "section",
+   "LLM APPLICATIONS AND SOFTWARE PROJECTS"
+  ],
+  [
+   "title",
+   "JobHunter | structured LLM analysis and workflow automation"
+  ],
+  [
+   "body",
+   "Node.js/n8n, PostgreSQL, Ollama and Playwright; deterministic processing, schema-validated LLM analysis, React/SSE dashboard and human-in-the-loop controls. Docker Compose configuration and GitHub Actions CI. Local project under development: github.com/Flyingzaptop/jobhunter-n8n."
+  ],
+  [
+   "title",
+   "LabFlow | process application and local AI integrations"
+  ],
+  [
+   "body",
+   "Django REST Framework + React/TypeScript, REST/OpenAPI, RBAC and audit logging. Implemented local Ollama streaming client and optional faster-whisper speech-to-text. Public demonstrator with fictional data: github.com/Flyingzaptop/LabFlow."
+  ],
+  [
+   "body",
+   "ARC: experimental C++/D3D12 resource and performance research with CMake/CTest CI. MultiNeuro: Python Telegram bot using OpenAI API. Antillia: co-developing an early-stage web/software/AI initiative (antillia.tech)."
+  ],
+  [
+   "section",
+   "PROFESSIONAL EXPERIENCE"
+  ],
+  [
+   "title",
+   "Junior IT Administrator | ZOZ w Bolesławcu | 06.2025 - present"
+  ],
+  [
+   "bullet",
+   "Support staff, diagnose hardware/system/application issues and develop internal tools based on user needs."
+  ],
+  [
+   "bullet",
+   "Test application scenarios, validate data, reproduce defects and improve application logic; separate projects for employee management, schedules and laboratory coordination."
+  ],
+  [
+   "section",
+   "EDUCATION AND TRAINING"
+  ],
+  [
+   "title",
+   "Wrocław University of Science and Technology | 10.2022 - present"
+  ],
+  [
+   "body",
+   "Robotics and Process Automation, engineering studies; completed the fifth semester. Coursework includes engineering mathematics, physics, mechanics, automation and robotics."
+  ],
+  [
+   "title",
+   "WSB Merito University in Wrocław | 03.2026 - present"
+  ],
+  [
+   "body",
+   "Network, Systems and IT Security Engineering; part-time studies, second semester."
+  ],
+  [
+   "body",
+   "IT Step - Python AI, 02.2024 - 12.2024; Python and AI grades: 10/10 each."
+  ],
+  [
+   "section",
+   "LANGUAGES AND ENGINEERING BACKGROUND"
+  ],
+  [
+   "body",
+   "Polish: advanced; English: advanced / technical; Ukrainian and Russian: native. CAD/robotics projects: Fusion 360, AutoCAD, RobotStudio, cycloidal drive, axial turbojet concept and 3D-printing components."
+  ]
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_CUI_PL.pdf",
+ "title": "Denis Gruszkiewicz - CUI_PL",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Administrator IT | wsparcie aplikacji i systemów dziedzinowych"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "github.com/Flyingzaptop | antillia.tech"
+  ],
+  [
+   "section",
+   "PROFIL ZAWODOWY"
+  ],
+  [
+   "body",
+   "Młodszy Administrator IT z ponad rokiem doświadczenia we wsparciu pracowników szpitala. Diagnozuję problemy aplikacyjne, systemowe i sprzętowe, odtwarzam błędy oraz testuję poprawki. Łączę kontakt z użytkownikami z projektową pracą nad aplikacjami Django/React i bazami danych. Chcę wykorzystać to zaplecze w CUI przy utrzymaniu aplikacji biznesowych, obsłudze zgłoszeń i rozwoju dokumentacji."
+  ],
+  [
+   "section",
+   "KLUCZOWE KOMPETENCJE"
+  ],
+  [
+   "bullet",
+   "Wsparcie aplikacji: diagnozowanie problemów, odtwarzanie błędów, testowanie scenariuszy i weryfikacja poprawności danych."
+  ],
+  [
+   "bullet",
+   "Podstawy SQL; praktyka projektowa z PostgreSQL i SQLite oraz strukturą danych w aplikacjach."
+  ],
+  [
+   "bullet",
+   "Role i uprawnienia użytkowników, historia operacji i walidacja danych w projekcie LabFlow."
+  ],
+  [
+   "bullet",
+   "Windows, Microsoft 365 - bardzo dobra znajomość pakietu i wsparcie użytkowników; podstawy administracji i diagnostyki Linux."
+  ],
+  [
+   "bullet",
+   "Dokumentowanie konfiguracji i działania aplikacji; analiza potrzeb użytkowników, Python i automatyzacja powtarzalnych czynności."
+  ],
+  [
+   "section",
+   "DOŚWIADCZENIE ZAWODOWE"
+  ],
+  [
+   "title",
+   "Młodszy Administrator IT | ZOZ w Bolesławcu | 06.2025 - obecnie"
+  ],
+  [
+   "bullet",
+   "Bieżące wsparcie techniczne pracowników szpitala oraz diagnozowanie problemów sprzętowych, systemowych i aplikacyjnych."
+  ],
+  [
+   "bullet",
+   "Konfiguracja stanowisk i urządzeń sieciowych, podłączanie switchy, okablowanie LAN i diagnostyka połączeń."
+  ],
+  [
+   "bullet",
+   "Analiza potrzeb użytkowników, odtwarzanie zgłaszanych błędów oraz testowanie scenariuszy działania i poprawek."
+  ],
+  [
+   "bullet",
+   "Rozwój narzędzi usprawniających powtarzalne czynności; praca nad oddzielnymi aplikacjami do zarządzania pracownikami, grafikiem i procesami laboratoryjnymi."
+  ],
+  [
+   "section",
+   "WYBRANE PROJEKTY"
+  ],
+  [
+   "title",
+   "LabFlow | aplikacja procesowa Django / React"
+  ],
+  [
+   "body",
+   "Demonstracyjny system koordynacji procesów laboratoryjnych: etapy, statusy, formularze, role użytkowników i historia operacji. PostgreSQL/SQLite, testowanie reguł aplikacji oraz dokumentacja konfiguracji Windows/Ubuntu, backupu i odtwarzania. Projekt pokazuje umiejętność przekładania potrzeb użytkowników na działający system."
+  ],
+  [
+   "body",
+   "JobHunter: automatyzacja workflow n8n/PostgreSQL, testy i GitHub Actions CI. Dodatkowe projekty inżynierskie: Fusion 360, AutoCAD i RobotStudio."
+  ],
+  [
+   "section",
+   "WYKSZTAŁCENIE"
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - obecnie"
+  ],
+  [
+   "body",
+   "Inżynieria sieci, systemów i bezpieczeństwa IT; studia inżynierskie niestacjonarne, II semestr."
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - obecnie"
+  ],
+  [
+   "body",
+   "Robotyka i Automatyzacja Procesów; studia inżynierskie w toku, ukończony V semestr."
+  ],
+  [
+   "section",
+   "JĘZYKI I DOSTĘPNOŚĆ"
+  ],
+  [
+   "body",
+   "Polski - zaawansowany; angielski - zaawansowany / techniczny; ukraiński i rosyjski - ojczyste. IT Step: Python AI, 02.2024 - 12.2024. Prawo jazdy kat. B."
+  ],
+  [
+   "body",
+   "Poszukuję elastycznych godzin pracy. Od marca 2027: praca stacjonarna we Wrocławiu maksymalnie 1-2 dni w tygodniu, w pozostałe dni zdalnie. Możliwa część etatu; termin rozpoczęcia do uzgodnienia."
+  ]
+ ]
+}
