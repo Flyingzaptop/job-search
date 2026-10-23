@@ -52,6 +52,19 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .st-applied, .st-reply, .st-interview { border-color: var(--accent) !important; }
 .st-offer { border-color: var(--good) !important; }
 .st-rejected, .st-skip { opacity: .6; }
+h2 { font-size: 16px; font-weight: 600; margin: 0; }
+h2.reg { margin-top: 28px; }
+.apps { margin-top: 18px; }
+.apps-head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; margin-bottom: 8px; }
+.apps-scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--sheet); }
+#apps { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 13px; }
+#apps th { text-align: left; font: 500 10.5px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+#apps td { padding: 7px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+#apps td.d { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { font: 500 11px var(--mono); padding: 1px 7px; border: 1px solid currentColor; white-space: nowrap; }
+.p-confirmed { color: var(--accent); } .p-rejected { color: var(--bad); } .p-on_hold { color: var(--warn); }
+.p-reply, .p-interview, .p-offer { color: var(--good); }
+.muted { color: var(--muted); font-size: 13px; }
 .empty { border: 1px dashed var(--rule); padding: 28px; text-align: center; color: var(--muted); background: var(--sheet); }
 @media (max-width: 640px) {
   .block { grid-template-columns: 1fr 1fr; } .block > div:first-child { grid-column: 1 / -1; border-bottom: 1px solid var(--rule); }
@@ -64,10 +77,17 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 <div class="wrap">
   <header class="block">
     <div><div class="lbl">Поиск работы · Denis Gruszkiewicz</div><h1>Реестр вакансий</h1></div>
-    <div><div class="lbl">Email для откликов</div><div class="val"><span id="mail">flyingzaptop@gmail.com</span><button class="copy" id="copyMail" type="button">копировать</button></div></div>
+    <div><div class="lbl">Email для откликов</div><div class="val"><span id="mail">r3dflzp.ns@gmail.com</span><button class="copy" id="copyMail" type="button">копировать</button></div></div>
     <div><div class="lbl">Дедлайн</div><div class="val">01.01.2027</div></div>
   </header>
 
+  <section class="apps" aria-labelledby="appsH">
+    <div class="apps-head"><h2 id="appsH">Отклики</h2><span class="lbl" id="appsMeta"></span></div>
+    <div class="apps-scroll"><table id="apps"><thead><tr><th>Компания</th><th>Должность</th><th>Подано</th><th>Статус</th><th>Обновлено</th><th>Заметка</th></tr></thead><tbody><tr><td colspan="6" class="muted">Загружаю отклики…</td></tr></tbody></table></div>
+    <p class="muted" id="appsUnconf"></p>
+  </section>
+
+  <h2 class="reg">Найденные вакансии</h2>
   <section class="stats" id="stats" aria-label="Сводка по статусам"></section>
 
   <div class="filters">
@@ -148,6 +168,17 @@ $("list").addEventListener("change", e => {
   if (e.target.matches(".st")) save(card.dataset.id, {status: e.target.value});
   if (e.target.matches(".note")) save(card.dataset.id, {note: e.target.value});
 });
+
+const APP_LABEL = {confirmed: "Подано", rejected: "Отказ", on_hold: "На паузе", reply: "Есть ответ", interview: "Собеседование", offer: "Оффер"};
+const APP_ORDER = {offer: 0, interview: 1, reply: 2, on_hold: 3, confirmed: 4, rejected: 5};
+fetch("applications.json").then(r => r.json()).then(d => {
+  const rows = d.applications.slice().sort((a, b) => (APP_ORDER[a.status] - APP_ORDER[b.status]) || b.applied.localeCompare(a.applied));
+  const n = s => rows.filter(r => r.status === s).length;
+  $("appsMeta").textContent = `${rows.length} с подтверждением в почте · отказов ${n("rejected")} · на паузе ${n("on_hold")} · почта проверена ${d.checked}`;
+  $("apps").tBodies[0].innerHTML = rows.map(r => `<tr><td>${esc(r.company)}</td><td>${esc(r.role)}</td><td class="d">${esc(r.applied)}</td>
+    <td><span class="pill p-${esc(r.status)}">${esc(APP_LABEL[r.status] || r.status)}</span></td><td class="d">${esc(r.updated)}</td><td class="muted">${esc(r.note)}</td></tr>`).join("");
+  $("appsUnconf").textContent = "Без следа в почте: " + d.no_email_trace.join("; ") + ".";
+}).catch(() => { $("apps").tBodies[0].innerHTML = `<tr><td colspan="6" class="muted">Не удалось загрузить список откликов.</td></tr>`; });
 
 fetch("jobs.json").then(r => r.json()).then(rows => {
   base = rows.map(j => ({...j, _id: docId(j.id)})).sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
