@@ -30,6 +30,8 @@
 `cv/content/base_<Engineering|IT>_<PL|EN>.json` (язык — по языку объявления), подогнать role/profil/порядок навыков под требования
 без выдуманного опыта (правила в context/1_skills_projects_base.md), собрать `python3 tools/cv/build_cv.py ...` и положить PDF в
 `tracker/cv/tailored/<safe id>.pdf` (safe id = id, где всё кроме `A-Za-z0-9_-.~@+` и `:` заменено на `_`). В карточке появится «CV под вакансию».
+Для тех же вакансий написать мотивационное сообщение (PL и/или EN, ≤ 1000 символов, без обещаний вложений, с условием графика)
+в `data/messages.json` как `{"<id>": {"PL": "...", "EN": "..."}}`. Иначе кнопка «Сообщение» копирует шаблон по направлению.
 
 ## 4. Публикация
 `python3 tools/build_tracker.py` → публикую трекер (`tracker/index.html` + `jobs.json` + `applications.json` + все PDF из `tracker/cv/`),
