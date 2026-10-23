@@ -35,7 +35,7 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .filters input[type=search] { flex: 1 1 220px; min-width: 0; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .list { display: grid; gap: 6px; }
-.job { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: start; background: var(--sheet); border: 1px solid var(--rule); padding: 10px 12px; }
+.job { display: grid; grid-template-columns: 64px 1fr auto; gap: 12px; align-items: start; background: var(--sheet); border: 1px solid var(--rule); padding: 10px 12px; }
 .score { font: 600 18px var(--mono); text-align: center; padding: 6px 0; border: 1.5px solid currentColor; font-variant-numeric: tabular-nums; }
 .s-hi { color: var(--good); } .s-mid { color: var(--warn); } .s-lo { color: var(--muted); }
 .main { min-width: 0; }
@@ -53,7 +53,12 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .st-offer { border-color: var(--good) !important; }
 .st-rejected, .st-skip { opacity: .6; }
 h2 { font-size: 16px; font-weight: 600; margin: 0; }
-h2.reg { margin-top: 28px; }
+h2.reg { margin: 0; }
+.search-bar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-top: 28px; }
+button.run { font: 600 14px var(--sans); color: var(--sheet); background: var(--accent); border: 0; border-radius: 3px; padding: 7px 16px; cursor: pointer; }
+button.run:disabled { opacity: .55; cursor: default; }
+.scores { display: grid; gap: 3px; }
+.sched { font: 500 10.5px var(--mono); color: var(--muted); text-align: center; white-space: nowrap; }
 .apps { margin-top: 18px; }
 .apps-head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline; margin-bottom: 8px; }
 .apps-scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--sheet); }
@@ -69,7 +74,7 @@ h2.reg { margin-top: 28px; }
 @media (max-width: 640px) {
   .block { grid-template-columns: 1fr 1fr; } .block > div:first-child { grid-column: 1 / -1; border-bottom: 1px solid var(--rule); }
   .block > div:nth-child(2) { border-left: 0; }
-  .job { grid-template-columns: 44px 1fr; } .side { grid-column: 1 / -1; justify-items: stretch; grid-template-columns: 1fr 1fr; }
+  .job { grid-template-columns: 58px 1fr; } .side { grid-column: 1 / -1; justify-items: stretch; grid-template-columns: 1fr 1fr; }
   .side select, .side input { width: 100%; }
 }
 </style>
@@ -87,13 +92,18 @@ h2.reg { margin-top: 28px; }
     <p class="muted" id="appsUnconf"></p>
   </section>
 
-  <h2 class="reg">Найденные вакансии</h2>
+  <div class="search-bar">
+    <h2 class="reg">Найденные вакансии</h2>
+    <button type="button" id="runSearch" class="run">Искать</button>
+    <span class="muted" id="searchMsg">Проверит 100+ сайтов вакансий по вашим ключевым словам. Займёт 30–60 минут.</span>
+  </div>
   <section class="stats" id="stats" aria-label="Сводка по статусам"></section>
 
   <div class="filters">
     <input type="search" id="q" placeholder="Поиск: компания, должность, город" aria-label="Поиск">
     <select id="fTrack" aria-label="Направление"><option value="">Все направления</option><option value="eng">Инженерия</option><option value="it">IT</option></select>
-    <select id="fMin" aria-label="Минимальная оценка"><option value="7">Оценка 7+</option><option value="5">Оценка 5+</option><option value="0">Все оценки</option></select>
+    <select id="fMin" aria-label="Минимальная оценка навыков"><option value="7">Навыки 7+</option><option value="5">Навыки 5+</option><option value="0">Навыки: все</option></select>
+    <select id="fSched" aria-label="Совместимость с графиком"><option value="0">График: любой</option><option value="5">График 5+</option><option value="7">График 7+</option></select>
     <select id="fStatus" aria-label="Статус"><option value="active">Без пропущенных</option><option value="">Все статусы</option></select>
   </div>
 
@@ -107,14 +117,14 @@ const $ = id => document.getElementById(id);
 let jobs = [], db = null, canWrite = true;
 
 for (const [v, l] of STATUSES) $("fStatus").add(new Option(l, v));
-try { const s = JSON.parse(localStorage.getItem("jb-filters") || "{}"); for (const k of ["fTrack","fMin","fStatus"]) if (s[k] != null) $(k).value = s[k]; } catch {}
+try { const s = JSON.parse(localStorage.getItem("jb-filters") || "{}"); for (const k of ["fTrack","fMin","fSched","fStatus"]) if (s[k] != null) $(k).value = s[k]; } catch {}
 
 $("copyMail").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText($("mail").textContent); $("copyMail").textContent = "скопировано"; }
   catch { getSelection().selectAllChildren($("mail")); }
 });
-for (const id of ["q","fTrack","fMin","fStatus"]) $(id).addEventListener("input", () => {
-  try { localStorage.setItem("jb-filters", JSON.stringify({fTrack: $("fTrack").value, fMin: $("fMin").value, fStatus: $("fStatus").value})); } catch {}
+for (const id of ["q","fTrack","fMin","fSched","fStatus"]) $(id).addEventListener("input", () => {
+  try { localStorage.setItem("jb-filters", JSON.stringify({fTrack: $("fTrack").value, fMin: $("fMin").value, fSched: $("fSched").value, fStatus: $("fStatus").value})); } catch {}
   render();
 });
 
@@ -122,23 +132,24 @@ function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","
 
 function renderStats() {
   const c = {}; for (const j of jobs) c[j.status || "new"] = (c[j.status || "new"] || 0) + 1;
-  const hi = jobs.filter(j => j.score >= 7).length;
+  const hi = jobs.filter(j => j.fit >= 7).length;
   $("stats").innerHTML = `<div class="stat"><span class="lbl">Всего</span><b>${jobs.length}</b></div>
-    <div class="stat"><span class="lbl">Оценка 7+</span><b>${hi}</b></div>` +
+    <div class="stat"><span class="lbl">Навыки 7+</span><b>${hi}</b></div>` +
     ["shortlist","applied","reply","interview","offer"].map(s => `<div class="stat"><span class="lbl">${LABEL[s]}</span><b>${c[s] || 0}</b></div>`).join("");
 }
 
 function render() {
   renderStats();
-  const q = $("q").value.trim().toLowerCase(), tr = $("fTrack").value, min = +$("fMin").value, st = $("fStatus").value;
-  const rows = jobs.filter(j => (j.score ?? 0) >= min && (!tr || j.track === tr)
+  const q = $("q").value.trim().toLowerCase(), tr = $("fTrack").value, min = +$("fMin").value, ms = +$("fSched").value, st = $("fStatus").value;
+  const rows = jobs.filter(j => (j.fit ?? 0) >= min && (!ms || (j.schedule ?? 0) >= ms) && (!tr || j.track === tr)
     && (st === "" || (st === "active" ? !["skip","rejected"].includes(j.status) : (j.status || "new") === st))
     && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
   if (!rows.length) { $("list").innerHTML = `<div class="empty">${jobs.length ? "Под эти фильтры ничего нет. Ослабьте оценку или статус." : "Вакансии появятся здесь, когда Claude загрузит оценённую базу."}</div>`; return; }
   $("list").innerHTML = rows.map(j => {
-    const sc = j.score >= 7 ? "s-hi" : j.score >= 5 ? "s-mid" : "s-lo", status = j.status || "new";
+    const sc = j.fit >= 7 ? "s-hi" : j.fit >= 5 ? "s-mid" : "s-lo", status = j.status || "new";
+    const sched = j.schedule == null ? "?" : j.schedule;
     return `<article class="job st-${status}" data-id="${esc(j._id)}">
-      <div class="score ${sc}" title="Оценка соответствия">${esc(j.score)}</div>
+      <div class="scores"><div class="score ${sc}" title="FIT по навыкам">${esc(j.fit)}</div><div class="sched" title="Совместимость с графиком">график ${esc(sched)}</div></div>
       <div class="main">
         <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
         <div class="meta">${esc(j.company)} · ${esc(j.location)}${j.posted ? " · " + esc(j.posted) : ""} · ${esc(j.source)}</div>
@@ -171,6 +182,28 @@ $("list").addEventListener("change", e => {
 
 const APP_LABEL = {confirmed: "Подано", rejected: "Отказ", on_hold: "На паузе", reply: "Есть ответ", interview: "Собеседование", offer: "Оффер"};
 const APP_ORDER = {offer: 0, interview: 1, reply: 2, on_hold: 3, confirmed: 4, rejected: 5};
+// "Искать" fires the job-search scheduled task in Claude Code, which runs SEARCH.md and republishes this page.
+const SEARCH_TRIGGER = "trig_019KAWBsJo8TvynSSEkwvRWX";
+$("runSearch").addEventListener("click", async () => {
+  const btn = $("runSearch"), msg = $("searchMsg");
+  const mcp = await claude.use("mcp");
+  if (!mcp) { msg.textContent = "Кнопка работает только в claude.ai. Попросите Claude в чате «Поиск работы» запустить поиск."; return; }
+  btn.disabled = true; msg.textContent = "Запускаю…";
+  try {
+    await mcp.callTool("Claude Code Remote", "fire_trigger", {trigger_id: SEARCH_TRIGGER});
+    msg.textContent = "Поиск запущен. Страница обновится сама, когда Claude закончит (30–60 минут).";
+  } catch (e) {
+    btn.disabled = false;
+    msg.textContent = {
+      approval_required: "Нужно разрешение: нажмите «Искать» ещё раз и разрешите доступ к Claude Code.",
+      not_in_manifest: "Доступ к Claude Code для этой страницы выключен. Включите его в разрешениях страницы.",
+      server_not_connected: "Коннектор Claude Code Remote не подключён. Добавьте его в настройках коннекторов claude.ai.",
+      needs_reauth: "Переподключите Claude Code Remote в настройках коннекторов claude.ai.",
+      tool_error: "Запуск не прошёл: задача поиска не найдена или выключена. Напишите Claude в чате «Поиск работы».",
+    }[e?.code] || "Не получилось запустить поиск. Если Claude уже начал работу, страница обновится сама; иначе нажмите ещё раз позже.";
+  }
+});
+
 fetch("applications.json").then(r => r.json()).then(d => {
   const rows = d.applications.slice().sort((a, b) => (APP_ORDER[a.status] - APP_ORDER[b.status]) || b.applied.localeCompare(a.applied));
   const n = s => rows.filter(r => r.status === s).length;
@@ -181,7 +214,7 @@ fetch("applications.json").then(r => r.json()).then(d => {
 }).catch(() => { $("apps").tBodies[0].innerHTML = `<tr><td colspan="6" class="muted">Не удалось загрузить список откликов.</td></tr>`; });
 
 fetch("jobs.json").then(r => r.json()).then(rows => {
-  base = rows.map(j => ({...j, _id: docId(j.id)})).sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  base = rows.map(j => ({...j, _id: docId(j.id)})).sort((a, b) => ((b.fit ?? 0) + (b.schedule ?? 5)) - ((a.fit ?? 0) + (a.schedule ?? 5)));
   merge();
 }).catch(() => {});
 

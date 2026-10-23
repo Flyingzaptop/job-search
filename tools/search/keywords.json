@@ -1,0 +1,10 @@
+{
+ "eng": ["automatyk", "automation engineer", "PLC", "programista robotów", "robot programmer", "robotics engineer", "mechatronik",
+         "konstruktor", "młodszy konstruktor", "design engineer", "mechanical engineer", "CAD designer", "projektant CAD", "SolidWorks",
+         "Fusion 360", "FEA", "CFD", "test engineer", "R&D engineer", "inżynier R&D", "staż inżynier", "praktyki techniczne", "CAD evaluation"],
+ "it":  ["młodszy administrator IT", "IT support", "helpdesk", "service desk", "wsparcie IT", "junior python", "python developer junior",
+         "AI engineer junior", "machine learning intern", "ML engineer junior", "data analyst junior", "QA automation junior",
+         "AI training", "code evaluation", "automation n8n", "technical support"],
+ "modifiers": ["zdalnie", "remote", "hybrydowo", "część etatu", "part-time", "elastyczne godziny", "flexible hours", "student", "staż", "intern"],
+ "locations": ["Wrocław", "Poland", "Polska", "Europe", "worldwide"]
+}

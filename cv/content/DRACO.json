@@ -1,0 +1,123 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_DRACO_IT_Support_PL.pdf",
+ "title": "Denis Gruszkiewicz - DRACO",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Młodszy Specjalista ds. Wsparcia IT i Administracji Systemami"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "Prawo jazdy kat. B od 3 lat | Gotowość do wizyt i dyżurów u klientów"
+  ],
+  [
+   "section",
+   "PROFIL ZAWODOWY"
+  ],
+  [
+   "body",
+   "Młodszy Administrator IT z ponad rokiem doświadczenia w szpitalu. Wspieram użytkowników, diagnozuję problemy sprzętowe, systemowe i aplikacyjne oraz konfiguruję stanowiska i urządzenia sieciowe. Bardzo dobrze znam Microsoft 365, mam praktykę w dołączaniu komputerów do domeny i podstawy pracy z Linuxem. Chcę wykorzystać to doświadczenie w DRACO i rozwijać administrację systemami przy wsparciu bardziej doświadczonego administratora."
+  ],
+  [
+   "section",
+   "KLUCZOWE KOMPETENCJE"
+  ],
+  [
+   "bullet",
+   "Windows i sprzęt PC: diagnozowanie problemów, konfiguracja stanowisk, składanie, modernizacja i serwis komputerów."
+  ],
+  [
+   "bullet",
+   "Microsoft 365 - bardzo dobra znajomość pakietu; wsparcie użytkowników w codziennej pracy z aplikacjami."
+  ],
+  [
+   "bullet",
+   "Active Directory - podstawowy zakres praktyczny: dołączanie komputerów do domeny."
+  ],
+  [
+   "bullet",
+   "Sieci: okablowanie LAN, podłączanie switchy i urządzeń, podstawy DHCP i routingu oraz diagnostyka połączeń."
+  ],
+  [
+   "bullet",
+   "Linux - podstawowa administracja i diagnostyka; testowanie działania aplikacji, odtwarzanie błędów i walidacja danych."
+  ],
+  [
+   "section",
+   "DOŚWIADCZENIE ZAWODOWE"
+  ],
+  [
+   "title",
+   "Młodszy Administrator IT | ZOZ w Bolesławcu | 06.2025 - obecnie"
+  ],
+  [
+   "bullet",
+   "Bieżące wsparcie techniczne pracowników: rozpoznawanie problemów sprzętowych, systemowych i aplikacyjnych oraz pomoc w ich rozwiązaniu."
+  ],
+  [
+   "bullet",
+   "Podłączanie i konfiguracja stanowisk, switchy i urządzeń sieciowych; prowadzenie okablowania LAN i podstawowa diagnostyka połączeń."
+  ],
+  [
+   "bullet",
+   "Analiza potrzeb użytkowników i rozwój wewnętrznych narzędzi upraszczających powtarzalne czynności."
+  ],
+  [
+   "bullet",
+   "Testowanie scenariuszy, odtwarzanie zgłaszanych błędów i poprawianie aplikacji na podstawie potrzeb pracowników."
+  ],
+  [
+   "section",
+   "PROJEKTY I AUTOMATYZACJA"
+  ],
+  [
+   "body",
+   "LabFlow: demonstracyjna aplikacja Django/React do koordynacji procesów laboratoryjnych, z rolami użytkowników i audytem; dokumentacja konfiguracji Windows/Ubuntu oraz backupu i odtwarzania. JobHunter: automatyzacja workflow z n8n, PostgreSQL i lokalną LLM; GitHub Actions CI. Python i narzędzia AI wykorzystuję do analizy kodu i prototypowania."
+  ],
+  [
+   "contact",
+   "Portfolio techniczne: github.com/Flyingzaptop"
+  ],
+  [
+   "section",
+   "WYKSZTAŁCENIE"
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - obecnie"
+  ],
+  [
+   "body",
+   "Inżynieria sieci, systemów i bezpieczeństwa IT; studia inżynierskie niestacjonarne, II semestr."
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - obecnie"
+  ],
+  [
+   "body",
+   "Robotyka i Automatyzacja Procesów, studia inżynierskie; ukończony V semestr."
+  ],
+  [
+   "section",
+   "JĘZYKI I INFORMACJE DODATKOWE"
+  ],
+  [
+   "body",
+   "Polski - zaawansowany; angielski - zaawansowany / techniczny; ukraiński i rosyjski - ojczyste. Kurs IT Step Python AI: 02.2024 - 12.2024."
+  ],
+  [
+   "body",
+   "Dodatkowe zaplecze: Fusion 360, AutoCAD, RobotStudio i własne projekty mechaniczne. Zainteresowanie pracą na część etatu lub pełny etat w modelu hybrydowym; termin rozpoczęcia do uzgodnienia."
+  ]
+ ]
+}
