@@ -12,7 +12,7 @@
   `status == "applied"` → добавить в `tracker/applications.json` (status `confirmed`, note «Отмечено кнопкой «Подался»», url)
   и в `data/exclusions.json` (`company`, `role`, why `applied (button)`).
 
-## 1. Сбор (Sonnet-сабагенты, до 8 параллельно)
+## 1. Сбор (сабагенты: model `sonnet`, effort `low`, до 8 параллельно)
 - API-источники запускаю сам: `python3 tools/fetch_apis.py jooble fantastic arbeitnow apify_linkedin2` (+ remoteok/himalayas/jobicy, если добавлены).
   Бюджеты: Apify ≤ $1 за запуск; Fantastic ≤ 100 вакансий за запуск.
 - Остальные источники (`method: site|fetch`) делю на пачки по ~14 и отдаю Sonnet-сабагентам. Каждый:
@@ -26,7 +26,7 @@
 `python3 tools/prefilter.py` → `data/candidates.jsonl` (дедуп, senior/немецкий, исключение уже поданных).
 Новые = кандидаты без оценки → `data/part_<дата>.jsonl`.
 
-## 3. Оценка (Sonnet-сабагенты по ~300 строк)
+## 3. Оценка (сабагенты: model `sonnet`, effort `low`, по ~300 строк)
 Каждая вакансия оценивается вручную по `tools/search/SCORING.md`. Результат → `data/scored_<дата>_<n>.jsonl`.
 
 ## 3b. CV под лучшие вакансии
