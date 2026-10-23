@@ -25,6 +25,12 @@
 ## 3. Оценка (Sonnet-сабагенты по ~300 строк)
 Каждая вакансия оценивается вручную по `tools/search/SCORING.md`. Результат → `data/scored_<дата>_<n>.jsonl`.
 
+## 3b. CV под лучшие вакансии
+Для вакансий с fit ≥ 7 и schedule ≥ 7 (не больше 10 за запуск): сделать `cv/content/job_<safe id>.json` на основе
+`cv/content/base_<Engineering|IT>_<PL|EN>.json` (язык — по языку объявления), подогнать role/profil/порядок навыков под требования
+без выдуманного опыта (правила в context/1_skills_projects_base.md), собрать `python3 tools/cv/build_cv.py ...` и положить PDF в
+`tracker/cv/tailored/<safe id>.pdf` (safe id = id, где всё кроме `A-Za-z0-9_-.~@+` и `:` заменено на `_`). В карточке появится «CV под вакансию».
+
 ## 4. Публикация
-`python3 tools/build_tracker.py` → публикую трекер (`tracker/index.html` + `jobs.json` + `applications.json`),
+`python3 tools/build_tracker.py` → публикую трекер (`tracker/index.html` + `jobs.json` + `applications.json` + все PDF из `tracker/cv/`),
 коммичу и пушу в `main`, коротко пишу пользователю: сколько источников реально проверено (по журналам), сколько новых, топ-10.
