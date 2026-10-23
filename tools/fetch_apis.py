@@ -4,7 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
-for line in (ROOT / ".env").read_text().splitlines():
+for line in ((ROOT / ".env").read_text().splitlines() if (ROOT / ".env").exists() else []):  # else keys come from environment secrets
     if "=" in line:
         k, v = line.split("=", 1); os.environ.setdefault(k, v)
 
