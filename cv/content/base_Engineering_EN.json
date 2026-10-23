@@ -1,0 +1,190 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Engineering_EN.pdf",
+ "title": "Denis Gruszkiewicz - CV Engineering_EN",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Engineering Student | Mechanical design, robotics, FEA / CFD and Python / ML"
+  ],
+  [
+   "contact",
+   "Wrocław, Poland | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "GitHub: github.com/Flyingzaptop"
+  ],
+  [
+   "section",
+   "PROFILE AND MOTIVATION"
+  ],
+  [
+   "body",
+   "Robotics and Process Automation student (5 semesters completed) with hands-on projects in mechanical CAD, centrifugal-force FEA and basic supersonic CFD, complemented by Python/PyTorch research and automated testing. I programmed three industrial robots myself (ABB SCARA, Mitsubishi 6-axis, Bosch pneumatic XZ) and designed an axial turbojet engine, a cycloidal drive and a RAMJET prototype. I want to grow in mechanical design, automation or Industry 4.0 roles."
+  ],
+  [
+   "section",
+   "CAD AND ENGINEERING FOUNDATION"
+  ],
+  [
+   "body",
+   "Fusion 360: parts and assemblies. AutoCAD: 2D technical documentation. Geometry, assembly relationships, dimensions, fits and tolerances; STEP/STL and FDM-aware design. Basic Siemens NX; academic RobotStudio welding and palletizing cells."
+  ],
+  [
+   "section",
+   "SELECTED MECHANICAL DESIGN AND SIMULATION PROJECTS"
+  ],
+  [
+   "title",
+   "Axial Turbojet Engine | CAD and centrifugal-force FEA"
+  ],
+  [
+   "body",
+   "Developed the engine concept and CAD models of its main components, considering geometry and component arrangement. Used finite element analysis to investigate centrifugal loading within the project, connecting mechanical design with structural analysis."
+  ],
+  [
+   "title",
+   "RAMJET Engine Prototype | basic Mach 2+ CFD simulation"
+  ],
+  [
+   "body",
+   "Worked on a RAMJET engine prototype project with basic CFD simulation of Mach 2+ flow. Combined design work with an introductory computational investigation of supersonic flow behaviour."
+  ],
+  [
+   "title",
+   "Cyclo | cycloidal drive and technical drawing package"
+  ],
+  [
+   "body",
+   "Developed mechanical component geometry and an assembly, examining how the parts interact and fit together. Prepared seven drawing sheets: the assembly, input shaft, cycloidal disc, housing, mount, output disc and pin. Documentation includes sections, a parts list, dimensions and selected fits, tolerances and surface-finish symbols."
+  ],
+  [
+   "image",
+   "portfolio/cyclo-fixed.png|100"
+  ],
+  [
+   "caption",
+   "Example from my Cyclo drawing package: assembly sections and component references. The original title block uses my earlier name spelling, Denys Hrushkevych."
+  ],
+  [
+   "page",
+   ""
+  ],
+  [
+   "section",
+   "PYTHON AND MACHINE LEARNING EVALUATION"
+  ],
+  [
+   "title",
+   "XAUUSD and stargazin | independent sequence-model research"
+  ],
+  [
+   "bullet",
+   "Built Python/PyTorch pipelines for data preparation, feature and target design, model training, checkpointing and scoring; explored TCN, CT-LSTM and RetNet-lite architectures."
+  ],
+  [
+   "bullet",
+   "Compared models against baselines, tested chronological validity and data leakage, and investigated unstable predictions and preprocessing inconsistencies. Designed custom losses and evaluation metrics."
+  ],
+  [
+   "contact",
+   "github.com/Flyingzaptop/xauusd | github.com/Flyingzaptop/stargazin"
+  ],
+  [
+   "title",
+   "GC MBO research | simulation and hypothesis testing"
+  ],
+  [
+   "body",
+   "Python feature engineering and model experiments on event-level market data, with Rust replay and conservative FIFO execution simulation. Used walk-forward evaluation, causality checks and cost/latency stress tests. Documented failed hypotheses and limitations to distinguish apparent performance from robust evidence."
+  ],
+  [
+   "contact",
+   "github.com/Flyingzaptop/gc-mbo-research"
+  ],
+  [
+   "section",
+   "AUTOMATION AND REGRESSION TESTING"
+  ],
+  [
+   "title",
+   "ARC - Adaptive Runtime Core | C++ / CMake / CTest / D3D12"
+  ],
+  [
+   "body",
+   "Experimental runtime and resource-management research. Worked on automated regression tests and Windows/Linux CI builds across Debug/Release configurations, with GPU/runtime checks. Analysed dependencies, resource behaviour and performance to investigate failures systematically."
+  ],
+  [
+   "title",
+   "JobHunter | LLM workflows with deterministic validation"
+  ],
+  [
+   "body",
+   "Built an automation platform using n8n, Node.js, PostgreSQL, Ollama, Playwright and Docker. Combined deterministic processing with schema-validated LLM analysis, a React/SSE dashboard, human-in-the-loop controls and GitHub Actions tests. This experience is directly useful when connecting model outputs to repeatable evaluation procedures."
+  ],
+  [
+   "title",
+   "LabFlow | application logic, roles and auditability"
+  ],
+  [
+   "body",
+   "Django REST Framework and React/TypeScript laboratory workflow demonstrator with user roles, audit history, PostgreSQL/SQLite and validation of application rules. Prepared setup, backup and recovery documentation. Also co-developing Antillia, an early-stage software and automation initiative."
+  ],
+  [
+   "section",
+   "PROFESSIONAL EXPERIENCE"
+  ],
+  [
+   "title",
+   "Junior IT Administrator | ZOZ w Bolesławcu | 06.2025 - present"
+  ],
+  [
+   "bullet",
+   "Provide technical support to hospital staff; diagnose hardware, Windows, connectivity and application issues, reproduce reported defects and verify fixes."
+  ],
+  [
+   "bullet",
+   "Translate user needs into internal tools and test application workflows. Worked on separate employee-management, scheduling and laboratory-process applications."
+  ],
+  [
+   "section",
+   "EDUCATION AND TECHNICAL FOUNDATION"
+  ],
+  [
+   "body",
+   "Politechnika Wrocławska | Robotics and Process Automation | 10.2022 - present. Engineering degree in progress; five semesters completed. Coursework in mechanics, engineering mathematics, physics, machine design, automation and robotics."
+  ],
+  [
+   "body",
+   "WSB Merito Wrocław | Network, Systems and IT Security Engineering | 03.2026 - present; part-time studies, second semester. IT Step Python AI course | 02.2024 - 12.2024."
+  ],
+  [
+   "body",
+   "Tools: Fusion 360, AutoCAD, basic Siemens NX, RobotStudio; Python, PyTorch, NumPy, Pandas, C++, Git/GitHub, CMake/CTest, PostgreSQL, Django, React and n8n."
+  ],
+  [
+   "section",
+   "LANGUAGES AND WORKING ARRANGEMENTS"
+  ],
+  [
+   "body",
+   "English - advanced / technical; Polish - advanced; Ukrainian and Russian - native. Seeking flexible working hours. From March 2027: available onsite in Wrocław up to 1–2 days per week, with remaining work remote. Open to part-time arrangements; start date by agreement."
+  ]
+ ],
+ "must_contain": [
+  "ABB SCARA",
+  "1–2 days"
+ ],
+ "must_not_contain": [
+  "Greenbrier",
+  "StoryGold",
+  "DRACO",
+  "FOTC",
+  "Windows Server"
+ ]
+}

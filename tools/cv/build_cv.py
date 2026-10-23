@@ -2,7 +2,7 @@
 
 Content file: {"file": "Denis_Gruszkiewicz_CV_X_PL.pdf", "title": "...", "max_pages": 1,
                "must_contain": [...], "must_not_contain": [...], "blocks": [[kind, text], ...]}
-Block kinds: name, role, contact, section, title, body, bullet, image (text = repo-relative path, optional "|width_mm").
+Block kinds: name, role, contact, section, title, body, bullet, caption, page (page break), image (text = repo-relative path, optional "|width_mm").
 Usage: python3 tools/cv/build_cv.py cv/content/DRACO_PL.json [...]
 """
 import json, sys
@@ -14,7 +14,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import Image, Paragraph, SimpleDocTemplate
+from reportlab.platypus import Image, PageBreak, Paragraph, SimpleDocTemplate
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "cv" / "out"
@@ -28,7 +28,7 @@ STYLES = {}
 for kind, font, size, leading, before, after in [
     ("name", "CVB", 25, 29, 0, 5), ("role", "CVB", 11, 15, 0, 6), ("contact", "CV", 9, 12, 0, 3),
     ("section", "CVB", 10, 13, 10, 5), ("title", "CVB", 9.5, 13, 0, 3), ("body", "CV", 9.3, 12.7, 0, 4),
-    ("bullet", "CV", 9.3, 12.7, 0, 3)]:
+    ("bullet", "CV", 9.3, 12.7, 0, 3), ("caption", "CV", 8, 10.5, 2, 6)]:
     STYLES[kind] = ParagraphStyle(kind, fontName=font, fontSize=size, leading=leading, spaceBefore=before,
                                   spaceAfter=after, textColor=HexColor("#17617A" if kind in ("role", "section") else "#172535"),
                                   leftIndent=8 if kind == "bullet" else 0, firstLineIndent=-8 if kind == "bullet" else 0)
@@ -44,6 +44,8 @@ def build(spec_path):
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     story = []
     for kind, text in spec["blocks"]:
+        if kind == "page":
+            story.append(PageBreak()); continue
         if kind == "image":
             path, _, width = text.partition("|")
             img = Image(str(ROOT / path)); w = float(width or 170) * mm
