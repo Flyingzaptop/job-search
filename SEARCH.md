@@ -8,6 +8,10 @@
 - `tools/search/sources.json` — ≥100 источников. `tools/search/keywords.json` — ключевые слова.
 - Исключения: `tracker/applications.json` + `PROFILE.md` («Уже подготовлено / подано») + уже оценённые id в `data/scored_*.jsonl`.
 
+- Отметки кнопкой «Подался»: `ArtifactData query` трекера (https://claude.ai/artifact/2aQPnoGJwT91XGBRgYHyQ5), коллекция `status`,
+  `status == "applied"` → добавить в `tracker/applications.json` (status `confirmed`, note «Отмечено кнопкой «Подался»», url)
+  и в `data/exclusions.json` (`company`, `role`, why `applied (button)`).
+
 ## 1. Сбор (Sonnet-сабагенты, до 8 параллельно)
 - API-источники запускаю сам: `python3 tools/fetch_apis.py jooble fantastic arbeitnow apify_linkedin2` (+ remoteok/himalayas/jobicy, если добавлены).
   Бюджеты: Apify ≤ $1 за запуск; Fantastic ≤ 100 вакансий за запуск.

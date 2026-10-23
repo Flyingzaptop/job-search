@@ -50,6 +50,7 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .side { display: grid; gap: 6px; justify-items: end; }
 .side select, .side input { font: 13px var(--sans); color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 3px; padding: 4px 6px; width: 150px; }
 .cvs { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+.appliedbtn { font: 600 12px var(--sans); color: var(--sheet); background: var(--good); border: 0; border-radius: 3px; padding: 4px 9px; cursor: pointer; }
 .msgbtn { font: 500 12px var(--sans); color: var(--ink); background: none; border: 1px solid var(--rule); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
 .msgbox { width: 100%; min-height: 140px; font: 13px/1.4 var(--sans); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); padding: 6px; grid-column: 1 / -1; }
 .cvbtn { font: 500 12px var(--sans); color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
@@ -116,7 +117,7 @@ button.run:disabled { opacity: .55; cursor: default; }
 </div>
 
 <script>
-const STATUSES = [["new","Новая"],["shortlist","Подать"],["applied","Отклик отправлен"],["reply","Есть ответ"],["interview","Собеседование"],["offer","Оффер"],["rejected","Отказ"],["skip","Пропустить"]];
+const STATUSES = [["new","Новая"],["shortlist","Подать"],["applied","Подался"],["reply","Есть ответ"],["interview","Собеседование"],["offer","Оффер"],["rejected","Отказ"],["skip","Пропустить"]];
 const LABEL = Object.fromEntries(STATUSES);
 const $ = id => document.getElementById(id);
 let jobs = [], db = null, canWrite = true;
@@ -147,7 +148,7 @@ function render() {
   renderStats();
   const q = $("q").value.trim().toLowerCase(), tr = $("fTrack").value, min = +$("fMin").value, ms = +$("fSched").value, st = $("fStatus").value;
   const rows = jobs.filter(j => (j.fit ?? 0) >= min && (!ms || (j.schedule ?? 0) >= ms) && (!tr || j.track === tr)
-    && (st === "" || (st === "active" ? !["skip","rejected"].includes(j.status) : (j.status || "new") === st))
+    && (st === "" || (st === "active" ? !["skip","rejected","applied"].includes(j.status) : (j.status || "new") === st))
     && (!q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)));
   if (!rows.length) { $("list").innerHTML = `<div class="empty">${jobs.length ? "Под эти фильтры ничего нет. Ослабьте оценку или статус." : "Вакансии появятся здесь, когда Claude загрузит оценённую базу."}</div>`; return; }
   $("list").innerHTML = rows.map(j => {
@@ -167,6 +168,7 @@ function render() {
         <input class="note" placeholder="Заметка" value="${esc(j.note)}" aria-label="Заметка" ${canWrite ? "" : "disabled"}>
         <div class="cvs">${j.cv_file ? `<button type="button" class="cvbtn" data-file="${esc(j.cv_file)}">CV под вакансию</button>` : ""}
           <button type="button" class="cvbtn" data-file="${cvFile(j, "PL")}">CV PL</button><button type="button" class="cvbtn" data-file="${cvFile(j, "EN")}">CV EN</button>
+          <button type="button" class="appliedbtn" ${canWrite ? "" : "disabled"}>Подался</button>
           <button type="button" class="msgbtn" data-lang="PL">Сообщение PL</button><button type="button" class="msgbtn" data-lang="EN">Сообщение EN</button></div>
         <textarea class="msgbox" readonly hidden aria-label="Мотивационное сообщение"></textarea>
       </div></article>`;
@@ -174,7 +176,7 @@ function render() {
 }
 
 let base = [], marks = {};
-function merge() { jobs = base.map(j => ({...j, ...(marks[j._id] || {})})); render(); }
+function merge() { jobs = base.map(j => ({...j, ...(marks[j._id] || {})})); render(); renderApps(); }
 const docId = id => id.replace(/[^A-Za-z0-9_\-.~:@+]/g, "_");
 
 async function save(id, patch) {
@@ -198,6 +200,12 @@ const MSG = {
 };
 const messageFor = (j, lang) => (j.message && j.message[lang]) || MSG[(j.cv || j.track) === "eng" ? "eng" : "it"][lang](j);
 $("list").addEventListener("click", async e => {
+  const a = e.target.closest(".appliedbtn");
+  if (a) {
+    const j = jobs.find(x => x._id === a.closest(".job").dataset.id);
+    save(j._id, {status: "applied", appliedAt: new Date().toISOString().slice(0, 10), company: j.company, title: j.title, url: j.url});
+    return;
+  }
   const m = e.target.closest(".msgbtn");
   if (m) {
     const card = m.closest(".job"), j = jobs.find(x => x._id === card.dataset.id), text = messageFor(j, m.dataset.lang), label = m.textContent;
@@ -248,14 +256,21 @@ $("runSearch").addEventListener("click", async () => {
   }
 });
 
-fetch("applications.json").then(r => r.json()).then(d => {
-  const rows = d.applications.slice().sort((a, b) => (APP_ORDER[a.status] - APP_ORDER[b.status]) || b.applied.localeCompare(a.applied));
+let appsData = null;
+function renderApps() {
+  if (!appsData) return;
+  const d = appsData, known = new Set(d.applications.map(r => r.url).filter(Boolean));
+  // Jobs marked "Подался" on this page join the register until the next mail check records them in applications.json.
+  const manual = jobs.filter(j => j.status === "applied" && !known.has(j.url)).map(j => ({company: j.company, role: j.title,
+    applied: j.appliedAt || "", status: "confirmed", updated: j.appliedAt || "", note: "Отмечено кнопкой «Подался»", url: j.url}));
+  const rows = d.applications.concat(manual).sort((a, b) => (APP_ORDER[a.status] - APP_ORDER[b.status]) || b.applied.localeCompare(a.applied));
   const n = s => rows.filter(r => r.status === s).length;
-  $("appsMeta").textContent = `${rows.length} с подтверждением в почте · отказов ${n("rejected")} · на паузе ${n("on_hold")} · почта проверена ${d.checked}`;
+  $("appsMeta").textContent = `${rows.length} откликов (${manual.length} отмечено вручную) · отказов ${n("rejected")} · на паузе ${n("on_hold")} · почта проверена ${d.checked}`;
   $("apps").tBodies[0].innerHTML = rows.map(r => `<tr><td>${esc(r.company)}</td><td>${esc(r.role)}</td><td class="d">${esc(r.applied)}</td>
     <td><span class="pill p-${esc(r.status)}">${esc(APP_LABEL[r.status] || r.status)}</span></td><td class="d">${esc(r.updated)}</td><td class="muted">${esc(r.note)}</td></tr>`).join("");
   $("appsUnconf").textContent = "Без следа в почте: " + d.no_email_trace.join("; ") + ".";
-}).catch(() => { $("apps").tBodies[0].innerHTML = `<tr><td colspan="6" class="muted">Не удалось загрузить список откликов.</td></tr>`; });
+}
+fetch("applications.json").then(r => r.json()).then(d => { appsData = d; renderApps(); }).catch(() => { $("apps").tBodies[0].innerHTML = `<tr><td colspan="6" class="muted">Не удалось загрузить список откликов.</td></tr>`; });
 
 fetch("jobs.json").then(r => r.json()).then(rows => {
   base = rows.map(j => ({...j, _id: docId(j.id)})).sort((a, b) => ((b.fit ?? 0) + (b.schedule ?? 5)) - ((a.fit ?? 0) + (a.schedule ?? 5)));
