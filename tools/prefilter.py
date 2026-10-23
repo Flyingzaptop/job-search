@@ -29,6 +29,7 @@ for f in sorted((ROOT / "data" / "raw").glob("*.jsonl")):
         if SENIOR.search(title) or not RELEVANT.search(title): continue
         if GERMAN.search(text) or (r["source"] == "arbeitnow" and re.search(r"\b(m/w/d|w/m/d)\b", title) and not re.search(r"[a-z]{3,} engineer", title, re.I)): continue
         if applied(r): skipped += 1; continue
+        if r.get("triage") == "drop": continue  # Haiku triage said clearly irrelevant
         out.append(r)
 with open(ROOT / "data" / "candidates.jsonl", "w") as fh:
     for r in out: fh.write(json.dumps(r, ensure_ascii=False) + "\n")
