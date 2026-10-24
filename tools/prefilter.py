@@ -14,8 +14,11 @@ def norm(s): return re.sub(r"[^a-z0-9ąćęłńóśźż ]", " ", (s or "").lower
 STOP = set("""płatny platny staż staz stażysta intern internship w we z i na do dla dziale dział the of and in for at to a
 junior młodszy mlodszy senior mid specjalista specialist k m f x n d kmx engineer inżynier inzynier""".split())
 def words(s): return {w for w in norm(s).split() if w not in STOP}
-EXCL = [(norm(e["company"]).strip(), words(e["role"])) for e in json.load(open(ROOT / "data" / "exclusions.json"))]
+EXCL = [(norm(e["company"]).strip(), words(e["role"])) for e in json.load(open(ROOT / "data" / "exclusions.json")) if e.get("company")]
+def safe_id(s): return re.sub(r"[^A-Za-z0-9_\-.~:@+]", "_", s or "")
+SKIP_IDS = {e["id"] for e in json.load(open(ROOT / "data" / "exclusions.json")) if e.get("id")}  # jobs the user dismissed in the tracker
 def applied(r):
+    if safe_id(r["id"]) in SKIP_IDS: return True
     """Same company and a clearly overlapping role title -> already applied."""
     c, t = norm(r["company"]), words(r["title"])
     for ec, er in EXCL:
