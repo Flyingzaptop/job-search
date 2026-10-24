@@ -1,0 +1,106 @@
+[
+ {
+  "domain": "pl.indeed.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 5,
+  "status": "ok",
+  "note": "Стартовые страницы категорий Indeed (без ссылок на конкретные объявления), часть вакансий по ссылкам других досок."
+ },
+ {
+  "domain": "wsb.pl",
+  "queries": 2,
+  "results": 18,
+  "saved": 6,
+  "status": "no_results",
+  "note": "site: не сработал, на wsb.pl ничего не найдено. Сохранены вакансии с других досок (found_via)."
+ },
+ {
+  "domain": "inhire.io",
+  "queries": 2,
+  "results": 0,
+  "saved": 0,
+  "status": "error",
+  "note": "Оба запроса вернули too_many_requests (лимит поиска в этом ходе)."
+ },
+ {
+  "domain": "xing.com/jobs",
+  "queries": 2,
+  "results": 9,
+  "saved": 0,
+  "status": "no_results",
+  "note": "Запрос 1 без результатов с XING (только другие доски), запрос 2 too_many_requests."
+ },
+ {
+  "domain": "profesia.sk",
+  "queries": 2,
+  "results": 0,
+  "saved": 0,
+  "status": "error",
+  "note": "Оба запроса too_many_requests."
+ },
+ {
+  "domain": "cv-library.co.uk",
+  "queries": 2,
+  "results": 9,
+  "saved": 3,
+  "status": "no_results",
+  "note": "Запрос 1 too_many_requests; запрос 2 без результатов с cv-library, сохранены вакансии других досок."
+ },
+ {
+  "domain": "nationalevacaturebank.nl",
+  "queries": 2,
+  "results": 9,
+  "saved": 2,
+  "status": "no_results",
+  "note": "Запрос 1 too_many_requests; запрос 2 без результатов с сайта, 1 вакансия отброшена (французский)."
+ },
+ {
+  "domain": "justremote.co",
+  "queries": 2,
+  "results": 10,
+  "saved": 0,
+  "status": "no_results",
+  "note": "Запрос 1 без результатов с justremote.co; запрос 2 too_many_requests."
+ },
+ {
+  "domain": "aijobs.net",
+  "queries": 2,
+  "results": 9,
+  "saved": 4,
+  "status": "ok",
+  "note": "Запрос 1 too_many_requests; запрос 2 дал 1 вакансию aijobs.net, остальное с других досок."
+ },
+ {
+  "domain": "arc.dev",
+  "queries": 2,
+  "results": 19,
+  "saved": 8,
+  "status": "no_results",
+  "note": "Без результатов с arc.dev; сохранены вакансии с других досок."
+ },
+ {
+  "domain": "malt.com",
+  "queries": 2,
+  "results": 10,
+  "saved": 1,
+  "status": "no_results",
+  "note": "Запрос 1 too_many_requests; запрос 2 без результатов с malt.com."
+ },
+ {
+  "domain": "job-boards.greenhouse.io",
+  "queries": 2,
+  "results": 18,
+  "saved": 3,
+  "status": "ok",
+  "note": "Найдено несколько Greenhouse-вакансий (Grammarly, Ubiquiti, Torq)."
+ },
+ {
+  "domain": "bamboohr.com/careers",
+  "queries": 2,
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "Без результатов с bamboohr.com; сохранена 1 вакансия с justjoin.it."
+ }
+]

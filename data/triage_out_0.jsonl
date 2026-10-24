@@ -125,3 +125,111 @@
 {"id": "arbeitnow:iam-platform-engineer-keycloak-java-den-haag-146365", "triage": "drop", "reason": "Almelo (Нидерланды), mid"}
 {"id": "arbeitnow:iam-platform-engineer-pki-cloud-native-heerlen-46196", "triage": "drop", "reason": "Almelo (Нидерланды), experienced"}
 {"id": "arbeitnow:data-engineer-macro-economie-den-haag-88330", "triage": "drop", "reason": "Almelo (Нидерланды), нидерландский язык"}
+{"id": "arbeitnow:software-integration-engineer-c-linux-almelo-39224", "triage": "drop", "reason": "Almelo (Нидерланды), experienced"}
+{"id": "arbeitnow:medior-c-software-engineer-utrecht-382349", "triage": "drop", "reason": "Utrecht (Нидерланды), mid"}
+{"id": "arbeitnow:iam-platform-engineer-keycloak-java-den-haag-146365", "triage": "drop", "reason": "Den Haag (Нидерланды), experienced"}
+{"id": "arbeitnow:iam-platform-engineer-pki-cloud-native-heerlen-46196", "triage": "drop", "reason": "Heerlen (Нидерланды), experienced"}
+{"id": "arbeitnow:data-engineer-macro-economie-den-haag-88330", "triage": "drop", "reason": "Den Haag (Нидерланды)"}
+{"id": "arbeitnow:wo-stage-statistiek-data-analyse-en-weegmethoden-heerlen-141004", "triage": "drop", "reason": "Heerlen (Нидерланды)"}
+{"id": "arbeitnow:wo-stage-statistiek-data-analyse-kwaliteit-van-de-respons-heerlen-222448", "triage": "drop", "reason": "Heerlen (Нидерланды)"}
+{"id": "arbeitnow:hbo-stage-bedrijfseconomie-data-analyse-bedrijfsstatistieken-den-haag-124291", "triage": "drop", "reason": "Den Haag (Нидерланды)"}
+{"id": "arbeitnow:medior-data-analytics-consultant-dongen-348313", "triage": "drop", "reason": "Dongen (Нидерланды), mid"}
+{"id": "arbeitnow:data-engineer-dongen-69238", "triage": "drop", "reason": "Dongen (Нидерланды), experienced"}
+{"id": "arbeitnow:ai-engineer-dongen-63078", "triage": "drop", "reason": "Dongen (Нидерланды), experienced"}
+{"id": "arbeitnow:international-account-executive-french-and-dutch-speaking-the-hague-479529", "triage": "drop", "reason": "Den Haag, нидерландский/французский, sales-роль"}
+{"id": "arbeitnow:data-engineer-logistics-rotterdam-256809", "triage": "drop", "reason": "Rotterdam (Нидерланды), mid"}
+{"id": "arbeitnow:data-engineer-rotterdam-128023", "triage": "drop", "reason": "Rotterdam (Нидерланды), experienced"}
+{"id": "arbeitnow:backend-software-engineer-rust-ai-first-e-commerce-tech-berlin-334474", "triage": "keep", "reason": "remote, Berlin-офис, Rust backend, страна remote не ограничена"}
+{"id": "arbeitnow:join-our-talent-community-solutions-engineer-berlin-chemnitz-sachsen-dresden-sachsen-koln-nordrhein-westfalen-munchen-bayern-181611", "triage": "drop", "reason": "Germany onsite (Берлин и др. города), solutions engineer"}
+{"id": "arbeitnow:ai-automation-engineer-berlin-239926", "triage": "drop", "reason": "Berlin onsite (Германия)"}
+{"id": "arbeitnow:marketing-events-working-student-berlin-389696", "triage": "drop", "reason": "Berlin onsite (Германия), маркетинг, нетехническая"}
+{"id": "arbeitnow:thermal-analysis-engineer-munich-442826", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:composite-cad-design-engineer-munich-416982", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:cad-plm-administration-intern-munich-291228", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:network-infrastructure-engineer-london-469887", "triage": "drop", "reason": "Лондон/UK, remote только в UK/Европе, senior-оклад"}
+{"id": "arbeitnow:founders-associate-intern-london-382232", "triage": "drop", "reason": "London onsite (Великобритания), нетехническая роль"}
+{"id": "arbeitnow:devops-engineer-100-remote-united-kindom-97107", "triage": "keep", "reason": "remote (Tether), DevOps, страна не ограничена явно"}
+{"id": "arbeitnow:data-scientist-broker-terms-london-325989", "triage": "drop", "reason": "London hybrid (Великобритания)"}
+{"id": "arbeitnow:applied-ai-engineer-direct-acquisition-london-36548", "triage": "drop", "reason": "London hybrid (Великобритания)"}
+{"id": "arbeitnow:data-scientist-credit-cards-london-347362", "triage": "drop", "reason": "London hybrid (Великобритания)"}
+{"id": "arbeitnow:data-scientist-third-party-acquisition-london-385024", "triage": "drop", "reason": "London hybrid (Великобритания), DE-рынок, не Польша"}
+{"id": "arbeitnow:prescriptions-support-coordinator-london-444015", "triage": "drop", "reason": "London (Великобритания), нетехническая роль"}
+{"id": "arbeitnow:solutions-engineering-london-279876", "triage": "drop", "reason": "London (Великобритания)"}
+{"id": "arbeitnow:research-scientist-research-engineer-automated-safety-london-400012", "triage": "drop", "reason": "London (Великобритания)"}
+{"id": "arbeitnow:stage-data-engineer-ia-f-h-janvier-2027-pouzauges-43480", "triage": "drop", "reason": "London (Великобритания)"}
+{"id": "arbeitnow:ml-platform-engineer-paris-113846", "triage": "drop", "reason": "France onsite (Франция)"}
+{"id": "arbeitnow:forward-deployed-engineer-paris-321286", "triage": "drop", "reason": "Paris onsite (Франция), ML platform, mid"}
+{"id": "arbeitnow:ingenieur-support-production-h-f-cdd-6-mois-dreux-206084", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:engineering-internships-2027-paris-118301", "triage": "drop", "reason": "Dreux (Франция)"}
+{"id": "arbeitnow:rd-formulation-scientist-intern-6-month-internship-paris-295905", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:monteur-databekabeling-obdam-323819", "triage": "drop", "reason": "Paris onsite (Франция), химия/R&D"}
+{"id": "arbeitnow:hoofd-monteur-databekabeling-obdam-432543", "triage": "drop", "reason": "Obdam (Нидерланды)"}
+{"id": "arbeitnow:software-engineer-gebouwautomatisering-twello-215852", "triage": "drop", "reason": "Obdam (Нидерланды), experienced"}
+{"id": "arbeitnow:afstudeerstage-engineering-heerhugowaard-404356", "triage": "drop", "reason": "Twello (Нидерланды)"}
+{"id": "arbeitnow:afstudeerstage-engineering-heerhugowaard-404356", "triage": "drop", "reason": "Heerhugowaard (Нидерланды)"}
+{"id": "arbeitnow:stage-cad-tekenaar-en-werkvoorbereider-installatietechniek-regio-woerden-nieuwerbrug-aan-den-rijn-124804", "triage": "drop", "reason": "Нидерланды, стажировка CAD"}
+{"id": "arbeitnow:plc-programmeur-emmeloord-280466", "triage": "drop", "reason": "Emmeloord (Нидерланды)"}
+{"id": "arbeitnow:data-analist-zwolle-115086", "triage": "drop", "reason": "Zwolle (Нидерланды), experienced"}
+{"id": "arbeitnow:remote-data-engineer-randstad-barendrecht-148360", "triage": "drop", "reason": "remote только в Нидерландах"}
+{"id": "arbeitnow:remote-system-en-cloud-engineer-randstad-barendrecht-244803", "triage": "drop", "reason": "remote только в Нидерландах"}
+{"id": "arbeitnow:remote-tester-en-test-automatiseerder-randstad-barendrecht-236628", "triage": "drop", "reason": "remote только в Нидерландах"}
+{"id": "arbeitnow:elektromonteur-beveiligingsinstallaties-datacenters-assendelft-210654", "triage": "drop", "reason": "Assendelft (Нидерланды)"}
+{"id": "arbeitnow:stagiaire-grafisch-ontwerp-ai-first-zero-trust-geen-brave-marketing-zaltbommel-237262", "triage": "drop", "reason": "Zaltbommel (Нидерланды), нетехническая стажировка"}
+{"id": "arbeitnow:traineeship-cybersecurity-zaltbommel-14823", "triage": "drop", "reason": "Zaltbommel (Нидерланды)"}
+{"id": "arbeitnow:forward-deployed-ai-engineer-amsterdam-50153", "triage": "drop", "reason": "Amsterdam (Нидерланды), experienced"}
+{"id": "arbeitnow:commercial-graduate-trainee-frankfurt-hamburg-100324", "triage": "drop", "reason": "Frankfurt/Hamburg onsite (Германия), нетехническая роль"}
+{"id": "arbeitnow:it-security-engineer-all-genders-berlin-378309", "triage": "drop", "reason": "Berlin onsite (Германия)"}
+{"id": "arbeitnow:solutions-engineer-uas-aviation-munich-496398", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:founders-associate-intern-munich-19764", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:security-engineer-full-remote-germany-133099", "triage": "drop", "reason": "remote только для Германии"}
+{"id": "arbeitnow:data-privacy-associate-ftc-12-months-london-14545", "triage": "drop", "reason": "London (Великобритания)"}
+{"id": "arbeitnow:apprentice-bi-data-analyst-london-199573", "triage": "drop", "reason": "London (Великобритания)"}
+{"id": "arbeitnow:remote-participate-in-the-openai-experience-lab-ai-enthusiasts-wanted-location-london-uk-in-person-date-9-november-183782", "triage": "drop", "reason": "London (Великобритания), нетехническая"}
+{"id": "arbeitnow:board-test-engineer-bristol-452609", "triage": "drop", "reason": "Bristol (Великобритания)"}
+{"id": "arbeitnow:data-scientist-internship-6-months-448503", "triage": "keep", "reason": "страна/локация не указана, data science стажировка"}
+{"id": "arbeitnow:legal-engineer-french-market-paris-440693", "triage": "drop", "reason": "Paris onsite (Франция), юридическая роль"}
+{"id": "arbeitnow:forward-deployed-engineer-paris-194331", "triage": "drop", "reason": "US remote (США)"}
+{"id": "arbeitnow:quantum-applications-engineer-massy-80499", "triage": "drop", "reason": "Massy (Франция), mid-senior"}
+{"id": "arbeitnow:ai-implementation-intern-paris-305790", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:founding-deployment-strategist-erp-ai-paris-114494", "triage": "drop", "reason": "Paris (Франция), deployment strategist, senior/нетехнический"}
+{"id": "arbeitnow:propulsion-ait-engineer-bordeaux-486743", "triage": "drop", "reason": "Bordeaux onsite (Франция)"}
+{"id": "arbeitnow:software-engineer-golang-managed-k8s-paris-292249", "triage": "drop", "reason": "Paris onsite (Франция), Golang mid/senior"}
+{"id": "arbeitnow:software-engineer-golang-sandbox-paris-215381", "triage": "drop", "reason": "Paris onsite (Франция), Golang"}
+{"id": "arbeitnow:software-engineer-golang-fleet-delivery-paris-419989", "triage": "drop", "reason": "Paris onsite (Франция), Golang"}
+{"id": "arbeitnow:software-engineer-golang-serverless-containers-paris-258519", "triage": "drop", "reason": "Paris onsite (Франция), Golang"}
+{"id": "arbeitnow:software-engineer-golang-storage-paris-253521", "triage": "drop", "reason": "Paris onsite (Франция), Golang"}
+{"id": "arbeitnow:applied-scientist-research-engineer-formal-methods-emea-paris-138970", "triage": "drop", "reason": "Paris onsite (Франция), research"}
+{"id": "arbeitnow:research-engineer-latency-throughput-paris-319073", "triage": "drop", "reason": "Paris onsite (Франция), research"}
+{"id": "arbeitnow:medior-system-engineer-terneuzen-425385", "triage": "drop", "reason": "Terneuzen (Нидерланды), mid"}
+{"id": "arbeitnow:master-data-analytics-specialist-zwolle-107436", "triage": "drop", "reason": "Zwolle (Нидерланды), mid"}
+{"id": "arbeitnow:studentstage-utrecht-408030", "triage": "drop", "reason": "Utrecht (Нидерланды), юридическая стажировка"}
+{"id": "arbeitnow:advocaat-medewerker-tech-data-utrecht-305591", "triage": "drop", "reason": "Utrecht (Нидерланды), юридическая роль"}
+{"id": "arbeitnow:juridisch-praktijkondersteuner-tech-data-utrecht-357327", "triage": "drop", "reason": "Utrecht (Нидерланды), юридическая поддержка"}
+{"id": "arbeitnow:business-applications-ai-specialist-utrecht-384941", "triage": "drop", "reason": "Utrecht (Нидерланды), голландский язык"}
+{"id": "arbeitnow:google-cloud-platform-engineer-amsterdam-358311", "triage": "drop", "reason": "Amsterdam onsite (Нидерланды), experienced"}
+{"id": "arbeitnow:data-scientist-amsterdam-342593", "triage": "drop", "reason": "Amsterdam (Нидерланды)"}
+{"id": "arbeitnow:datamanagement-specialist-amsterdam-246706", "triage": "drop", "reason": "Amsterdam (Нидерланды), нетехническая/Nederland"}
+{"id": "arbeitnow:data-engineer-kapitaalmarkten-amsterdam-95340", "triage": "drop", "reason": "Amsterdam (Нидерланды), mid"}
+{"id": "arbeitnow:haskell-software-engineer-creatives-team-utrecht-214683", "triage": "drop", "reason": "Utrecht (Нидерланды), mid, Haskell"}
+{"id": "arbeitnow:robot-transporter-c-driver-amsterdam-252941", "triage": "drop", "reason": "Amsterdam (Нидерланды), робототехника onsite вне Польши"}
+{"id": "arbeitnow:rf-test-infrastructure-engineer-delft-364041", "triage": "drop", "reason": "Delft (Нидерланды), mid"}
+{"id": "arbeitnow:contract-software-engineer-webcompat-tooling-dashboards-and-reporting-firefox-173655", "triage": "keep", "reason": "страна не указана, Mozilla contract, инструменты/дашборды"}
+{"id": "fantastic:2429975987", "triage": "keep", "reason": "локация не указана, junior ICT-инженер, англ."}
+{"id": "fantastic:2429598557", "triage": "drop", "reason": "Pandora, нетехническая (accounting) стажировка"}
+{"id": "fantastic:2429476178", "triage": "keep", "reason": "Warszawa, Польша, hybrid, Python/automation intern"}
+{"id": "fantastic:2429753391", "triage": "drop", "reason": "Gdańsk, нетехническая бухгалтерия, шведский язык"}
+{"id": "fantastic:2431362558", "triage": "drop", "reason": "Łódź, обязательный немецкий, customer services"}
+{"id": "fantastic:2430344605", "triage": "keep", "reason": "локация не указана, automation & control intern, PLC"}
+{"id": "fantastic:2430228145", "triage": "drop", "reason": "нетехническая юридическая роль"}
+{"id": "fantastic:2430186867", "triage": "drop", "reason": "Warszawa, нетехническая HR/рекрутинг"}
+{"id": "fantastic:2430071443", "triage": "drop", "reason": "нетехническая юридическая роль, Gdańsk/Lublin"}
+{"id": "fantastic:2430071332", "triage": "keep", "reason": "Katowice, Польша, hybrid, firmware intern"}
+{"id": "fantastic:2429954936", "triage": "drop", "reason": "Warszawa, обязательный испанский, нетехническая"}
+{"id": "fantastic:2429939022", "triage": "keep", "reason": "remote OK, Python AppSec (уровень 2-5 лет, сомнение)"}
+{"id": "fantastic:2429939005", "triage": "keep", "reason": "remote OK, Python AppSec (уровень 2-5 лет, сомнение)"}
+{"id": "fantastic:2429932789", "triage": "drop", "reason": "польский юрист, нетехническая роль"}
+{"id": "fantastic:2429861240", "triage": "drop", "reason": "Blonie (Польша), on-site далеко от Вроцлава, 5-10 лет опыта"}
+{"id": "fantastic:2429841384", "triage": "keep", "reason": "локация не указана, junior incident response, hybrid"}
+{"id": "fantastic:2429840902", "triage": "drop", "reason": "французский обязательный, customer service, onsite"}
+{"id": "fantastic:2429773076", "triage": "drop", "reason": "Bielsko-Biała, нетехническая HR, польский"}
+{"id": "fantastic:2429620181", "triage": "keep", "reason": "Warszawa, Польша, hybrid, Entra ID/AD trainee (IT admin)"}
