@@ -1,6 +1,6 @@
 {
  "checked": "2026-10-24",
- "mailbox": "r3dflzp.ns@gmail.com",
+ "mailbox": "r3dflzp.ns@gmail.com + flyingzaptop@gmail.com",
  "applications": [
   {
    "company": "StoryGold",
@@ -43,9 +43,9 @@
    "role": "AI Engineer",
    "applied": "2026-10-22",
    "channel": "Teamtailor",
-   "status": "confirmed",
-   "updated": "2026-10-22",
-   "note": "С cover letter и обзором ML"
+   "status": "rejected",
+   "updated": "2026-10-24",
+   "note": "Отказ от Opera 24.10 (решили идти с другими кандидатами)"
   },
   {
    "company": "AmRest",
@@ -210,6 +210,90 @@
    "status": "on_hold",
    "updated": "2026-10-22",
    "note": "НЕ ОТПРАВЛЕНО: praca.pl ждёт подтверждения по ссылке в письме"
+  },
+  {
+   "company": "Rockwell Automation",
+   "role": "Firmware Engineering Intern",
+   "applied": "2026-10-24",
+   "channel": "Workday",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Заявки на рассмотрении; статус в Workday-кабинете"
+  },
+  {
+   "company": "Umicore",
+   "role": "Automation & Control Systems Intern",
+   "applied": "2026-10-24",
+   "channel": "SuccessFactors",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Аккаунт создан, заявка получена"
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "role": "Services Supply Chain Finance Intern",
+   "applied": "2026-10-24",
+   "channel": "Workday",
+   "status": "action",
+   "updated": "2026-10-24",
+   "note": "НУЖНО ДЕЙСТВИЕ: HPE просит войти в Career Portal и завершить недостающее задание, иначе заявка неполная"
+  },
+  {
+   "company": "Fortive (Fluke)",
+   "role": "Engineering Software Specialist (10303)",
+   "applied": "2026-10-24",
+   "channel": "Oracle Recruiting",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Заявка получена; ждут решения рекрутера"
+  },
+  {
+   "company": "Antegris AG",
+   "role": "Junior Automation and Controls Engineer (Remote)",
+   "applied": "2026-10-24",
+   "channel": "e-mail info@antegris.com",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Отправлено письмом со своей почты; подтверждения от компании пока нет"
+  },
+  {
+   "company": "Unit8",
+   "role": "Young Talent in Data and Software Engineering",
+   "applied": "2026-10-24",
+   "channel": "Workable",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Заявка подана с адреса flyingzaptop@gmail.com, а не r3dflzp.ns@gmail.com"
+  },
+  {
+   "company": "Bosch Automotive Wrocław",
+   "role": "Płatny Staż w Dziale Technicznym (k/m)",
+   "applied": "2026-10-24",
+   "channel": "кнопка «Подался»",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Отмечено кнопкой «Подался»; письма-подтверждения не найдено",
+   "url": "https://pl.linkedin.com/jobs/view/p%C5%82atny-sta%C5%BC-w-dziale-technicznym-k-m-at-bosch-automotive-wroc%C5%82aw-4481549593?position=14&pageNum=0&refId=kNKA5SilCIg1QAjVCAYsIg%3D%3D&trackingId=5jmODsh0TKCe4mvqkwjUrg%3D%3D"
+  },
+  {
+   "company": "Beko Europe",
+   "role": "Staż w dziale Mechanical structure/Mechanical structure internship",
+   "applied": "2026-10-24",
+   "channel": "кнопка «Подался»",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Отмечено кнопкой «Подался»; письма-подтверждения не найдено",
+   "url": "https://pl.linkedin.com/jobs/view/sta%C5%BC-w-dziale-mechanical-structure-mechanical-structure-internship-at-beko-europe-4473223812?position=54&pageNum=0&refId=Nz4oAvjDCeQWW2qR5ikaLw%3D%3D&trackingId=h803pB%2BTLZMIph%2FQE1lbkQ%3D%3D"
+  },
+  {
+   "company": "DEKRA Praca",
+   "role": "Automation Expert with English",
+   "applied": "2026-10-24",
+   "channel": "кнопка «Подался»",
+   "status": "confirmed",
+   "updated": "2026-10-24",
+   "note": "Отмечено кнопкой «Подался»; письма-подтверждения не найдено",
+   "url": "https://pl.linkedin.com/jobs/view/automation-expert-with-english-at-dekra-praca-sp-z-o-o-4475868380?position=36&pageNum=0&refId=isWSxTul7Zx5xXoetYvFng%3D%3D&trackingId=%2F%2FErBbdxgA%2BQ4eGvcsTI%2Fw%3D%3D"
   }
  ],
  "no_email_trace": [

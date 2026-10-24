@@ -1,9 +1,18 @@
 """Join candidates with LLM scores -> tracker/jobs.json (published next to the tracker page)."""
-import json
+import json, re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 cand = {r["id"]: r for r in map(json.loads, (ROOT / "data" / "candidates.jsonl").open())}  # already-applied jobs are excluded here
+# Jobs the user dismissed ("skip") or marked applied stay visible in the tracker (so a mistake can be undone) but are excluded from new searches.
+def safe_id(x): return re.sub(r"[^A-Za-z0-9_\-.~:@+]", "_", x or "")
+KEEP_IDS = {e["id"] for e in json.loads((ROOT / "data" / "exclusions.json").read_text(encoding="utf-8")) if e.get("id")}
+if KEEP_IDS:
+    for f in (ROOT / "data" / "raw").glob("*.jsonl"):
+        for line in f.open():
+            try: r = json.loads(line)
+            except json.JSONDecodeError: continue
+            if safe_id(r["id"]) in KEEP_IDS: cand.setdefault(r["id"], r)
 scored = {}
 for f in sorted((ROOT / "data").glob("scored_*.jsonl")):
     for line in f.open():
