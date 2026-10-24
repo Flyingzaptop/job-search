@@ -166,7 +166,7 @@ function render() {
       <div class="side">
         <select class="st" aria-label="Статус" ${canWrite ? "" : "disabled"}>${STATUSES.map(([v,l]) => `<option value="${v}" ${v===status?"selected":""}>${l}</option>`).join("")}</select>
         <input class="note" placeholder="Заметка" value="${esc(j.note)}" aria-label="Заметка" ${canWrite ? "" : "disabled"}>
-        <div class="cvs">${j.cv_file ? `<button type="button" class="cvbtn" data-file="${esc(j.cv_file)}">CV под вакансию</button>` : ""}
+        <div class="cvs">${j.cv_file ? `<button type="button" class="cvbtn" data-file="${esc(j.cv_file)}" data-name="${esc(j.cv_name || "")}">CV под вакансию</button>` : ""}
           <button type="button" class="cvbtn" data-file="${cvFile(j, "PL")}">CV PL</button><button type="button" class="cvbtn" data-file="${cvFile(j, "EN")}">CV EN</button>
           <button type="button" class="appliedbtn" ${canWrite ? "" : "disabled"}>Подался</button>
           <button type="button" class="msgbtn" data-lang="PL">Сообщение PL</button><button type="button" class="msgbtn" data-lang="EN">Сообщение EN</button></div>
@@ -219,7 +219,7 @@ $("list").addEventListener("click", async e => {
   if (!dl) { b.textContent = "Недоступно здесь"; return; }
   try {
     const blob = await (await fetch(b.dataset.file)).blob();
-    await dl.save({filename: b.dataset.file.split("/").pop(), data: blob});
+    await dl.save({filename: b.dataset.name || b.dataset.file.split("/").pop(), data: blob});
   } catch (err) {
     if (err?.code === "declined") return;
     b.textContent = err?.code === "rate_limited" ? "Подождите…" : "Не скачалось";

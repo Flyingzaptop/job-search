@@ -20,7 +20,10 @@ for r in rows:  # older scores had one number = skills fit; schedule unknown
 import re
 for r in rows:  # tailored CV built during a search run: tracker/cv/tailored/<safe id>.pdf
     f = ROOT / "tracker" / "cv" / "tailored" / (re.sub(r"[^A-Za-z0-9_\-.~:@+]", "_", r["id"]).replace(":", "_") + ".pdf")
-    if f.exists(): r["cv_file"] = "cv/tailored/" + f.name
+    if f.exists():
+        r["cv_file"] = "cv/tailored/" + f.name
+        spec = ROOT / "cv" / "content" / f"job_{f.stem}.json"  # human file name the employer will see
+        if spec.exists(): r["cv_name"] = json.loads(spec.read_text(encoding="utf-8"))["file"]
 msgs = ROOT / "data" / "messages.json"  # tailored motivation messages from a search run: {id: {"PL": ..., "EN": ...}}
 if msgs.exists():
     m = json.loads(msgs.read_text(encoding="utf-8"))
