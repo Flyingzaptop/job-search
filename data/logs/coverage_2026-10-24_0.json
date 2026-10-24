@@ -1,0 +1,16 @@
+[
+ {"domain":"pracuj.pl","queries":2,"results":18,"saved":8,"status":"ok","note":"Оба запроса вернули объявления; 3 из 8 записей triage=drop (истекли/иной язык)."},
+ {"domain":"careerjet.pl","queries":2,"results":0,"saved":0,"status":"error","note":"Оба запроса вернули too_many_requests (лимит поиска)."},
+ {"domain":"justjoin.it","queries":2,"results":10,"saved":8,"status":"ok","note":"Запрос 1 (инж.) вернул too_many_requests; запрос 2 дал объявления, в т.ч. Warszawa/Kraków/remote. Часть найдена через запрос jobs.ac.uk, но URL домена justjoin.it."},
+ {"domain":"useme.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"Запрос 1 - too_many_requests; запрос 2 - сайт не выдан, результаты с praca.pl/pracuj.pl/Indeed, не сохранены."},
+ {"domain":"germantechjobs.de","queries":2,"results":0,"saved":0,"status":"error","note":"Оба запроса too_many_requests."},
+ {"domain":"welcometothejungle.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"Запрос 1 - страниц домена не найдено; запрос 2 - too_many_requests."},
+ {"domain":"jobs.ac.uk","queries":2,"results":0,"saved":0,"status":"no_results","note":"Запрос 1 - too_many_requests; запрос 2 - страниц jobs.ac.uk не найдено."},
+ {"domain":"remotive.com","queries":2,"results":2,"saved":2,"status":"ok","note":"Запрос 1 - страниц домена не найдено; запрос 2 - 2 объявления."},
+ {"domain":"nodesk.co","queries":1,"results":0,"saved":0,"status":"no_results","note":"Запрос 1 - страниц домена не найдено. Запрос 2 не выполнен: исчерпан лимит WebSearch за ход."},
+ {"domain":"builtin.com","queries":0,"results":0,"saved":0,"status":"error","note":"Не выполнено: исчерпан лимит WebSearch за ход (200 на все агенты)."},
+ {"domain":"usebraintrust.com","queries":0,"results":0,"saved":0,"status":"error","note":"Не выполнено: исчерпан лимит WebSearch."},
+ {"domain":"engineerjobs.com","queries":0,"results":0,"saved":0,"status":"error","note":"Не выполнено: исчерпан лимит WebSearch."},
+ {"domain":"jobs.ashbyhq.com","queries":0,"results":0,"saved":0,"status":"error","note":"Не выполнено: исчерпан лимит WebSearch."},
+ {"domain":"erecruiter.pl","queries":0,"results":0,"saved":0,"status":"error","note":"Не выполнено: исчерпан лимит WebSearch."}
+]

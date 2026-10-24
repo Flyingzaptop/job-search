@@ -1,0 +1,127 @@
+{"id": "arbeitnow:robot-service-engineer-data-collection-fixed-term-18-months-munich-bavaria-136566", "triage": "drop", "reason": "Munich onsite (Германия), не Вроцлав"}
+{"id": "arbeitnow:mechatronics-test-engineer-munich-bavaria-451948", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:working-student-sustainability-reporting-munchen-380646", "triage": "drop", "reason": "нетехническая роль, Munich onsite"}
+{"id": "arbeitnow:intern-technology-consultant-data-ai-munich-355551", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:intern-deployment-engineer-data-ai-munich-356741", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:analytics-engineer-hamburg-hamburg-166268", "triage": "drop", "reason": "Hamburg onsite (Германия)"}
+{"id": "arbeitnow:machine-learning-engineer-berlin-325189", "triage": "drop", "reason": "Berlin onsite (Германия), mid-уровень AI-роль"}
+{"id": "arbeitnow:inside-solutions-engineer-454685", "triage": "keep", "reason": "локация не указана, технический inside solutions engineer"}
+{"id": "arbeitnow:software-engineer-cloud-services-rust-munich-192549", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:ops-developer-platform-engineer-munich-220424", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:ios-engineer-design-system-cologne-478843", "triage": "drop", "reason": "iOS-разработка, Cologne onsite"}
+{"id": "arbeitnow:legal-counsel-it-data-protection-berlin-130040", "triage": "drop", "reason": "юрист, нетехническая роль, Berlin"}
+{"id": "arbeitnow:ai-application-engineer-ai-products-llm-rag-berlin-377089", "triage": "drop", "reason": "Berlin onsite, LLM/RAG mid-уровень"}
+{"id": "arbeitnow:forward-deployed-engineer-230348", "triage": "drop", "reason": "только для UK, Великобритания"}
+{"id": "arbeitnow:remote-intermediate-fullstack-engineer-ruby-vuejs-growth-413932", "triage": "keep", "reason": "remote, fullstack intern-уровень, возможно подходит"}
+{"id": "arbeitnow:operations-automation-associate-london-185747", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-engineer-london-482464", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:analytics-engineer-london-401519", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:forward-deployed-engineer-london-186759", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-scientist-london-129570", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:machine-learning-engineer-safety-london-208578", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:machine-learning-engineer-london-471782", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-platform-engineer-london-75252", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:stage-assistante-controle-de-gestion-international-h-f-paris-213056", "triage": "drop", "reason": "Paris onsite, нетехническая роль, французский"}
+{"id": "arbeitnow:software-engineer-web-full-stack-paris-462123", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:software-engineer-web-growth-paris-437744", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:gtm-engineer-growth-paris-22627", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:ai-unity-tools-engineer-paris-367793", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:software-engineer-fullstack-kotlin-react-paris-paris-235143", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:remote-test-automation-engineer-strasbourg-449366", "triage": "keep", "reason": "remote в ЕС, английский, QA/test automation"}
+{"id": "arbeitnow:value-engineer-zurich-442441", "triage": "drop", "reason": "Zurich, нетехнический value/sales-роль"}
+{"id": "arbeitnow:blockchain-engineer-zug-291866", "triage": "keep", "reason": "remote, Zug, blockchain-разработка (remote-статус указан)"}
+{"id": "arbeitnow:backend-engineer-zug-145470", "triage": "keep", "reason": "remote, Zug, backend-разработка (remote-статус указан)"}
+{"id": "arbeitnow:remote-systems-engineer-zurich-94036", "triage": "keep", "reason": "remote, Germany/Switzerland, системный инженер (не явно исключает ЕС)"}
+{"id": "arbeitnow:growth-ai-marketing-operations-specialist-zug-251104", "triage": "drop", "reason": "маркетинг-операции, нетехническая роль, Zug"}
+{"id": "arbeitnow:kubernetes-platform-engineer-your2030-odijk-488122", "triage": "drop", "reason": "Нидерланды, голландский язык, Kubernetes senior-платформа"}
+{"id": "arbeitnow:business-control-intern-amsterdam-309367", "triage": "drop", "reason": "Amsterdam onsite (Нидерланды), финансы"}
+{"id": "arbeitnow:software-engineer-java-logistics-amsterdam-48094", "triage": "drop", "reason": "Amsterdam onsite (Нидерланды)"}
+{"id": "arbeitnow:business-development-working-student-dutch-speaking-amsterdan-120674", "triage": "drop", "reason": "голландский язык, Amsterdam"}
+{"id": "arbeitnow:technisch-support-engineer-the-hague-40820", "triage": "drop", "reason": "голландский язык, The Hague (Нидерланды)"}
+{"id": "arbeitnow:forward-deployed-engineer-354025", "triage": "keep", "reason": "локация не указана, FDE (возможна remote-работа)"}
+{"id": "arbeitnow:robotics-engineer-integration-control-karlsruhe-186076", "triage": "drop", "reason": "Karlsruhe onsite (Германия), mid/experienced"}
+{"id": "arbeitnow:working-student-it-asset-stock-management-berlin-berlin-203973", "triage": "drop", "reason": "Berlin onsite (Германия)"}
+{"id": "arbeitnow:data-scientist-measurement-signal-processing-munich-239142", "triage": "drop", "reason": "Munich onsite (Германия), квантовая физика, experienced"}
+{"id": "arbeitnow:quantum-sensing-engineer-nv-centers-munich-210701", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:product-development-intern-optics-and-system-integration-munich-110056", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:value-engineer-all-genders-berlin-283793", "triage": "drop", "reason": "Berlin onsite (Германия), value/sales-роль"}
+{"id": "arbeitnow:software-engineer-observability-profiling-london-399414", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-analyst-supply-22629", "triage": "keep", "reason": "локация не указана, data analyst (возможна remote)"}
+{"id": "arbeitnow:data-scientist-london-397529", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-scientist-london-329178", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:it-systems-ai-engineer-london-115699", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:junior-accounts-payable-associate-london-262800", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:data-center-hardware-engineer-besse-sur-braye-pays-de-la-loire-150383", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:junior-supply-chain-engineer-operations-h-f-issy-les-moulineaux-410004", "triage": "drop", "reason": "London onsite (Великобритания), нетехническая роль"}
+{"id": "arbeitnow:participate-in-the-openai-experience-lab-ai-enthusiasts-wanted-location-paris-france-in-person-date-16-november-306054", "triage": "drop", "reason": "Bessé-sur-Braye (Франция), hardware data center"}
+{"id": "arbeitnow:experimentation-tracking-engineer-paris-paris-32209", "triage": "drop", "reason": "Франция onsite, нетехническая/sales-роль"}
+{"id": "arbeitnow:devsecops-engineer-final-year-internship-stage-pfe-paris-157315", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:security-engineer-full-remote-france-373500", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:ai-engineer-ai-genai-finance-domain-lille-jardin-des-plantes-nord-paris-paris-349537", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:people-ops-ma-and-international-expansion-paris-france-273353", "triage": "drop", "reason": "Paris/Lille onsite (Франция), experienced"}
+{"id": "arbeitnow:legal-engineer-tax-audit-paris-325552", "triage": "drop", "reason": "Paris onsite (Франция), HR/M&A нетехническая"}
+{"id": "arbeitnow:iot-engineer-basel-443542", "triage": "drop", "reason": "Paris onsite (Франция), legal/tax, experienced"}
+{"id": "arbeitnow:computational-scientist-scientific-machine-learning-lausanne-323897", "triage": "drop", "reason": "Франция: remote только для Франции"}
+{"id": "arbeitnow:data-ml-engineer-fusion-data-lausanne-479954", "triage": "drop", "reason": "Basel (Швейцария) onsite, mid"}
+{"id": "arbeitnow:software-engineer-expenses-team-zurich-72683", "triage": "drop", "reason": "Lausanne (Швейцария) onsite, experienced"}
+{"id": "arbeitnow:ml-intern-optimization-quality-monitoring-zurich-167634", "triage": "drop", "reason": "Lausanne (Швейцария) onsite, experienced"}
+{"id": "arbeitnow:robot-pilot-spiez-149435", "triage": "drop", "reason": "Zurich onsite (Швейцария), experienced"}
+{"id": "arbeitnow:entrepreneur-intern-zurich-153410", "triage": "drop", "reason": "Zürich onsite (Швейцария), internship"}
+{"id": "arbeitnow:ai-engineer-agentic-ai-den-haag-208292", "triage": "drop", "reason": "Spiez (Швейцария) onsite, experienced"}
+{"id": "arbeitnow:international-expansion-netherlands-379837", "triage": "drop", "reason": "Zürich (Швейцария), internship/предпринимательство, не техническая роль"}
+{"id": "arbeitnow:security-engineer-full-remote-netherlands-46968", "triage": "drop", "reason": "Den Haag (Нидерланды) onsite, experienced"}
+{"id": "arbeitnow:frontend-engineer-zoetermeer-69449", "triage": "drop", "reason": "Нидерланды, международная экспансия, нетехническая роль"}
+{"id": "arbeitnow:ai-product-owner-amsterdam-378713", "triage": "drop", "reason": "remote только для Нидерландов"}
+{"id": "arbeitnow:freelancer-ux-ui-designer-design-engineer-amsterdam-487401", "triage": "drop", "reason": "Zoetermeer (Нидерланды) onsite, experienced"}
+{"id": "arbeitnow:qa-engineer-amsterdam-349908", "triage": "drop", "reason": "Amsterdam (Нидерланды), product owner, experienced"}
+{"id": "arbeitnow:embedded-software-engineer-sittard-383335", "triage": "drop", "reason": "Amsterdam (Нидерланды) onsite, mid/freelance"}
+{"id": "arbeitnow:embedded-software-engineer-c-c-venlo-490348", "triage": "drop", "reason": "Amsterdam (Нидерланды) onsite, mid"}
+{"id": "arbeitnow:embedded-software-engineer-c-c-sittard-426328", "triage": "drop", "reason": "Sittard (Нидерланды), entry, embedded — локация вне досягаемости"}
+{"id": "arbeitnow:software-test-engineer-eindhoven-229483", "triage": "drop", "reason": "Venlo (Нидерланды)"}
+{"id": "arbeitnow:microsoft-data-analytics-engineer-venlo-269433", "triage": "drop", "reason": "Sittard (Нидерланды)"}
+{"id": "arbeitnow:automation-engineer-weert-293161", "triage": "drop", "reason": "Eindhoven (Нидерланды), mid"}
+{"id": "arbeitnow:microsoft-data-analytics-engineer-venlo-269433", "triage": "drop", "reason": "Venlo (Нидерланды), mid/experienced"}
+{"id": "arbeitnow:automation-engineer-weert-293161", "triage": "drop", "reason": "Weert (Нидерланды)"}
+{"id": "arbeitnow:plc-software-engineer-helmond-114608", "triage": "drop", "reason": "Helmond (Нидерланды), mid"}
+{"id": "arbeitnow:data-engineer-ede-471323", "triage": "drop", "reason": "Ede (Нидерланды)"}
+{"id": "arbeitnow:data-modelling-consultant-insurance-192797", "triage": "keep", "reason": "локация не указана, consulting data modelling"}
+{"id": "arbeitnow:hardware-engineer-electronics-munich-442981", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:electrical-engineer-munich-223143", "triage": "drop", "reason": "Munich onsite (Германия)"}
+{"id": "arbeitnow:robot-learning-engineer-berlin-257419", "triage": "drop", "reason": "Berlin onsite (Германия)"}
+{"id": "arbeitnow:internship-machine-learning-research-engineer-berlin-168024", "triage": "drop", "reason": "Berlin onsite (Германия), ML research, in-person"}
+{"id": "arbeitnow:working-student-it-operations-berlin-282027", "triage": "drop", "reason": "Berlin (Германия)"}
+{"id": "arbeitnow:hr-recruiter-intern-unpaid-part-time-mandatory-internship-at-early-stage-startup-berlin-277434", "triage": "drop", "reason": "нетехническая HR-стажировка, Берлин"}
+{"id": "arbeitnow:alignment-red-team-research-engineer-research-scientist-london-265860", "triage": "drop", "reason": "London onsite (Великобритания)"}
+{"id": "arbeitnow:forward-deployed-engineer-software-london-495316", "triage": "drop", "reason": "London onsite (Великобритания), defense"}
+{"id": "arbeitnow:winter-data-internship-london-18221", "triage": "drop", "reason": "London/Sheffield (Великобритания)"}
+{"id": "arbeitnow:remote-arabic-speaking-customer-support-agent-work-in-sofia-bulgaria-france-302928", "triage": "drop", "reason": "Болгария, арабский язык, нетехническая поддержка"}
+{"id": "arbeitnow:presales-engineer-saas-paris-265896", "triage": "drop", "reason": "Paris onsite (Франция), presales"}
+{"id": "arbeitnow:adjoint-responsable-de-production-ingenieur-process-junior-h-f-saint-laurent-blangy-465507", "triage": "drop", "reason": "Saint-Laurent-Blangy (Франция)"}
+{"id": "arbeitnow:data-analyst-h-f-paris-207445", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:data-engineer-h-f-paris-250437", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:data-scientist-confirmee-h-f-lyon-162700", "triage": "drop", "reason": "Lyon onsite (Франция)"}
+{"id": "arbeitnow:data-scientist-h-f-nantes-217294", "triage": "drop", "reason": "Nantes onsite (Франция)"}
+{"id": "arbeitnow:data-scientist-h-f-paris-293734", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:data-analyst-confirmee-h-f-lille-34846", "triage": "drop", "reason": "Lille onsite (Франция)"}
+{"id": "arbeitnow:ai-engineer-h-f-paris-91626", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:stage-de-fin-detudes-consultant-data-ia-h-f-regions-nantes-185809", "triage": "drop", "reason": "Lille onsite (Франция)"}
+{"id": "arbeitnow:stage-de-fin-detudes-analytics-engineer-h-f-paris-300289", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:stage-de-fin-detudes-data-analyst-scientist-h-f-paris-104628", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:stage-de-fin-detudes-ai-engineer-h-f-paris-14404", "triage": "drop", "reason": "Paris onsite (Франция)"}
+{"id": "arbeitnow:data-engineer-h-f-confirmee-lille-249654", "triage": "drop", "reason": "Nantes/Régions (Франция), стажировка онсайт"}
+{"id": "arbeitnow:data-scientist-confirmee-h-f-paris-195245", "triage": "drop", "reason": "Paris onsite (Франция), стажировка"}
+{"id": "arbeitnow:data-analyst-confirmee-h-f-paris-233016", "triage": "drop", "reason": "Paris onsite (Франция), стажировка"}
+{"id": "arbeitnow:remote-co-founder-cto-gn-industrial-data-for-ai-paris-24714", "triage": "drop", "reason": "Paris onsite (Франция), стажировка"}
+{"id": "arbeitnow:remote-3d-chiplet-engineer-grenoble-90023", "triage": "drop", "reason": "Paris onsite (Франция), стажировка"}
+{"id": "arbeitnow:system-modelling-engineer-grenoble-199543", "triage": "drop", "reason": "Lille onsite (Франция), senior"}
+{"id": "arbeitnow:industrial-software-engineer-railway-applications-80-100-regensdorf-310451", "triage": "drop", "reason": "Paris onsite (Франция), experienced"}
+{"id": "arbeitnow:ui-software-engineer-80-100-schlieren-311928", "triage": "drop", "reason": "Paris onsite (Франция), experienced"}
+{"id": "arbeitnow:junior-business-data-analyst-lausanne-187365", "triage": "drop", "reason": "Co-founder CTO, Paris, senior-уровень"}
+{"id": "arbeitnow:test-engineer-almelo-397717", "triage": "keep", "reason": "remote, страна не указана, 3D chiplet инженер"}
+{"id": "arbeitnow:software-engineer-almelo-360382", "triage": "drop", "reason": "Grenoble onsite (Франция), experienced"}
+{"id": "arbeitnow:werkstudent-industrialisatie-engineering-pcba-almelo-253465", "triage": "drop", "reason": "Regensdorf (Швейцария), experienced"}
+{"id": "arbeitnow:software-integration-engineer-c-linux-almelo-39224", "triage": "drop", "reason": "Schlieren (Швейцария), experienced"}
+{"id": "arbeitnow:medior-c-software-engineer-utrecht-382349", "triage": "drop", "reason": "Lausanne (Швейцария) onsite"}
+{"id": "arbeitnow:iam-platform-engineer-keycloak-java-den-haag-146365", "triage": "drop", "reason": "Almelo (Нидерланды), mid"}
+{"id": "arbeitnow:iam-platform-engineer-pki-cloud-native-heerlen-46196", "triage": "drop", "reason": "Almelo (Нидерланды), experienced"}
+{"id": "arbeitnow:data-engineer-macro-economie-den-haag-88330", "triage": "drop", "reason": "Almelo (Нидерланды), нидерландский язык"}
