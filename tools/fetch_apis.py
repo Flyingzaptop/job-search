@@ -13,8 +13,10 @@ def http(url, data=None, headers=None, method=None):
     with urllib.request.urlopen(req, timeout=120) as r:
         return json.loads(r.read())
 
+RUN = os.environ.get("RUN_TAG", "")  # dated output so earlier pulls are kept
+
 def save(name, rows):
-    with open(RAW / f"{name}.jsonl", "w") as f:
+    with open(RAW / f"{name}{RUN}.jsonl", "w") as f:
         for r in rows: f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"{name}: {len(rows)}")
 
@@ -42,7 +44,7 @@ def fantastic():
     key = os.environ["FANTASTIC_JOBS_API_KEY"]
     titles = ('"Automation" OR "Robotics" OR "PLC" OR "Mechanical" OR "Design Engineer" OR "Intern" OR '
               '"Trainee" OR "Python" OR "Machine Learning" OR "Junior"')
-    q = urllib.parse.urlencode({"time_frame": "7d", "limit": "200", "title": titles, "location": '"Poland"'})
+    q = urllib.parse.urlencode({"time_frame": "7d", "limit": "100", "title": titles, "location": '"Poland"'})
     d = http(f"https://data.fantastic.jobs/v1/active-ats?{q}", headers={"Authorization": f"Bearer {key}"})
     rows = [{"source": "fantastic", "id": f"fantastic:{j['id']}", "title": j["title"], "company": j.get("organization"),
              "location": ", ".join(j.get("locations_alt") or []), "type": j.get("location_type"),
@@ -119,7 +121,7 @@ def apify_linkedin2():
         u("PLM OR CAD support OR engineering tools OR application engineer"),
         u("automation engineer OR mechanical engineer", "100", {"f_WT": "2,3"}),
     ]
-    apify_linkedin(urls, out="linkedin2", cap="1.9")
+    apify_linkedin(urls, out="linkedin2", cap="1.0")
 
 if __name__ == "__main__":
     for name in sys.argv[1:] or ["jooble", "fantastic", "arbeitnow", "remotive", "apify_linkedin"]:

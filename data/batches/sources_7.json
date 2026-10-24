@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Jooble Polska",
+  "domain": "pl.jooble.org",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "StudentJob",
+  "domain": "studentjob.pl",
+  "group": "pl-student",
+  "method": "site"
+ },
+ {
+  "name": "4programmers Praca",
+  "domain": "4programmers.net/Praca",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "Berlin Startup Jobs",
+  "domain": "berlinstartupjobs.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Landing.jobs",
+  "domain": "landing.jobs",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "CWJobs",
+  "domain": "cwjobs.co.uk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "We Work Remotely",
+  "domain": "weworkremotely.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Dynamite Jobs",
+  "domain": "dynamitejobs.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "HN Who is hiring",
+  "domain": "hnhiring.com",
+  "group": "it",
+  "method": "site"
+ },
+ {
+  "name": "Turing",
+  "domain": "turing.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Cad Crowd",
+  "domain": "cadcrowd.com",
+  "group": "cad",
+  "method": "site"
+ },
+ {
+  "name": "Lever",
+  "domain": "jobs.lever.co",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "Traffit",
+  "domain": "traffit.com",
+  "group": "ats",
+  "method": "site"
+ }
+]

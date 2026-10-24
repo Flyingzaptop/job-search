@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Infopraca",
+  "domain": "infopraca.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Pracuj dla studentów / staże",
+  "domain": "staze.pl",
+  "group": "pl-student",
+  "method": "site"
+ },
+ {
+  "name": "Solid.jobs",
+  "domain": "solid.jobs",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "StepStone DE",
+  "domain": "stepstone.de",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Jobs.cz",
+  "domain": "jobs.cz",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Reed UK",
+  "domain": "reed.co.uk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Jobindex DK",
+  "domain": "jobindex.dk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Remote.co",
+  "domain": "remote.co",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Remote Python",
+  "domain": "remotepython.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "ZipRecruiter",
+  "domain": "ziprecruiter.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "PeoplePerHour",
+  "domain": "peopleperhour.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Mercor",
+  "domain": "mercor.com",
+  "group": "ai-training",
+  "method": "site"
+ },
+ {
+  "name": "Recruitee",
+  "domain": "recruitee.com",
+  "group": "ats",
+  "method": "site"
+ }
+]

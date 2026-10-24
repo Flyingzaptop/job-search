@@ -1,0 +1,80 @@
+[
+ {
+  "name": "GoWork",
+  "domain": "gowork.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Jobs.pl",
+  "domain": "jobs.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Bulldogjob",
+  "domain": "bulldogjob.pl",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "EURES",
+  "domain": "eures.europa.eu",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "karriere.at",
+  "domain": "karriere.at",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "startup.jobs",
+  "domain": "startup.jobs",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "FINN jobb",
+  "domain": "finn.no/job",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Jobspresso",
+  "domain": "jobspresso.co",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "PowerToFly",
+  "domain": "powertofly.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "SimplyHired",
+  "domain": "simplyhired.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Freelancer.com",
+  "domain": "freelancer.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "DataAnnotation",
+  "domain": "dataannotation.tech",
+  "group": "ai-training",
+  "method": "site"
+ },
+ {
+  "name": "Teamtailor",
+  "domain": "teamtailor.com",
+  "group": "ats",
+  "method": "site"
+ }
+]

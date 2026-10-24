@@ -1,0 +1,86 @@
+[
+ {
+  "name": "pracuj.pl",
+  "domain": "pracuj.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Careerjet Polska",
+  "domain": "careerjet.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Just Join IT",
+  "domain": "justjoin.it",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "Useme (freelance PL)",
+  "domain": "useme.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "GermanTechJobs",
+  "domain": "germantechjobs.de",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Welcome to the Jungle",
+  "domain": "welcometothejungle.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "jobs.ac.uk",
+  "domain": "jobs.ac.uk",
+  "group": "research",
+  "method": "site"
+ },
+ {
+  "name": "Remotive",
+  "domain": "remotive.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "NoDesk",
+  "domain": "nodesk.co",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Built In",
+  "domain": "builtin.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Braintrust",
+  "domain": "usebraintrust.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "EngineerJobs",
+  "domain": "engineerjobs.com",
+  "group": "cad",
+  "method": "site"
+ },
+ {
+  "name": "Ashby",
+  "domain": "jobs.ashbyhq.com",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "eRecruiter",
+  "domain": "erecruiter.pl",
+  "group": "ats",
+  "method": "site"
+ }
+]

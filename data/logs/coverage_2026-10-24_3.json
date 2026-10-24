@@ -1,0 +1,15 @@
+[
+{"domain":"gowork.pl","queries":2,"results":10,"saved":0,"status":"no_results","note":"Only gowork.pl category pages (/praca/...) returned, no individual vacancies; Wrocław/remote/staż vacancies absent."},
+{"domain":"jobs.pl","queries":2,"results":0,"saved":0,"status":"no_results","note":"No jobs.pl URLs returned; site: filter not enforced, hits from other boards (praca.pl, rocketjobs.pl, justjoin.it, pracuj.pl) skipped as off-domain."},
+{"domain":"bulldogjob.pl","queries":2,"results":0,"saved":0,"status":"no_results","note":"No bulldogjob.pl URLs returned; off-domain hits skipped. Only bulldogjob.com category page seen."},
+{"domain":"eures.europa.eu","queries":2,"results":0,"saved":0,"status":"error","note":"Query 1 rate-limited (too_many_requests); query 2 returned no eures.europa.eu URLs."},
+{"domain":"karriere.at","queries":2,"results":0,"saved":0,"status":"error","note":"Both queries rate-limited (too_many_requests); not retried this turn."},
+{"domain":"startup.jobs","queries":2,"results":0,"saved":0,"status":"error","note":"Both queries rate-limited (too_many_requests); not retried this turn."},
+{"domain":"finn.no/job","queries":2,"results":9,"saved":8,"status":"ok","note":"Query 1 returned 9 finn.no ads (Norway-based, one duplicate URL skipped); query 2 rate-limited. Snippets only, no WebFetch."},
+{"domain":"jobspresso.co","queries":2,"results":0,"saved":0,"status":"error","note":"Query 1 rate-limited; query 2 returned no jobspresso.co URLs."},
+{"domain":"powertofly.com","queries":2,"results":0,"saved":0,"status":"error","note":"Query 1 rate-limited; query 2 returned no powertofly.com URLs."},
+{"domain":"simplyhired.com","queries":2,"results":0,"saved":0,"status":"error","note":"Query 1 rate-limited; query 2 returned no simplyhired.com URLs."},
+{"domain":"freelancer.com","queries":2,"results":0,"saved":0,"status":"error","note":"Both queries rate-limited (too_many_requests)."},
+{"domain":"dataannotation.tech","queries":2,"results":1,"saved":1,"status":"ok","note":"Only on-domain hit: /polish AI Trainer page; other results were devjobs.de/lever mirrors, not saved."},
+{"domain":"teamtailor.com","queries":2,"results":0,"saved":0,"status":"error","note":"Both queries rate-limited (too_many_requests)."}
+]
