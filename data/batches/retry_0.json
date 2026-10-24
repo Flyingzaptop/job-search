@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Careerjet Polska",
+  "domain": "careerjet.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Braintrust",
+  "domain": "usebraintrust.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "eRecruiter",
+  "domain": "erecruiter.pl",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "EURAXESS",
+  "domain": "euraxess.ec.europa.eu",
+  "group": "research",
+  "method": "site"
+ },
+ {
+  "name": "Dice",
+  "domain": "dice.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "EU-Startups Jobs",
+  "domain": "jobs.eu-startups.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "EURES",
+  "domain": "eures.europa.eu",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Jobspresso",
+  "domain": "jobspresso.co",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Freelancer.com",
+  "domain": "freelancer.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "ZipRecruiter",
+  "domain": "ziprecruiter.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Totaljobs",
+  "domain": "totaljobs.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "inhire.io",
+  "domain": "inhire.io",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "StudentJob",
+  "domain": "studentjob.pl",
+  "group": "pl-student",
+  "method": "site"
+ },
+ {
+  "name": "CWJobs",
+  "domain": "cwjobs.co.uk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Turing",
+  "domain": "turing.com",
+  "group": "remote",
+  "method": "site"
+ }
+]
