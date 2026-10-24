@@ -1,0 +1,15 @@
+[
+ {"domain":"infopraca.pl","queries":2,"results":9,"saved":4,"status":"ok","note":"Q1 ok (2 on-domain hits, 2 more off-domain). Q2 rate-limited. Ostrołęka kept despite distance; Hays expired listing dropped."},
+ {"domain":"staze.pl","queries":2,"results":10,"saved":3,"status":"no_results","note":"Q1 returned no staze.pl pages; site: filter not honored, off-domain pracuj/rocketjobs results saved under this source. Q2 rate-limited."},
+ {"domain":"solid.jobs","queries":2,"results":19,"saved":5,"status":"no_results","note":"No solid.jobs pages in either query; off-domain results saved under this source."},
+ {"domain":"stepstone.de","queries":2,"results":18,"saved":1,"status":"no_results","note":"No StepStone pages for Wrocław/PL; only off-domain hits. Only one saved item (dropped, German required)."},
+ {"domain":"jobs.cz","queries":2,"results":9,"saved":4,"status":"no_results","note":"Q1 rate-limited. Q2 returned no jobs.cz pages; off-domain results saved."},
+ {"domain":"reed.co.uk","queries":2,"results":10,"saved":2,"status":"no_results","note":"Q1 rate-limited. Q2 no reed.co.uk pages; off-domain results saved."},
+ {"domain":"jobindex.dk","queries":2,"results":9,"saved":2,"status":"ok","note":"Q1 found on-domain Jobindex ad (expired, dropped). Q2 rate-limited. Nomagic result is from lever, dropped as senior."},
+ {"domain":"remote.co","queries":2,"results":0,"saved":0,"status":"blocked","note":"Both queries rate-limited (too_many_requests); no results."},
+ {"domain":"remotepython.com","queries":2,"results":18,"saved":4,"status":"no_results","note":"No remotepython.com pages; off-domain results saved (3 keep, 1 senior drop)."},
+ {"domain":"ziprecruiter.com","queries":2,"results":0,"saved":0,"status":"blocked","note":"Both queries rate-limited (too_many_requests)."},
+ {"domain":"peopleperhour.com","queries":2,"results":0,"saved":0,"status":"blocked","note":"Both queries rate-limited (too_many_requests)."},
+ {"domain":"mercor.com","queries":2,"results":9,"saved":2,"status":"ok","note":"Q1 rate-limited. Q2 returned work.mercor.com job pages (2 saved)."},
+ {"domain":"recruitee.com","queries":2,"results":18,"saved":3,"status":"no_results","note":"No recruitee.com pages; off-domain results saved (1 keep, 2 non-tech drops)."}
+]
