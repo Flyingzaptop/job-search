@@ -1,0 +1,167 @@
+[
+ {
+  "domain": "careerjet.pl",
+  "queries": [
+   "site:careerjet.pl (automatyk OR PLC OR konstruktor OR \"design engineer\" OR CAD OR robot OR staż OR intern) (Wrocław OR zdalnie OR remote OR Poland)",
+   "site:careerjet.pl (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 5,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 10, keep 5)."
+ },
+ {
+  "domain": "usebraintrust.com",
+  "queries": [
+   "site:usebraintrust.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:usebraintrust.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 3, keep 2)."
+ },
+ {
+  "domain": "erecruiter.pl",
+  "queries": [
+   "site:erecruiter.pl (automatyk OR PLC OR konstruktor OR \"design engineer\" OR CAD OR robot OR staż OR intern) (Wrocław OR zdalnie OR remote OR Poland)",
+   "site:erecruiter.pl (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 3,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 5, keep 3)."
+ },
+ {
+  "domain": "euraxess.ec.europa.eu",
+  "queries": [
+   "site:euraxess.ec.europa.eu (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:euraxess.ec.europa.eu (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 2, keep 2)."
+ },
+ {
+  "domain": "dice.com",
+  "queries": [
+   "site:dice.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:dice.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 1, keep 1)."
+ },
+ {
+  "domain": "jobs.eu-startups.com",
+  "queries": [
+   "site:jobs.eu-startups.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:jobs.eu-startups.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 2, keep 2)."
+ },
+ {
+  "domain": "eures.europa.eu",
+  "queries": [
+   "site:eures.europa.eu (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:eures.europa.eu (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 0, keep 0)."
+ },
+ {
+  "domain": "jobspresso.co",
+  "queries": [
+   "site:jobspresso.co (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:jobspresso.co (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 2, keep 2)."
+ },
+ {
+  "domain": "freelancer.com",
+  "queries": [
+   "site:freelancer.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:freelancer.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 1, keep 1)."
+ },
+ {
+  "domain": "ziprecruiter.com",
+  "queries": [
+   "site:ziprecruiter.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:ziprecruiter.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 2, keep 2)."
+ },
+ {
+  "domain": "totaljobs.com",
+  "queries": [
+   "site:totaljobs.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:totaljobs.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 1, keep 1)."
+ },
+ {
+  "domain": "inhire.io",
+  "queries": [
+   "site:inhire.io (automatyk OR PLC OR konstruktor OR \"design engineer\" OR CAD OR robot OR staż OR intern) (Wrocław OR zdalnie OR remote OR Poland)",
+   "site:inhire.io (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 0, keep 0). Выдача по inhire.io пустая."
+ },
+ {
+  "domain": "studentjob.pl",
+  "queries": [
+   "site:studentjob.pl (automatyk OR PLC OR konstruktor OR \"design engineer\" OR CAD OR robot OR staż OR intern) (Wrocław OR zdalnie OR remote OR Poland)",
+   "site:studentjob.pl (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 0, keep 0)."
+ },
+ {
+  "domain": "cwjobs.co.uk",
+  "queries": [
+   "site:cwjobs.co.uk (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:cwjobs.co.uk (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 1, keep 1)."
+ },
+ {
+  "domain": "turing.com",
+  "queries": [
+   "site:turing.com (automation OR PLC OR \"design engineer\" OR CAD OR robot OR intern) (Wrocław OR remote OR Poland)",
+   "site:turing.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 3,
+  "status": "no_results",
+  "note": "site: фильтр не сработал: в выдаче не было ни одной страницы домена. Сохранены конкретные объявления с других доменов, найденные по этому запросу (всего записей 3, keep 3)."
+ }
+]
