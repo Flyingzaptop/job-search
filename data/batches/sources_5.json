@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Aplikuj.pl",
+  "domain": "aplikuj.pl",
+  "group": "pl-general",
+  "method": "fetch"
+ },
+ {
+  "name": "Biuro Karier PWr",
+  "domain": "biurokarier.pwr.edu.pl",
+  "group": "pl-student",
+  "method": "fetch"
+ },
+ {
+  "name": "RocketJobs",
+  "domain": "rocketjobs.pl",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "Indeed DE",
+  "domain": "de.indeed.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "StartupJobs.cz",
+  "domain": "startupjobs.cz",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Totaljobs",
+  "domain": "totaljobs.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Platsbanken SE",
+  "domain": "arbetsformedlingen.se",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "FlexJobs",
+  "domain": "flexjobs.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Python.org Jobs",
+  "domain": "python.org/jobs",
+  "group": "it",
+  "method": "site"
+ },
+ {
+  "name": "Careerjet (global)",
+  "domain": "careerjet.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Guru",
+  "domain": "guru.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Greenhouse boards",
+  "domain": "boards.greenhouse.io",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "Personio",
+  "domain": "jobs.personio.de",
+  "group": "ats",
+  "method": "site"
+ }
+]

@@ -22,6 +22,13 @@ def applied(r):
         if ec and er and (ec in c or (len(c.strip()) >= 4 and c.strip() in ec)) and len(t & er) >= max(1, (len(er) + 1) // 2): return True
     return False
 
+TRIAGE_DROP = set()  # separate Haiku triage of API pulls: data/triage_*.jsonl lines {"id", "triage", "reason"}
+for f in (ROOT / "data").glob("triage_out_*.jsonl"):
+    for line in f.open():
+        try: t = json.loads(line)
+        except json.JSONDecodeError: continue
+        if t.get("triage") == "drop": TRIAGE_DROP.add(t["id"])
+
 seen, keys, out, skipped = set(), set(), [], 0
 for f in sorted((ROOT / "data" / "raw").glob("*.jsonl")):
     for line in f.open():
@@ -33,7 +40,7 @@ for f in sorted((ROOT / "data" / "raw").glob("*.jsonl")):
         if SENIOR.search(title) or not RELEVANT.search(title): continue
         if GERMAN.search(text) or (r["source"] == "arbeitnow" and re.search(r"\b(m/w/d|w/m/d)\b", title) and not re.search(r"[a-z]{3,} engineer", title, re.I)): continue
         if applied(r): skipped += 1; continue
-        if r.get("triage") == "drop": continue  # Haiku triage said clearly irrelevant
+        if r.get("triage") == "drop" or r["id"] in TRIAGE_DROP: continue  # Haiku triage said clearly irrelevant
         out.append(r)
 with open(ROOT / "data" / "candidates.jsonl", "w") as fh:
     for r in out: fh.write(json.dumps(r, ensure_ascii=False) + "\n")

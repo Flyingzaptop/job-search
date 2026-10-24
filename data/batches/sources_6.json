@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Indeed Polska",
+  "domain": "pl.indeed.com",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Akademickie Biuro Karier WSB Merito",
+  "domain": "wsb.pl",
+  "group": "pl-student",
+  "method": "site"
+ },
+ {
+  "name": "inhire.io",
+  "domain": "inhire.io",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "XING Jobs",
+  "domain": "xing.com/jobs",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Profesia.sk",
+  "domain": "profesia.sk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "CV-Library",
+  "domain": "cv-library.co.uk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Nationale Vacaturebank",
+  "domain": "nationalevacaturebank.nl",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "JustRemote",
+  "domain": "justremote.co",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "AI Jobs (aijobs.net)",
+  "domain": "aijobs.net",
+  "group": "ml",
+  "method": "site"
+ },
+ {
+  "name": "Arc.dev",
+  "domain": "arc.dev",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Malt",
+  "domain": "malt.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Greenhouse job-boards",
+  "domain": "job-boards.greenhouse.io",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "BambooHR",
+  "domain": "bamboohr.com/careers",
+  "group": "ats",
+  "method": "site"
+ }
+]

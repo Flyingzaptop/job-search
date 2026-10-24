@@ -1,0 +1,80 @@
+[
+ {
+  "name": "OLX Praca",
+  "domain": "olx.pl/praca",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "Nabory KPRM (służba cywilna)",
+  "domain": "nabory.kprm.gov.pl",
+  "group": "pl-general",
+  "method": "site"
+ },
+ {
+  "name": "theprotocol.it",
+  "domain": "theprotocol.it",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "Glassdoor",
+  "domain": "glassdoor.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "jobs.ch",
+  "domain": "jobs.ch",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "EU-Startups Jobs",
+  "domain": "jobs.eu-startups.com",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Academic Positions",
+  "domain": "academicpositions.com",
+  "group": "research",
+  "method": "site"
+ },
+ {
+  "name": "Working Nomads",
+  "domain": "workingnomads.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Pangian",
+  "domain": "pangian.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Monster",
+  "domain": "monster.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Upwork",
+  "domain": "upwork.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Outlier",
+  "domain": "outlier.ai",
+  "group": "ai-training",
+  "method": "site"
+ },
+ {
+  "name": "SmartRecruiters",
+  "domain": "jobs.smartrecruiters.com",
+  "group": "ats",
+  "method": "site"
+ }
+]
