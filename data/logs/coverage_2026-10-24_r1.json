@@ -1,0 +1,156 @@
+[
+ {
+  "domain": "germantechjobs.de",
+  "queries": [
+   "site:germantechjobs.de (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:germantechjobs.de (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 8,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "engineerjobs.com",
+  "queries": [
+   "site:engineerjobs.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:engineerjobs.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 5,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "swissdevjobs.ch",
+  "queries": [
+   "site:swissdevjobs.ch (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:swissdevjobs.ch (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 20,
+  "saved": 3,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "wellfound.com",
+  "queries": [
+   "site:wellfound.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:wellfound.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 6,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "glassdoor.com",
+  "queries": [
+   "site:glassdoor.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:glassdoor.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "academicpositions.com",
+  "queries": [
+   "site:academicpositions.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:academicpositions.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "karriere.at",
+  "queries": [
+   "site:karriere.at (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:karriere.at (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "powertofly.com",
+  "queries": [
+   "site:powertofly.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:powertofly.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "teamtailor.com",
+  "queries": [
+   "site:teamtailor.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:teamtailor.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 4,
+  "status": "ok",
+  "note": "site: не сработал в целом, но найден airtificial.teamtailor.com (Automation Engineer). Остальные результаты - другие сайты, сохранены по found_via."
+ },
+ {
+  "domain": "peopleperhour.com",
+  "queries": [
+   "site:peopleperhour.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:peopleperhour.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 1,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "guru.com",
+  "queries": [
+   "site:guru.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:guru.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "profesia.sk",
+  "queries": [
+   "site:profesia.sk (automatizácia OR PLC OR automatyk OR robot OR konštruktér OR CAD OR stáž OR intern) (Wrocław OR remote OR Poland)",
+   "site:profesia.sk (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 20,
+  "saved": 6,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "4programmers.net/Praca",
+  "queries": [
+   "site:4programmers.net/Praca (automatyk OR PLC OR konstruktor OR \"design engineer\" OR CAD OR robot OR staż OR intern) (Wrocław OR zdalnie OR remote OR Poland)",
+   "site:4programmers.net/Praca (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR zdalnie OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 2,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Сохранены конкретные объявления с других сайтов (found_via=домен запроса)."
+ },
+ {
+  "domain": "dynamitejobs.com",
+  "queries": [
+   "site:dynamitejobs.com (automation OR PLC OR robotics OR \"design engineer\" OR CAD OR mechanical OR internship OR junior) (Wrocław OR remote OR Poland)",
+   "site:dynamitejobs.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: не сработал: в выдаче нет страниц домена. Конкретных объявлений с других сайтов, привязанных к этому запросу, не сохранено (только категории/истекшие)."
+ }
+]

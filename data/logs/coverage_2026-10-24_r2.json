@@ -1,0 +1,156 @@
+[
+ {
+  "domain": "builtin.com",
+  "queries": [
+   "site:builtin.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:builtin.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 9,
+  "status": "ok",
+  "note": "site: фильтр не сработал для большинства запросов; из builtin.com найдена 1 страница (истекшая). Остальное - другие сайты (justjoin, praca, infopraca, pracuj)."
+ },
+ {
+  "domain": "jobs.ashbyhq.com",
+  "queries": [
+   "site:jobs.ashbyhq.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:jobs.ashbyhq.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 7,
+  "status": "no_results",
+  "note": "Ashby-страниц в выдаче нет; сохранены объявления с других сайтов (praca, justjoin, spyro-soft, tidiocareer)."
+ },
+ {
+  "domain": "euremotejobs.com",
+  "queries": [
+   "site:euremotejobs.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:euremotejobs.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 5,
+  "status": "no_results",
+  "note": "euremotejobs-страниц нет; сохранены объявления других сайтов."
+ },
+ {
+  "domain": "4dayweek.io",
+  "queries": [
+   "site:4dayweek.io (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:4dayweek.io (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 17,
+  "saved": 5,
+  "status": "ok",
+  "note": "Найдена 1 страница 4dayweek.io (IT/Helpdesk Supervisor, remote Wrocław, описание скрыто). Остальное - другие сайты."
+ },
+ {
+  "domain": "jobs.ch",
+  "queries": [
+   "site:jobs.ch (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:jobs.ch (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 1,
+  "status": "no_results",
+  "note": "jobs.ch-страниц нет; из других сайтов сохранено 1 (Katowice, вне формата)."
+ },
+ {
+  "domain": "workingnomads.com",
+  "queries": [
+   "site:workingnomads.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:workingnomads.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 3,
+  "status": "no_results",
+  "note": "workingnomads-страниц в выдаче нет; сохранены объявления других сайтов."
+ },
+ {
+  "domain": "startup.jobs",
+  "queries": [
+   "site:startup.jobs (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:startup.jobs (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 2,
+  "status": "no_results",
+  "note": "startup.jobs-страниц нет; сохранены объявления других сайтов."
+ },
+ {
+  "domain": "simplyhired.com",
+  "queries": [
+   "site:simplyhired.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:simplyhired.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 2,
+  "status": "no_results",
+  "note": "simplyhired-страниц нет; сохранены объявления других сайтов."
+ },
+ {
+  "domain": "remote.co",
+  "queries": [
+   "site:remote.co (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:remote.co (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 19,
+  "saved": 4,
+  "status": "no_results",
+  "note": "remote.co-страниц нет; сохранены объявления других сайтов."
+ },
+ {
+  "domain": "de.indeed.com",
+  "queries": [
+   "site:de.indeed.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:de.indeed.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "de.indeed.com нет; выдача с pl.indeed (категории), praca.pl; конкретных объявлений с URL нет."
+ },
+ {
+  "domain": "jobs.personio.de",
+  "queries": [
+   "site:jobs.personio.de (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:jobs.personio.de (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "personio-страниц нет; конкретных объявлений с URL из выдачи не извлечено."
+ },
+ {
+  "domain": "pl.jooble.org",
+  "queries": [
+   "site:pl.jooble.org (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:pl.jooble.org (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 17,
+  "saved": 3,
+  "status": "no_results",
+  "note": "jooble-страниц нет (одна категорийная страница, пропущена); сохранены объявления других сайтов."
+ },
+ {
+  "domain": "landing.jobs",
+  "queries": [
+   "site:landing.jobs (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:landing.jobs (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "landing.jobs-страниц нет; сохранено 1 объявление других сайтов."
+ },
+ {
+  "domain": "hnhiring.com",
+  "queries": [
+   "site:hnhiring.com (automation OR PLC OR robot OR \"design engineer\" OR CAD OR intern) (Wrocław OR remote OR Poland)",
+   "site:hnhiring.com (\"IT support\" OR helpdesk OR \"junior python\" OR \"junior AI\" OR \"machine learning\" OR QA) (Wrocław OR remote OR Poland)"
+  ],
+  "results": 18,
+  "saved": 1,
+  "status": "no_results",
+  "note": "hnhiring-страниц нет; сохранено 1 (Java, drop)."
+ }
+]
