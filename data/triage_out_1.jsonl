@@ -212,10 +212,10 @@
 {"id": "linkedin:4482109113", "triage": "keep", "reason": "Стаж в QA компонентов Bosch Mirków рядом с Вроцлавом, студенты"}
 {"id": "linkedin:4482087278", "triage": "keep", "reason": "Дубликат стажа Bosch Automotive Wrocław, Wrocław on-site, студенты"}
 {"id": "linkedin:4482473602", "triage": "keep", "reason": "Junior Data Scientist, Ten Square Games Wrocław hybrid, Python/SQL"}
-{"id": "linkedin:4483313441", "triage": "drop", "reason": "Требует 8-10 лет опыта, mid-senior"}
 {"id": "linkedin:4469914327", "triage": "drop", "reason": "Требует 3+ лет, Opole далеко, kernel C"}
 {"id": "linkedin:4482707664", "triage": "drop", "reason": "Логистический инвойсинг, нетехническая роль"}
 {"id": "linkedin:4479417836", "triage": "keep", "reason": "Junior DevOps Azure/AKS/Docker, Wrocław hybrid"}
+{"id": "linkedin:4483313441", "triage": "drop", "reason": "Требует 8-10 лет опыта, mid-senior"}
 {"id": "linkedin:4482060382", "triage": "drop", "reason": "Требует 5+ лет, product engineer, mid/senior"}
 {"id": "linkedin:4481383135", "triage": "drop", "reason": "Требует 5+ лет, senior, Warszawa/Wrocław"}
 {"id": "linkedin:4482830611", "triage": "drop", "reason": "ESG/sustainability, нетехническая роль"}
