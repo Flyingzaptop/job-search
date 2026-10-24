@@ -1,0 +1,154 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Cloudfide_EN.pdf",
+ "title": "Denis Gruszkiewicz - CV Cloudfide EN",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Junior Python Developer | automation, data pipelines and web applications"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "github.com/Flyingzaptop | antillia.tech"
+  ],
+  [
+   "section",
+   "PROFILE"
+  ],
+  [
+   "body",
+   "Robotics and Process Automation student at Politechnika Wrocławska (five semesters completed) with Python projects: data pipelines, an independent PyTorch machine-learning project, n8n/PostgreSQL workflow automation and a Django/React application. Over a year of work as a junior IT administrator in a hospital, including testing internal applications and reproducing reported errors. I use Git/GitHub and automated tests in CI."
+  ],
+  [
+   "section",
+   "RELEVANT SKILLS"
+  ],
+  [
+   "bullet",
+   "User support: understanding reported issues, reproducing errors, explaining solutions and checking that fixes work."
+  ],
+  [
+   "bullet",
+   "Python: data pipelines, scripts and automation up to object-oriented level; debugging, Git/GitHub, PostgreSQL/SQLite, basic SQL; IT Step Python AI course (2024)."
+  ],
+  [
+   "bullet",
+   "Automation and data: Python, n8n, PostgreSQL/SQLite, basic SQL; Git/GitHub and automated testing in personal projects."
+  ],
+  [
+   "bullet",
+   "Testing: reproducing and verifying defects in hospital applications; automated tests in personal projects (pytest, Node tests, Vitest, CTest) run in GitHub Actions CI; Playwright browser automation."
+  ],
+  [
+   "bullet",
+   "Machine learning: two-year independent ML project in Python/PyTorch (data collection, feature and target design, training, reinforcement-learning reward design, loss analysis); scikit-learn and Hugging Face Transformers in study notebooks."
+  ],
+  [
+   "bullet",
+   "User support: understanding reported issues, reproducing errors, explaining solutions and checking that fixes work."
+  ],
+  [
+   "bullet",
+   "Linux: basic administration and diagnostics. Active Directory: practical experience joining computers to a domain."
+  ],
+  [
+   "bullet",
+   "Windows and Microsoft 365: strong application familiarity and day-to-day user support; workstation setup and PC troubleshooting."
+  ],
+  [
+   "title",
+   "Junior IT Administrator | ZOZ w Bolesławcu | 06.2025 - present"
+  ],
+  [
+   "bullet",
+   "Provide day-to-day technical support to hospital staff and diagnose hardware, operating system and application issues."
+  ],
+  [
+   "bullet",
+   "Configure workstations and network devices, connect switches and LAN cabling, and investigate connectivity problems."
+  ],
+  [
+   "bullet",
+   "Analyse user needs, reproduce reported errors and test application scenarios and fixes."
+  ],
+  [
+   "bullet",
+   "Develop internal tools for repetitive tasks; worked on separate employee-management, scheduling and laboratory-process applications."
+  ],
+  [
+   "section",
+   "SELECTED PROJECTS"
+  ],
+  [
+   "title",
+   "JobHunter - workflow automation"
+  ],
+  [
+   "body",
+   "Personal automation platform combining n8n, PostgreSQL, local LLM services, Playwright and a React dashboard. Worked with structured data, workflow validation, automated tests and GitHub Actions CI. This supports a systematic approach to investigating problems across connected services."
+  ],
+  [
+   "title",
+   "ML research - gold price modelling | Python / PyTorch"
+  ],
+  [
+   "body",
+   "Two-year independent project: data collection, feature and target design, model training, reinforcement-learning reward design and loss analysis. Compared models against baselines and tested chronological validity and data leakage (github.com/Flyingzaptop/xauusd)."
+  ],
+  [
+   "body",
+   "LabFlow: Django/React laboratory workflow demo with user roles, validation and audit history; Windows/Ubuntu setup and recovery documentation."
+  ],
+  [
+   "section",
+   "EDUCATION"
+  ],
+  [
+   "title",
+   "WSB Merito we Wrocławiu | 03.2026 - present"
+  ],
+  [
+   "body",
+   "Network, systems and IT security engineering; part-time engineering studies, second semester."
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - present"
+  ],
+  [
+   "body",
+   "Robotics and Process Automation; engineering studies in progress, five semesters completed."
+  ],
+  [
+   "section",
+   "LANGUAGES AND AVAILABILITY"
+  ],
+  [
+   "body",
+   "Polish - advanced; English - advanced / technical; Ukrainian and Russian - native. IT Step Python AI course, 02.2024 - 12.2024. Category B driving licence."
+  ],
+  [
+   "body",
+   "Seeking flexible working hours. From March 2027: available onsite in Wrocław up to 1–2 days per week, with remaining work remote. Open to part-time arrangements; start date by agreement."
+  ]
+ ],
+ "must_contain": [
+  "Microsoft 365",
+  "1–2 days"
+ ],
+ "must_not_contain": [
+  "Greenbrier",
+  "StoryGold",
+  "DRACO",
+  "FOTC",
+  "Windows Server"
+ ]
+}

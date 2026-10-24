@@ -1,0 +1,216 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Altimi_PL.pdf",
+ "title": "Denis Gruszkiewicz - CV Altimi PL",
+ "max_pages": 2,
+ "blocks": [
+  [
+   "name",
+   "Denis Gruszkiewicz"
+  ],
+  [
+   "role",
+   "Młodszy Inżynier | PLC, roboty przemysłowe i automatyka"
+  ],
+  [
+   "contact",
+   "Wrocław | +48 511 592 887 | r3dflzp.ns@gmail.com"
+  ],
+  [
+   "contact",
+   "Prawo jazdy kat. B od 3 lat | github.com/Flyingzaptop - projekty IT i R&D"
+  ],
+  [
+   "section",
+   "PROFIL ZAWODOWY"
+  ],
+  [
+   "body",
+   "Student Robotyki i Automatyzacji Procesów na Politechnice Wrocławskiej, po ukończeniu V semestru. Samodzielnie programowałem trzy roboty przemysłowe (ABB SCARA, Mitsubishi 6-osiowy, pneumatyczny układ XZ Bosch), w RobotStudio projektowałem akademickie stanowiska spawania i paletyzacji, a w TIA Portal programowałem sterowniki Siemens S7-1200 i LOGO!. Dodatkowo mam ponad rok pracy w IT (diagnostyka, testowanie) i projekty w Pythonie."
+  ],
+  [
+   "section",
+   "KOMPETENCJE KONSTRUKCYJNE"
+  ],
+  [
+   "bullet",
+   "PLC: TIA Portal - programowanie sterowników Siemens S7-1200 i LOGO!; pneumatyka, elektrozawory, FluidSim."
+  ],
+  [
+   "bullet",
+   "Roboty przemysłowe: samodzielne programowanie ABB SCARA, Mitsubishi 6-osiowego i układu pneumatycznego XZ Bosch."
+  ],
+  [
+   "bullet",
+   "RobotStudio - akademickie stanowiska spawania i paletyzacji; analiza trajektorii, zasięgu robota i logiki etapów procesu."
+  ],
+  [
+   "bullet",
+   "Fusion 360 - główne środowisko modelowania 3D; AutoCAD - rysunek 2D i dokumentacja techniczna."
+  ],
+  [
+   "bullet",
+   "Prototypowanie: modele STEP/STL, przygotowanie elementów do druku 3D i uwzględnianie ograniczeń technologii FDM."
+  ],
+  [
+   "bullet",
+   "Siemens NX i FluidSim - podstawy; podstawy projektowania maszyn, mechaniki i technologii materiałów w ramach studiów."
+  ],
+  [
+   "section",
+   "WYBRANE PROJEKTY INŻYNIERSKIE"
+  ],
+  [
+   "title",
+   "Przekładnia cykloidalna | projekt własny"
+  ],
+  [
+   "bullet",
+   "Projektowanie geometrii przekładni oraz modelowanie części mechanicznych."
+  ],
+  [
+   "bullet",
+   "Analiza zasady działania i współpracy elementów mechanizmu, z uwzględnieniem montażu, tolerancji oraz praktycznego wykonania."
+  ],
+  [
+   "title",
+   "Osiowy silnik odrzutowy | projekt koncepcyjny"
+  ],
+  [
+   "bullet",
+   "Samodzielne opracowanie koncepcji oraz modelowanie głównych elementów konstrukcyjnych w CAD."
+  ],
+  [
+   "bullet",
+   "Analiza geometrii, układu przepływu i rozmieszczenia komponentów; wizualizacja rozwiązania technicznego."
+  ],
+  [
+   "title",
+   "RobotStudio | projekty akademickie"
+  ],
+  [
+   "bullet",
+   "Projektowanie stanowisk zrobotyzowanych dla procesów spawania i paletyzacji."
+  ],
+  [
+   "bullet",
+   "Analiza trajektorii, zasięgu robota, organizacji stanowiska i logiki kolejnych etapów procesu."
+  ],
+  [
+   "title",
+   "Druk 3D i prototypowanie | projekty własne"
+  ],
+  [
+   "body",
+   "Projektowanie elementów pod druk 3D i praca z modelami STEP/STL. Uwzględnianie ograniczeń FDM oraz praktyczne podejście do montażu, testowania i poprawiania konstrukcji."
+  ],
+  [
+   "page",
+   ""
+  ],
+  [
+   "section",
+   "WYKSZTAŁCENIE"
+  ],
+  [
+   "title",
+   "Politechnika Wrocławska | 10.2022 - obecnie"
+  ],
+  [
+   "body",
+   "Robotyka i Automatyzacja Procesów, studia inżynierskie w toku; ukończony V semestr."
+  ],
+  [
+   "bullet",
+   "Zakres: mechanika, fizyka techniczna, matematyka inżynierska, rysunek techniczny, CAD, projektowanie maszyn, automatyka i robotyka przemysłowa."
+  ],
+  [
+   "bullet",
+   "Projekty i zajęcia związane ze stanowiskami zrobotyzowanymi, spawaniem, paletyzacją, obróbką materiałów i symulacją układów."
+  ],
+  [
+   "title",
+   "Uniwersytet WSB Merito we Wrocławiu | 03.2026 - obecnie"
+  ],
+  [
+   "body",
+   "Inżynieria sieci, systemów i bezpieczeństwa IT; studia inżynierskie niestacjonarne, II semestr. Rozwijanie kompetencji informatycznych wspierających analizę danych i pracę z systemami technicznymi."
+  ],
+  [
+   "section",
+   "DOŚWIADCZENIE ZAWODOWE"
+  ],
+  [
+   "title",
+   "Młodszy Administrator IT | ZOZ w Bolesławcu | 06.2025 - obecnie"
+  ],
+  [
+   "bullet",
+   "Bieżące wsparcie techniczne pracowników oraz diagnozowanie problemów sprzętowych, systemowych i aplikacyjnych."
+  ],
+  [
+   "bullet",
+   "Analiza potrzeb użytkowników, odtwarzanie błędów i testowanie scenariuszy działania narzędzi."
+  ],
+  [
+   "bullet",
+   "Rozwój wewnętrznych aplikacji usprawniających pracę: oddzielne projekty zarządzania pracownikami, grafikiem i procesami laboratoryjnymi."
+  ],
+  [
+   "bullet",
+   "Podłączanie i konfiguracja stanowisk oraz urządzeń sieciowych, okablowanie LAN i podstawowa diagnostyka połączeń."
+  ],
+  [
+   "section",
+   "DODATKOWE PROJEKTY I UMIEJĘTNOŚCI TECHNICZNE"
+  ],
+  [
+   "title",
+   "Analiza danych i programowanie"
+  ],
+  [
+   "body",
+   "Python, NumPy i Pandas; własne badania danych czasowych i modeli ML. Pozyskiwanie i przygotowanie danych, projektowanie metryk, porównywanie eksperymentów oraz analiza błędów i ograniczeń wyników."
+  ],
+  [
+   "title",
+   "LabFlow i ARC | projekty software / R&D"
+  ],
+  [
+   "body",
+   "LabFlow: demonstracyjna aplikacja Django/React odwzorowująca wieloetapowy proces laboratoryjny, z rolami, walidacją i audytem. ARC: eksperymentalny runtime C++/D3D12, analiza zasobów, zależności i wydajności oraz testy. Projekty rozwijają systemowe podejście do problemów i weryfikacji rozwiązań."
+  ],
+  [
+   "body",
+   "Bardzo dobra znajomość Microsoft 365 / MS Office, w tym Excel i PowerPoint. Diagnostyka, składanie i modernizacja komputerów PC, także konfiguracji hard-tube water cooling. Współtworzenie inicjatywy Antillia związanej z aplikacjami i automatyzacją."
+  ],
+  [
+   "section",
+   "KURSY, JĘZYKI I INFORMACJE DODATKOWE"
+  ],
+  [
+   "body",
+   "IT Step - Python AI | 02.2024 - 12.2024; kurs programowania w Pythonie i sztucznej inteligencji."
+  ],
+  [
+   "body",
+   "Polski - zaawansowany; angielski - zaawansowany / techniczny; ukraiński i rosyjski - ojczyste."
+  ],
+  [
+   "body",
+   "Prawo jazdy kat. B od 3 lat. Miejsce zamieszkania: Wrocław. Szukam pracy z elastycznymi godzinami. Od marca 2027: w biurze we Wrocławiu maksymalnie 1–2 dni w tygodniu, pozostała praca zdalnie. Możliwa część etatu; termin rozpoczęcia do uzgodnienia."
+  ]
+ ],
+ "must_contain": [
+  "ABB SCARA",
+  "V semestr",
+  "kat. B",
+  "1–2 dni"
+ ],
+ "must_not_contain": [
+  "Greenbrier",
+  "StoryGold",
+  "DRACO",
+  "FOTC",
+  "Windows Server"
+ ]
+}

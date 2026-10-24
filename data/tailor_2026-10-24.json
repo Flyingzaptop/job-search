@@ -1,0 +1,122 @@
+[
+ {
+  "id": "web:https://justjoin.it/offers/ibm-gsdc-sp-z-o-o-junior-it-administrator",
+  "safe": "web_https___justjoin.it_offers_ibm-gsdc-sp-z-o-o-junior-it-administrator",
+  "title": "Junior IT Administrator",
+  "company": "IBM GSDC",
+  "location": "Wrocław (remote wg snippetu)",
+  "url": "https://justjoin.it/offers/ibm-gsdc-sp-z-o-o-junior-it-administrator",
+  "text": "Snippet: junior IT admin, monitoring infrastruktury i wsparcie L1; oznaczone jako zdalne.",
+  "cv": "it",
+  "why": "Junior IT Administrator в IBM GSDC (Вроцлав, по сниппету remote): мониторинг инфраструктуры и поддержка L1; совпадает с опытом IT-админа в больнице.",
+  "red_flags": "только сниппет; сменность/дежурства возможны (мониторинг), гибкость часов не указана"
+ },
+ {
+  "id": "web:https://justjoin.it/job-offer/dealavo-it-support-specialist-warszawa-support-78d4263d",
+  "safe": "web_https___justjoin.it_job-offer_dealavo-it-support-specialist-warszawa-support-78d4263d",
+  "title": "IT Support Specialist",
+  "company": "Dealavo",
+  "location": "Warszawa (zdalnie wg snippetu)",
+  "url": "https://justjoin.it/job-offer/dealavo-it-support-specialist-warszawa-support-78d4263d",
+  "text": "Snippet: junior IT support, zdalnie, tworzenie i rozwój skryptów, debugowanie, Python w stacku.",
+  "cv": "it",
+  "why": "Junior IT Support в Dealavo, удалённо: скрипты, отладка, Python в стеке; сочетание поддержки и Python как раз у Дениса.",
+  "red_flags": "только сниппет; компания в Варшаве, гибкость часов не указана"
+ },
+ {
+  "id": "web:https://www.itransition.com/careers/ai-junior-developer",
+  "safe": "web_https___www.itransition.com_careers_ai-junior-developer",
+  "title": "Junior AI Developer",
+  "company": "Itransition",
+  "location": "Polska (remote)",
+  "url": "https://www.itransition.com/careers/ai-junior-developer",
+  "text": "Junior AI Developer, Polska zdalnie, podstawowy Python i wiedza ML.",
+  "cv": "it",
+  "why": "Junior AI Developer удалённо из Польши, нужен базовый Python и знание ML — точно по профилю (ML-проект, LLM-агенты)",
+  "red_flags": "гибкость часов и тип договора не указаны"
+ },
+ {
+  "id": "web:https://justjoin.it/job-offer/n-ix-junior-automation-qa-with-python--poznan-testing",
+  "safe": "web_https___justjoin.it_job-offer_n-ix-junior-automation-qa-with-python--poznan-testing",
+  "title": "Junior Automation QA (Python)",
+  "company": "N-iX",
+  "location": "Poznań (удалённо)",
+  "url": "https://justjoin.it/job-offer/n-ix-junior-automation-qa-with-python--poznan-testing",
+  "text": "Junior Automation QA с Python и Robot Framework, B2B, удалённо.",
+  "cv": "it",
+  "why": "Junior Automation QA на Python + Robot Framework, удалённо — Python и тестирование есть",
+  "red_flags": "B2B, Robot Framework не подтверждён, гибкость не указана"
+ },
+ {
+  "id": "web:https://rocketjobs.pl/oferta/allegro-junior-it-support-specialist-poznan-support",
+  "safe": "web_https___rocketjobs.pl_oferta_allegro-junior-it-support-specialist-poznan-support",
+  "title": "Junior IT Support Specialist",
+  "company": "Allegro",
+  "location": "Poznań (remote-first)",
+  "url": "https://rocketjobs.pl/oferta/allegro-junior-it-support-specialist-poznan-support",
+  "text": "Junior IT Support Specialist, удалённо с одним днём в офисе; на онбординге нужно ходить в офис 3 дня в неделю.",
+  "cv": "it",
+  "why": "Junior IT Support в Allegro, remote-first с 1 днём офиса в неделю — по графику хорошо",
+  "red_flags": "Poznań (~180 км), на онбординге 3 дня в неделю в офисе, гибкость часов не указана"
+ },
+ {
+  "id": "web:https://justjoin.it/job-offer/cloudfide-junior-dev-engineer-opportunity-warszawa-python",
+  "safe": "web_https___justjoin.it_job-offer_cloudfide-junior-dev-engineer-opportunity-warszawa-python",
+  "title": "Junior Dev Engineer (Python)",
+  "company": "Cloudfide",
+  "location": "Warszawa",
+  "url": "https://justjoin.it/job-offer/cloudfide-junior-dev-engineer-opportunity-warszawa-python",
+  "text": "Junior developer with Python, remote full-time per snippet. Only technical-faculty or recent graduates considered.",
+  "cv": "it",
+  "why": "Junior Python-разработчик, remote full-time; принимают студентов технических факультетов — Politechnika подходит",
+  "red_flags": "full-time, гибкость часов не указана, детали стека не видны"
+ },
+ {
+  "id": "web:https://blaudirekt.jobs.personio.com/job/2747492",
+  "safe": "web_https___blaudirekt.jobs.personio.com_job_2747492",
+  "title": "Junior QA Engineer - AI-Assisted Testing",
+  "company": "Blaudirekt",
+  "location": "Remote (Poland)",
+  "url": "https://blaudirekt.jobs.personio.com/job/2747492",
+  "text": "Junior QA engineer for AI-assisted testing, remote in Poland. Only search snippet read.",
+  "cv": "it",
+  "why": "Junior QA с AI-assisted testing, удалённо из Польши — QA и AI-инструменты есть в профиле",
+  "red_flags": "прочитан только сниппет, возможна нужда в немецком (компания немецкая), гибкость не указана"
+ },
+ {
+  "id": "web:https://dailyremote.com/remote-job/junior-qa-engineer-5281516",
+  "safe": "web_https___dailyremote.com_remote-job_junior-qa-engineer-5281516",
+  "title": "Junior QA Engineer",
+  "company": "",
+  "location": "Remote, Poland",
+  "url": "https://dailyremote.com/remote-job/junior-qa-engineer-5281516",
+  "text": "Junior QA role open to Poland; interest in AI/ML applied to testing valued per snippet.",
+  "cv": "it",
+  "why": "Junior QA, удалённо из Польши, ценится интерес к AI/ML в тестировании",
+  "red_flags": "компания не указана, детали и гибкость часов неизвестны"
+ },
+ {
+  "id": "web:https://czyjesteldorado.pl/praca/381202-robotics-plc-automation-engineer-altimi",
+  "safe": "web_https___czyjesteldorado.pl_praca_381202-robotics-plc-automation-engineer-altimi",
+  "title": "Robotics/PLC Automation Engineer",
+  "company": "Altimi",
+  "location": "Wrocław / remote / hybrid",
+  "url": "https://czyjesteldorado.pl/praca/381202-robotics-plc-automation-engineer-altimi",
+  "text": "PLC-программирование и промышленные роботы. Варианты: полностью remote, офис во Wrocław, hybrid.",
+  "cv": "eng",
+  "why": "PLC и промышленные роботы с вариантом полного remote, совпадает с ABB/Mitsubishi/TIA опытом",
+  "red_flags": "Уровень не указан; гибкость часов не подтверждена"
+ },
+ {
+  "id": "web:https://justjoin.it/job-offer/experis-manpower-group-it-support-specialist-wroclaw-support",
+  "safe": "web_https___justjoin.it_job-offer_experis-manpower-group-it-support-specialist-wroclaw-support",
+  "title": "IT Support Specialist",
+  "company": "Experis ManpowerGroup",
+  "location": "Wrocław",
+  "url": "https://justjoin.it/job-offer/experis-manpower-group-it-support-specialist-wroclaw-support",
+  "text": "IT support, гибрид: 2 офисных дня в неделю, Wrocław. Ставка B2B (по выдаче).",
+  "cv": "it",
+  "why": "IT support во Вроцлаве, 2 дня офиса, опыт M365 и больницы подходит",
+  "red_flags": "Гибкость часов не указана; B2B через агентство; уровень не указан"
+ }
+]
