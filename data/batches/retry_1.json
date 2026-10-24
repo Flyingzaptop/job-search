@@ -1,0 +1,86 @@
+[
+ {
+  "name": "GermanTechJobs",
+  "domain": "germantechjobs.de",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "EngineerJobs",
+  "domain": "engineerjobs.com",
+  "group": "cad",
+  "method": "site"
+ },
+ {
+  "name": "SwissDevJobs",
+  "domain": "swissdevjobs.ch",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "Wellfound",
+  "domain": "wellfound.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Glassdoor",
+  "domain": "glassdoor.com",
+  "group": "global",
+  "method": "site"
+ },
+ {
+  "name": "Academic Positions",
+  "domain": "academicpositions.com",
+  "group": "research",
+  "method": "site"
+ },
+ {
+  "name": "karriere.at",
+  "domain": "karriere.at",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "PowerToFly",
+  "domain": "powertofly.com",
+  "group": "remote",
+  "method": "site"
+ },
+ {
+  "name": "Teamtailor",
+  "domain": "teamtailor.com",
+  "group": "ats",
+  "method": "site"
+ },
+ {
+  "name": "PeoplePerHour",
+  "domain": "peopleperhour.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Guru",
+  "domain": "guru.com",
+  "group": "freelance",
+  "method": "site"
+ },
+ {
+  "name": "Profesia.sk",
+  "domain": "profesia.sk",
+  "group": "eu",
+  "method": "site"
+ },
+ {
+  "name": "4programmers Praca",
+  "domain": "4programmers.net/Praca",
+  "group": "pl-it",
+  "method": "site"
+ },
+ {
+  "name": "Dynamite Jobs",
+  "domain": "dynamitejobs.com",
+  "group": "remote",
+  "method": "site"
+ }
+]
