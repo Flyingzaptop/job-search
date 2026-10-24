@@ -1,200 +1,227 @@
-{"id":"fantastic:2429610959","triage":"drop","reason":"FP&A intern, финансы/нетехническая роль, on-site Познань"}
-{"id":"fantastic:2429610872","triage":"drop","reason":"Junior Accountant, нетехническая роль, Stargard далеко"}
-{"id":"fantastic:2429603031","triage":"drop","reason":"Intern Product Costing, финансы/учёт, нетехническая"}
-{"id":"fantastic:2429596814","triage":"drop","reason":"Junior Accountant RTR, бухгалтерия, нетехническая"}
-{"id":"fantastic:2429595112","triage":"keep","reason":"Junior MDM/PIM support engineer, IT-поддержка + Python/SQL, Краков hybrid Польша"}
-{"id":"fantastic:2429329957","triage":"drop","reason":"AP Intern, бухгалтерия, нетехническая роль"}
-{"id":"fantastic:2428022968","triage":"drop","reason":"Требует 3+ лет опыта product/operational analytics (mid)"}
-{"id":"fantastic:2427650535","triage":"drop","reason":"Обязателен испанский C1 и логистика, нетехническая роль"}
-{"id":"fantastic:2429977357","triage":"drop","reason":"Trainee RA/Publishing фарма, нетехническая роль"}
-{"id":"fantastic:2427257993","triage":"drop","reason":"Требует 5+ лет опыта, senior"}
-{"id":"fantastic:2428375031","triage":"drop","reason":"Finance intern, нетехническая роль"}
-{"id":"fantastic:2428361430","triage":"drop","reason":"Финансовый интерн HPE (учёт/аудит), нетехническая роль"}
-{"id":"fantastic:2427995595","triage":"keep","reason":"Intern CloudOps/AWS/Terraform, техническая, локация не указана, hybrid"}
-{"id":"fantastic:2427993006","triage":"drop","reason":"Junior Fixed Assets Accountant, бухгалтерия"}
-{"id":"fantastic:2427875236","triage":"keep","reason":"Junior Security Analyst, IT/безопасность, Варшава hybrid Польша"}
-{"id":"fantastic:2427868895","triage":"drop","reason":"Automation technician подходит по стеку, но on-site в Люблине вне формата"}
-{"id":"fantastic:2427865406","triage":"keep","reason":"Supply planning intern с SAP/Power BI, Варшава hybrid; на грани, сохраняю"}
-{"id":"fantastic:2427863806","triage":"drop","reason":"Credit & Collection, финансы, нетехническая роль"}
-{"id":"fantastic:2427863805","triage":"drop","reason":"Travel & Expense intern, финансы, нетехническая роль"}
-{"id":"fantastic:2427816726","triage":"drop","reason":"AR Accountant, бухгалтерия, нетехническая роль"}
-{"id":"fantastic:2427816024","triage":"keep","reason":"Junior BY WMS support, IT-поддержка/SQL, Błonie рядом с Варшавой hybrid"}
-{"id":"fantastic:2427776075","triage":"drop","reason":"AP Junior Specialist, бухгалтерия, нетехническая роль"}
-{"id":"fantastic:2427664209","triage":"keep","reason":"Junior Cybersecurity/SOC, IT 1 год, локация не указана (CEE), подходит"}
-{"id":"fantastic:2427617971","triage":"keep","reason":"Intern Intelligent Automation, Python/SQL/Power Platform, Вроцлав hybrid"}
-{"id":"fantastic:2427617208","triage":"drop","reason":"Logistics invoicing intern, нетехническая роль"}
-{"id":"fantastic:2427587828","triage":"drop","reason":"Требует обязательный шведский C1/B2, нетехническая роль"}
-{"id":"fantastic:2427510766","triage":"drop","reason":"HR/payroll trainee, нетехническая роль, Катовице on-site"}
-{"id":"fantastic:2427489717","triage":"drop","reason":"Требует 3-7+ лет опыта QA/data testing, mid/senior"}
-{"id":"fantastic:2427483788","triage":"drop","reason":"ML Engineer, требует 3-5+ лет опыта, mid/senior"}
-{"id":"fantastic:2427470676","triage":"keep","reason":"Junior Cybersecurity/SOC, 1 год IT, Гданьск hybrid Польша"}
-{"id":"fantastic:2427390859","triage":"drop","reason":"HR Specialist, нетехническая роль"}
-{"id":"fantastic:2427388883","triage":"drop","reason":"Contact center, нетехническая роль"}
-{"id":"fantastic:2427382075","triage":"keep","reason":"Intern Vehicle Test Engineer, Python/C++ и тестирование, Краков hybrid"}
-{"id":"fantastic:2427380111","triage":"drop","reason":"Junior Accountant, бухгалтерия, нетехническая роль"}
-{"id":"fantastic:2427377676","triage":"drop","reason":"IT helpdesk подходит, но on-site в Катовице вне формата"}
-{"id":"fantastic:2427349547","triage":"drop","reason":"Billing/collection, нетехническая роль, on-site, французский в требованиях"}
-{"id":"fantastic:2426196702","triage":"drop","reason":"M&A/transaction services, финансы, нетехническая роль"}
-{"id":"fantastic:2425548413","triage":"drop","reason":"Logistics specialist, нетехническая роль, 2-5 лет"}
-{"id":"fantastic:2425507444","triage":"drop","reason":"Expert, 5+ лет опыта, senior"}
-{"id":"fantastic:2425450544","triage":"drop","reason":"Legal intern, юридическая роль, нетехническая"}
-{"id":"fantastic:2425317293","triage":"drop","reason":"Senior-уровень 5-10 лет, Remote OK только с EU work permit"}
-{"id":"fantastic:2425304484","triage":"drop","reason":"Требует 5+ лет Python backend, senior"}
-{"id":"fantastic:2426610910","triage":"keep","reason":"Junior DevOps, Kubernetes/CI/CD/Linux, Варшава hybrid Польша"}
-{"id":"jooble:-2542914316069402921","triage":"keep","reason":"System/OS software engineer, Польша; описание обрезано, 'seasoned' возможно senior, сомнение"}
-{"id":"jooble:-2162787675284819273","triage":"keep","reason":"Consultant Intern 2027 Варшава; роль консалтинговая, сомнение, оставляю"}
-{"id":"jooble:890313522531879605","triage":"drop","reason":"Remote только для США"}
-{"id":"jooble:5227203692620735539","triage":"drop","reason":"США, remote/US-only"}
-{"id":"jooble:-982362018113797037","triage":"drop","reason":"Data entry, нетехническая, Великобритания remote"}
-{"id":"jooble:-6974127828194786981","triage":"drop","reason":"Data entry, нетехническая, Великобритания remote"}
-{"id":"jooble:-1493152372554554497","triage":"drop","reason":"Юрист, США/Калифорния"}
-{"id":"jooble:8436982191146995621","triage":"drop","reason":"MEP-инженер, США Kansas"}
-{"id":"jooble:-531961882828441825","triage":"drop","reason":"Data scientist в NY, США, текст на французском"}
-{"id":"jooble:-7913754473845204530","triage":"keep","reason":"Junior Software Engineer remote, страна не ограничена, сомнение"}
-{"id":"jooble:-8434079379529399826","triage":"drop","reason":"Remote только для США"}
-{"id":"jooble:-8912732462350473908","triage":"drop","reason":"Юрист, Калифорния, США"}
-{"id":"jooble:-7676974049735136566","triage":"drop","reason":"США, Python/Java для США"}
-{"id":"jooble:-5501067380427826338","triage":"drop","reason":"США, Irving TX"}
-{"id":"jooble:-7925757974325913445","triage":"drop","reason":"Customs account, США Michigan, нетехническая"}
-{"id":"jooble:-7219923977428372694","triage":"drop","reason":"Product Owner, США Arizona"}
-{"id":"jooble:6481405729390890668","triage":"drop","reason":"Юрист, США Калифорния"}
-{"id":"jooble:1122006027935494032","triage":"drop","reason":"США, W2 only"}
-{"id":"jooble:2843015378936648669","triage":"drop","reason":"Remote только для США (NY)"}
-{"id":"jooble:-4906681342899300217","triage":"drop","reason":"Трейдер, США Калифорния, нетехническая"}
-{"id":"jooble:-3045404157425214830","triage":"drop","reason":"США, Tableau/Python для США"}
-{"id":"jooble:-8747066214613388237","triage":"drop","reason":"Data entry, нетехническая, США"}
-{"id":"jooble:-4492898281132437441","triage":"drop","reason":"Junior AI Engineer, based in US"}
-{"id":"jooble:-3113940415729531192","triage":"drop","reason":"Диспетчер, США trucking, нетехническая"}
-{"id":"jooble:-3609265686098759989","triage":"drop","reason":"Remote для США (NY) contract"}
-{"id":"jooble:7337371532709463622","triage":"drop","reason":"США, Gastonia NC"}
-{"id":"jooble:6436428020412276021","triage":"drop","reason":"Юрист, NYC, 3-5 лет"}
-{"id":"jooble:-7302894042033221932","triage":"drop","reason":"Data entry, нетехническая, США"}
-{"id":"jooble:-2778038950037740135","triage":"drop","reason":"Recruiter, нетехническая, США"}
-{"id":"jooble:-4337883214762895676","triage":"drop","reason":"Remote в США (Milwaukee)"}
-{"id":"jooble:-113085676535615002","triage":"drop","reason":"Plano TX, США"}
-{"id":"jooble:-1402685836448695763","triage":"drop","reason":"Remote только для США, нужен Secret clearance"}
-{"id":"jooble:-1993314927475055046","triage":"drop","reason":"США, Dallas"}
-{"id":"jooble:2733479447554512667","triage":"drop","reason":"Нетехническая sales-роль, США remote"}
-{"id":"jooble:5629147389726474707","triage":"keep","reason":"Summer intern Imaging AI/ML, remote или Zug CH; страна remote не ограничена явно, сомнение"}
-{"id":"jooble:-6472412966622127323","triage":"drop","reason":"Palo Alto CA, США"}
-{"id":"jooble:1412530082784286224","triage":"drop","reason":"Remote только в Канаде/США"}
-{"id":"jooble:2644349532049001769","triage":"drop","reason":"Remote только в Канаде/США"}
-{"id":"jooble:-6544942813994111481","triage":"drop","reason":"Вакансия в США"}
-{"id":"jooble:6013748021960906072","triage":"drop","reason":"Требует US citizenship, США"}
-{"id":"jooble:-1171852763623284953","triage":"drop","reason":"США, Alpharetta GA"}
-{"id":"jooble:8372263963777757523","triage":"drop","reason":"США, NYC onsite"}
-{"id":"jooble:3987238420162772882","triage":"drop","reason":"США, DoD программа"}
-{"id":"jooble:1920666187326859093","triage":"drop","reason":"Remote только в Канаде/США"}
-{"id":"jooble:209230916473089001","triage":"drop","reason":"Remote только для США"}
-{"id":"jooble:-7082806849055601035","triage":"drop","reason":"Dallas TX, США"}
-{"id":"jooble:2143935092642215043","triage":"drop","reason":"Remote только в Канаде/США"}
-{"id":"jooble:997370426201520910","triage":"drop","reason":"San Francisco onsite, США"}
-{"id":"jooble:-3527913472814860551","triage":"drop","reason":"Defense-контракт, только США"}
-{"id":"jooble:340049118893092496","triage":"drop","reason":"Seattle, США"}
-{"id":"jooble:-3507414065079433809","triage":"drop","reason":"Palo Alto, США"}
-{"id":"jooble:2782613674483517137","triage":"drop","reason":"Cambridge MA, США"}
-{"id":"jooble:5943520732647317658","triage":"drop","reason":"McLean VA, США"}
-{"id":"jooble:4514185122531300171","triage":"drop","reason":"Chicago, США"}
-{"id":"jooble:-6531880343803044285","triage":"drop","reason":"США, Северная Каролина"}
-{"id":"jooble:-6022865175912485090","triage":"drop","reason":"Rockville MD, США"}
-{"id":"jooble:-132802217687896591","triage":"drop","reason":"McLean VA, США, гражданство"}
-{"id":"jooble:-2579055177787387303","triage":"drop","reason":"Huntsville AL, США"}
-{"id":"jooble:-3624600817067433022","triage":"drop","reason":"Rome NY, США"}
-{"id":"jooble:-2127558194040591412","triage":"drop","reason":"El Segundo CA, США"}
-{"id":"jooble:4389678746111753175","triage":"drop","reason":"San Jose CA, США"}
-{"id":"jooble:1641473228513966300","triage":"drop","reason":"Remote только в США"}
-{"id":"jooble:-418963789503034657","triage":"drop","reason":"Golden CO, США"}
-{"id":"jooble:6001637647059859528","triage":"drop","reason":"Golden CO, США remote"}
-{"id":"jooble:-1096333066664611621","triage":"drop","reason":"Remote только внутри США"}
-{"id":"jooble:4473426451753493569","triage":"drop","reason":"Remote только внутри США"}
-{"id":"jooble:1168139331037496110","triage":"drop","reason":"Remote только в США"}
-{"id":"jooble:4059177879090320985","triage":"drop","reason":"Только США (Mid-West/East Coast)"}
-{"id":"jooble:-5208922731021535664","triage":"drop","reason":"Только США"}
-{"id":"jooble:-5890811101980916912","triage":"drop","reason":"Pomona CA, США"}
-{"id":"jooble:6291528406143536442","triage":"drop","reason":"Orlando FL, США"}
-{"id":"jooble:-2267686598463620354","triage":"drop","reason":"США, нетехническая ценообразование"}
-{"id":"jooble:3259812308060387086","triage":"drop","reason":"Chicago, США"}
-{"id":"jooble:-244116494801771942","triage":"drop","reason":"San Francisco, США, без remote"}
-{"id":"jooble:5120785432129462323","triage":"drop","reason":"Columbus OH, США"}
-{"id":"jooble:-4097662454352611378","triage":"drop","reason":"Lexington MA, США"}
-{"id":"jooble:-7531761711202832369","triage":"drop","reason":"Dallas/US remote, 8 лет опыта"}
-{"id":"jooble:1968682523340676528","triage":"drop","reason":"Ripley TN, США"}
-{"id":"jooble:-8355639627781141908","triage":"drop","reason":"США, офис 3 дня в неделю"}
-{"id":"jooble:5502102782022969170","triage":"drop","reason":"New York, США"}
-{"id":"jooble:4665466940351792975","triage":"drop","reason":"США, Finance & Accounting"}
-{"id":"jooble:-8379170380772232931","triage":"drop","reason":"Remote только для США, California"}
-{"id":"jooble:1907554405553186412","triage":"drop","reason":"Remote только для США, 100k+ ожидания"}
-{"id":"jooble:6710083156778598735","triage":"drop","reason":"США, Illinois, site-based"}
-{"id":"jooble:4813535752490582387","triage":"drop","reason":"Только US citizens, Arizona"}
-{"id":"jooble:1929019256425512438","triage":"drop","reason":"Utah, США"}
-{"id":"jooble:-2755586995677800353","triage":"drop","reason":"Vermont, США, Sales & Marketing"}
-{"id":"jooble:6687509096788677697","triage":"drop","reason":"Cupertino CA, США, senior-уровень"}
-{"id":"jooble:-4976374795661730443","triage":"drop","reason":"Вашингтон, US citizenship required"}
-{"id":"jooble:-2833336201999468853","triage":"drop","reason":"США, Founding engineer, remote-friendly US-only"}
-{"id":"jooble:4100075826031831755","triage":"drop","reason":"США, консалтинг McLean VA"}
-{"id":"jooble:8935071246415984515","triage":"drop","reason":"Phoenix AZ, США, контракт"}
-{"id":"jooble:5837291210074844346","triage":"drop","reason":"Remote США, 7-9 лет опыта"}
-{"id":"jooble:-2943035482665419776","triage":"drop","reason":"Seattle, США"}
-{"id":"jooble:-1332154888987405648","triage":"drop","reason":"Washington DC, федеральная среда, США"}
-{"id":"jooble:1377537666542772196","triage":"drop","reason":"Evansville IN, США"}
-{"id":"jooble:964963425059224037","triage":"drop","reason":"Seattle onsite, США"}
-{"id":"jooble:-5551708622576298607","triage":"drop","reason":"Tucson AZ, США"}
-{"id":"jooble:2395640740749553697","triage":"drop","reason":"Senior IV, remote только East Coast США"}
-{"id":"jooble:5582854663355697688","triage":"drop","reason":"Офис в Касабланке, Марокко, французский"}
-{"id":"jooble:-1179556833342201779","triage":"drop","reason":"San Francisco, США"}
-{"id":"jooble:4915950747931555473","triage":"drop","reason":"Chicago, США"}
-{"id":"jooble:3192166669400387098","triage":"drop","reason":"Panama City FL, США"}
-{"id":"jooble:7269795533986048227","triage":"drop","reason":"США, 2+ лет, classified-проект"}
-{"id":"jooble:-8992011001149885377","triage":"drop","reason":"Нетехническая sales, только US"}
-{"id":"jooble:-3955225132746705382","triage":"drop","reason":"Data entry, нетехническая, US remote"}
-{"id":"jooble:6076525570864134356","triage":"drop","reason":"Private equity, Connecticut, нетехническая"}
-{"id":"jooble:-961674148471162567","triage":"drop","reason":"Юрист, США"}
-{"id":"jooble:774321352473784345","triage":"drop","reason":"Chicago, США, нетехническая"}
-{"id":"jooble:-6095617262752453398","triage":"drop","reason":"Graphic designer, нетехническая, США"}
-{"id":"jooble:-8562602946454952422","triage":"drop","reason":"Юрист, Калифорния"}
-{"id":"jooble:1483930668023031795","triage":"drop","reason":"Marketing writer, нетехническая, US"}
-{"id":"jooble:5786658075126383462","triage":"drop","reason":"Amazon PPC, нетехническая, Украина"}
-{"id":"jooble:-3660097686630015227","triage":"drop","reason":"Юрист, US remote"}
-{"id":"jooble:7740832649515108016","triage":"drop","reason":"Paralegal, нетехническая, США"}
-{"id":"jooble:1757805654092182576","triage":"drop","reason":"Remote только из Испании, испанский"}
-{"id":"jooble:-1748431771194352515","triage":"drop","reason":"Юрист, США"}
-{"id":"jooble:-2715400934859367789","triage":"drop","reason":"Marketing coordinator, нетехническая, США"}
-{"id":"jooble:-9054985030277134738","triage":"drop","reason":"Texas, США, геотермальные инструменты"}
-{"id":"jooble:-8441088727857639854","triage":"keep","reason":"Junior FDE data/automation, remote, страна не указана явно (SF), сомнение"}
-{"id":"jooble:-223542125057441481","triage":"drop","reason":"Юрист, Калифорния, нетехническая"}
-{"id":"jooble:4393547138757933069","triage":"drop","reason":"SEO iGaming, нетехническая, маркетинг"}
-{"id":"jooble:1958245325371034027","triage":"drop","reason":"Recruiter, нетехническая, США"}
-{"id":"jooble:-2819504747645962737","triage":"drop","reason":"Германия, немецкий язык, нетехническая продажи"}
-{"id":"jooble:-2693805954830505369","triage":"drop","reason":"Юрист, Чикаго, нетехническая"}
-{"id":"jooble:2959281152931271480","triage":"drop","reason":"Texas, США, CAD"}
-{"id":"jooble:439966649527343182","triage":"keep","reason":"CAD/rendering remote, приоритет ЮАР/LatAm, явного исключения нет, сомнение"}
-{"id":"jooble:5720797585190187903","triage":"drop","reason":"Houston TX, США"}
-{"id":"jooble:728214130730153339","triage":"drop","reason":"Kansas/Birmingham, США"}
-{"id":"jooble:-6691832713070448088","triage":"drop","reason":"Philadelphia, США, гражданство/clearance вероятно"}
-{"id":"jooble:6379239861838525854","triage":"drop","reason":"Rochester NY / Bedford NH, США"}
-{"id":"jooble:-3419902467094342768","triage":"drop","reason":"Tampa FL, США"}
-{"id":"jooble:6908587879116601388","triage":"drop","reason":"Remote только в США (West Virginia), контракт"}
-{"id":"jooble:4783995839133480715","triage":"drop","reason":"США, Денвер NC"}
-{"id":"jooble:-2639423437773392210","triage":"keep","reason":"Revit/CAD designer, remote-first, ограничения не ясны, сомнение"}
-{"id":"jooble:2212085607013478299","triage":"drop","reason":"New York, США"}
-{"id":"jooble:1364521118568370565","triage":"drop","reason":"Birmingham AL, США"}
-{"id":"jooble:-4391288925359345729","triage":"drop","reason":"Qualcomm, США, Калифорния, senior"}
-{"id":"jooble:2402693719917562493","triage":"drop","reason":"Только для США, remote"}
-{"id":"jooble:-23168165591612687","triage":"drop","reason":"Location US, CAD/GIS технический"}
-{"id":"jooble:-6707634693416440562","triage":"drop","reason":"Alba MI, США, не remote"}
-{"id":"jooble:2266673719609259571","triage":"drop","reason":"Remote только в США (Las Vegas)"}
-{"id":"jooble:-1780652263102482787","triage":"drop","reason":"Denver CO, США"}
-{"id":"jooble:-7939815923698816442","triage":"drop","reason":"США, TS/SCI clearance"}
-{"id":"jooble:-281507351592781087","triage":"drop","reason":"Houston TX, США"}
-{"id":"jooble:4569193591661554798","triage":"drop","reason":"Palo Alto, США"}
-{"id":"jooble:4351643531910182759","triage":"drop","reason":"Danbury CT, США"}
-{"id":"jooble:8651404414573318156","triage":"drop","reason":"Clifton TX, США"}
-{"id":"linkedin:4482065414","triage":"keep","reason":"Junior DevOps Azure/AKS/Docker, Wrocław hybrid 2 dni, B2B"}
-{"id":"linkedin:4283861551","triage":"drop","reason":"Technik farmaceutyczny, нетехническая фармация, Strzelce Opolskie далеко"}
-{"id":"linkedin:4482459313","triage":"keep","reason":"Tulip/MES/PLC integration analyst, Dzierżoniów ~70 км, Mid-Senior без явных лет, сомнение"}
-{"id":"linkedin:4482121723","triage":"drop","reason":"Senior Developer Platform Engineer, senior-уровень"}
-{"id":"linkedin:4468210874","triage":"drop","reason":"Требует 5+ лет embedded, senior"}
-{"id":"linkedin:4481768580","triage":"drop","reason":"Требует 3+ лет утримания ruchu/automatyki, 3-зменна, Siechnice"}
-{"id":"linkedin:4480019017","triage":"keep","reason":"Automatyk PLC Siemens S7/PROFINET, Wrocław on-site в пределах формата"}
-{"id":"linkedin:4481784212","triage":"keep","reason":"SCADA/PLC программист Associate, Wrocław, без жёсткого требования лет"}
-{"id":"linkedin:4481367562","triage":"keep","reason":"Embedded/IoT intern, Wrocław on-site, студенты/выпускники"}
+{"id": "fantastic:2429610959", "triage": "drop", "reason": "FP&A intern, финансы/нетехническая роль, on-site Познань"}
+{"id": "fantastic:2429610872", "triage": "drop", "reason": "Junior Accountant, нетехническая роль, Stargard далеко"}
+{"id": "fantastic:2429603031", "triage": "drop", "reason": "Intern Product Costing, финансы/учёт, нетехническая"}
+{"id": "fantastic:2429596814", "triage": "drop", "reason": "Junior Accountant RTR, бухгалтерия, нетехническая"}
+{"id": "fantastic:2429595112", "triage": "keep", "reason": "Junior MDM/PIM support engineer, IT-поддержка + Python/SQL, Краков hybrid Польша"}
+{"id": "fantastic:2429329957", "triage": "drop", "reason": "AP Intern, бухгалтерия, нетехническая роль"}
+{"id": "fantastic:2428022968", "triage": "drop", "reason": "Требует 3+ лет опыта product/operational analytics (mid)"}
+{"id": "fantastic:2427650535", "triage": "drop", "reason": "Обязателен испанский C1 и логистика, нетехническая роль"}
+{"id": "fantastic:2429977357", "triage": "drop", "reason": "Trainee RA/Publishing фарма, нетехническая роль"}
+{"id": "fantastic:2427257993", "triage": "drop", "reason": "Требует 5+ лет опыта, senior"}
+{"id": "fantastic:2428375031", "triage": "drop", "reason": "Finance intern, нетехническая роль"}
+{"id": "fantastic:2428361430", "triage": "drop", "reason": "Финансовый интерн HPE (учёт/аудит), нетехническая роль"}
+{"id": "fantastic:2427995595", "triage": "keep", "reason": "Intern CloudOps/AWS/Terraform, техническая, локация не указана, hybrid"}
+{"id": "fantastic:2427993006", "triage": "drop", "reason": "Junior Fixed Assets Accountant, бухгалтерия"}
+{"id": "fantastic:2427875236", "triage": "keep", "reason": "Junior Security Analyst, IT/безопасность, Варшава hybrid Польша"}
+{"id": "fantastic:2427868895", "triage": "drop", "reason": "Automation technician подходит по стеку, но on-site в Люблине вне формата"}
+{"id": "fantastic:2427865406", "triage": "keep", "reason": "Supply planning intern с SAP/Power BI, Варшава hybrid; на грани, сохраняю"}
+{"id": "fantastic:2427863806", "triage": "drop", "reason": "Credit & Collection, финансы, нетехническая роль"}
+{"id": "fantastic:2427863805", "triage": "drop", "reason": "Travel & Expense intern, финансы, нетехническая роль"}
+{"id": "fantastic:2427816726", "triage": "drop", "reason": "AR Accountant, бухгалтерия, нетехническая роль"}
+{"id": "fantastic:2427816024", "triage": "keep", "reason": "Junior BY WMS support, IT-поддержка/SQL, Błonie рядом с Варшавой hybrid"}
+{"id": "fantastic:2427776075", "triage": "drop", "reason": "AP Junior Specialist, бухгалтерия, нетехническая роль"}
+{"id": "fantastic:2427664209", "triage": "keep", "reason": "Junior Cybersecurity/SOC, IT 1 год, локация не указана (CEE), подходит"}
+{"id": "fantastic:2427617971", "triage": "keep", "reason": "Intern Intelligent Automation, Python/SQL/Power Platform, Вроцлав hybrid"}
+{"id": "fantastic:2427617208", "triage": "drop", "reason": "Logistics invoicing intern, нетехническая роль"}
+{"id": "fantastic:2427587828", "triage": "drop", "reason": "Требует обязательный шведский C1/B2, нетехническая роль"}
+{"id": "fantastic:2427510766", "triage": "drop", "reason": "HR/payroll trainee, нетехническая роль, Катовице on-site"}
+{"id": "fantastic:2427489717", "triage": "drop", "reason": "Требует 3-7+ лет опыта QA/data testing, mid/senior"}
+{"id": "fantastic:2427483788", "triage": "drop", "reason": "ML Engineer, требует 3-5+ лет опыта, mid/senior"}
+{"id": "fantastic:2427470676", "triage": "keep", "reason": "Junior Cybersecurity/SOC, 1 год IT, Гданьск hybrid Польша"}
+{"id": "fantastic:2427390859", "triage": "drop", "reason": "HR Specialist, нетехническая роль"}
+{"id": "fantastic:2427388883", "triage": "drop", "reason": "Contact center, нетехническая роль"}
+{"id": "fantastic:2427382075", "triage": "keep", "reason": "Intern Vehicle Test Engineer, Python/C++ и тестирование, Краков hybrid"}
+{"id": "fantastic:2427380111", "triage": "drop", "reason": "Junior Accountant, бухгалтерия, нетехническая роль"}
+{"id": "fantastic:2427377676", "triage": "drop", "reason": "IT helpdesk подходит, но on-site в Катовице вне формата"}
+{"id": "fantastic:2427349547", "triage": "drop", "reason": "Billing/collection, нетехническая роль, on-site, французский в требованиях"}
+{"id": "fantastic:2426196702", "triage": "drop", "reason": "M&A/transaction services, финансы, нетехническая роль"}
+{"id": "fantastic:2425548413", "triage": "drop", "reason": "Logistics specialist, нетехническая роль, 2-5 лет"}
+{"id": "fantastic:2425507444", "triage": "drop", "reason": "Expert, 5+ лет опыта, senior"}
+{"id": "fantastic:2425450544", "triage": "drop", "reason": "Legal intern, юридическая роль, нетехническая"}
+{"id": "fantastic:2425317293", "triage": "drop", "reason": "Senior-уровень 5-10 лет, Remote OK только с EU work permit"}
+{"id": "fantastic:2425304484", "triage": "drop", "reason": "Требует 5+ лет Python backend, senior"}
+{"id": "fantastic:2426610910", "triage": "keep", "reason": "Junior DevOps, Kubernetes/CI/CD/Linux, Варшава hybrid Польша"}
+{"id": "jooble:-2542914316069402921", "triage": "keep", "reason": "System/OS software engineer, Польша; описание обрезано, 'seasoned' возможно senior, сомнение"}
+{"id": "jooble:-2162787675284819273", "triage": "keep", "reason": "Consultant Intern 2027 Варшава; роль консалтинговая, сомнение, оставляю"}
+{"id": "jooble:890313522531879605", "triage": "drop", "reason": "Remote только для США"}
+{"id": "jooble:5227203692620735539", "triage": "drop", "reason": "США, remote/US-only"}
+{"id": "jooble:-982362018113797037", "triage": "drop", "reason": "Data entry, нетехническая, Великобритания remote"}
+{"id": "jooble:6974127828194786981", "triage": "drop", "reason": "Data entry, нетехническая, Великобритания remote"}
+{"id": "jooble:-1493152372554554497", "triage": "drop", "reason": "Юрист, США/Калифорния"}
+{"id": "jooble:8436982191146995621", "triage": "drop", "reason": "MEP-инженер, США Kansas"}
+{"id": "jooble:-531961882828441825", "triage": "drop", "reason": "Data scientist в NY, США, текст на французском"}
+{"id": "jooble:-7913754473845204530", "triage": "keep", "reason": "Junior Software Engineer remote, страна не ограничена, сомнение"}
+{"id": "jooble:-8434079379529399826", "triage": "drop", "reason": "Remote только для США"}
+{"id": "jooble:-8912732462350473908", "triage": "drop", "reason": "Юрист, Калифорния, США"}
+{"id": "jooble:-7676974049735136566", "triage": "drop", "reason": "США, Python/Java для США"}
+{"id": "jooble:-5501067380427826338", "triage": "drop", "reason": "США, Irving TX"}
+{"id": "jooble:-7925757974325913445", "triage": "drop", "reason": "Customs account, США Michigan, нетехническая"}
+{"id": "jooble:-7219923977428372694", "triage": "drop", "reason": "Product Owner, США Arizona"}
+{"id": "jooble:6481405729390890668", "triage": "drop", "reason": "Юрист, США Калифорния"}
+{"id": "jooble:1122006027935494032", "triage": "drop", "reason": "США, W2 only"}
+{"id": "jooble:2843015378936648669", "triage": "drop", "reason": "Remote только для США (NY)"}
+{"id": "jooble:-4906681342899300217", "triage": "drop", "reason": "Трейдер, США Калифорния, нетехническая"}
+{"id": "jooble:-3045404157425214830", "triage": "drop", "reason": "США, Tableau/Python для США"}
+{"id": "jooble:-8747066214613388237", "triage": "drop", "reason": "Data entry, нетехническая, США"}
+{"id": "jooble:-4492898281132437441", "triage": "drop", "reason": "Junior AI Engineer, based in US"}
+{"id": "jooble:-3113940415729531192", "triage": "drop", "reason": "Диспетчер, США trucking, нетехническая"}
+{"id": "jooble:-3609265686098759989", "triage": "drop", "reason": "Remote для США (NY) contract"}
+{"id": "jooble:7337371532709463622", "triage": "drop", "reason": "США, Gastonia NC"}
+{"id": "jooble:6436428020412276021", "triage": "drop", "reason": "Юрист, NYC, 3-5 лет"}
+{"id": "jooble:-7302894042033221932", "triage": "drop", "reason": "Data entry, нетехническая, США"}
+{"id": "jooble:-2778038950037740135", "triage": "drop", "reason": "Recruiter, нетехническая, США"}
+{"id": "jooble:-4337883214762895676", "triage": "drop", "reason": "Remote в США (Milwaukee)"}
+{"id": "jooble:-113085676535615002", "triage": "drop", "reason": "Plano TX, США"}
+{"id": "jooble:-1402685836448695763", "triage": "drop", "reason": "Remote только для США, нужен Secret clearance"}
+{"id": "jooble:-1993314927475055046", "triage": "drop", "reason": "США, Dallas"}
+{"id": "jooble:2733479447554512667", "triage": "drop", "reason": "Нетехническая sales-роль, США remote"}
+{"id": "jooble:5629147389726474707", "triage": "keep", "reason": "Summer intern Imaging AI/ML, remote или Zug CH; страна remote не ограничена явно, сомнение"}
+{"id": "jooble:-6472412966622127323", "triage": "drop", "reason": "Palo Alto CA, США"}
+{"id": "jooble:1412530082784286224", "triage": "drop", "reason": "Remote только в Канаде/США"}
+{"id": "jooble:2644349532049001769", "triage": "drop", "reason": "Remote только в Канаде/США"}
+{"id": "jooble:-6544942813994111481", "triage": "drop", "reason": "Вакансия в США"}
+{"id": "jooble:6013748021960906072", "triage": "drop", "reason": "Требует US citizenship, США"}
+{"id": "jooble:-1171852763623284953", "triage": "drop", "reason": "США, Alpharetta GA"}
+{"id": "jooble:8372263963777757523", "triage": "drop", "reason": "США, NYC onsite"}
+{"id": "jooble:3987238420162772882", "triage": "drop", "reason": "США, DoD программа"}
+{"id": "jooble:1920666187326859093", "triage": "drop", "reason": "Remote только в Канаде/США"}
+{"id": "jooble:209230916473089001", "triage": "drop", "reason": "Remote только для США"}
+{"id": "jooble:-7082806849055601035", "triage": "drop", "reason": "Dallas TX, США"}
+{"id": "jooble:2143935092642215043", "triage": "drop", "reason": "Remote только в Канаде/США"}
+{"id": "jooble:997370426201520910", "triage": "drop", "reason": "San Francisco onsite, США"}
+{"id": "jooble:-3527913472814860551", "triage": "drop", "reason": "Defense-контракт, только США"}
+{"id": "jooble:340049118893092496", "triage": "drop", "reason": "Seattle, США"}
+{"id": "jooble:-3507414065079433809", "triage": "drop", "reason": "Palo Alto, США"}
+{"id": "jooble:2782613674483517137", "triage": "drop", "reason": "Cambridge MA, США"}
+{"id": "jooble:5943520732647317658", "triage": "drop", "reason": "McLean VA, США"}
+{"id": "jooble:4514185122531300171", "triage": "drop", "reason": "Chicago, США"}
+{"id": "jooble:-6531880343803044285", "triage": "drop", "reason": "США, Северная Каролина"}
+{"id": "jooble:-6022865175912485090", "triage": "drop", "reason": "Rockville MD, США"}
+{"id": "jooble:-132802217687896591", "triage": "drop", "reason": "McLean VA, США, гражданство"}
+{"id": "jooble:-2579055177787387303", "triage": "drop", "reason": "Huntsville AL, США"}
+{"id": "jooble:-3624600817067433022", "triage": "drop", "reason": "Rome NY, США"}
+{"id": "jooble:-2127558194040591412", "triage": "drop", "reason": "El Segundo CA, США"}
+{"id": "jooble:4389678746111753175", "triage": "drop", "reason": "San Jose CA, США"}
+{"id": "jooble:1641473228513966300", "triage": "drop", "reason": "Remote только в США"}
+{"id": "jooble:-418963789503034657", "triage": "drop", "reason": "Golden CO, США"}
+{"id": "jooble:6001637647059859528", "triage": "drop", "reason": "Golden CO, США remote"}
+{"id": "jooble:-1096333066664611621", "triage": "drop", "reason": "Remote только внутри США"}
+{"id": "jooble:4473426451753493569", "triage": "drop", "reason": "Remote только внутри США"}
+{"id": "jooble:1168139331037496110", "triage": "drop", "reason": "Remote только в США"}
+{"id": "jooble:4059177879090320985", "triage": "drop", "reason": "Только США (Mid-West/East Coast)"}
+{"id": "jooble:-5208922731021535664", "triage": "drop", "reason": "Только США"}
+{"id": "jooble:-5890811101980916912", "triage": "drop", "reason": "Pomona CA, США"}
+{"id": "jooble:6291528406143536442", "triage": "drop", "reason": "Orlando FL, США"}
+{"id": "jooble:-2267686598463620354", "triage": "drop", "reason": "США, нетехническая ценообразование"}
+{"id": "jooble:3259812308060387086", "triage": "drop", "reason": "Chicago, США"}
+{"id": "jooble:-244116494801771942", "triage": "drop", "reason": "San Francisco, США, без remote"}
+{"id": "jooble:5120785432129462323", "triage": "drop", "reason": "Columbus OH, США"}
+{"id": "jooble:-4097662454352611378", "triage": "drop", "reason": "Lexington MA, США"}
+{"id": "jooble:-7531761711202832369", "triage": "drop", "reason": "Dallas/US remote, 8 лет опыта"}
+{"id": "jooble:1968682523340676528", "triage": "drop", "reason": "Ripley TN, США"}
+{"id": "jooble:-8355639627781141908", "triage": "drop", "reason": "США, офис 3 дня в неделю"}
+{"id": "jooble:5502102782022969170", "triage": "drop", "reason": "New York, США"}
+{"id": "jooble:4665466940351792975", "triage": "drop", "reason": "США, Finance & Accounting"}
+{"id": "jooble:-8379170380772232931", "triage": "drop", "reason": "Remote только для США, California"}
+{"id": "jooble:1907554405553186412", "triage": "drop", "reason": "Remote только для США, 100k+ ожидания"}
+{"id": "jooble:6710083156778598735", "triage": "drop", "reason": "США, Illinois, site-based"}
+{"id": "jooble:4813535752490582387", "triage": "drop", "reason": "Только US citizens, Arizona"}
+{"id": "jooble:1929019256425512438", "triage": "drop", "reason": "Utah, США"}
+{"id": "jooble:-2755586995677800353", "triage": "drop", "reason": "Vermont, США, Sales & Marketing"}
+{"id": "jooble:6687509096788677697", "triage": "drop", "reason": "Cupertino CA, США, senior-уровень"}
+{"id": "jooble:-4976374795661730443", "triage": "drop", "reason": "Вашингтон, US citizenship required"}
+{"id": "jooble:-2833336201999468853", "triage": "drop", "reason": "США, Founding engineer, remote-friendly US-only"}
+{"id": "jooble:4100075826031831755", "triage": "drop", "reason": "США, консалтинг McLean VA"}
+{"id": "jooble:8935071246415984515", "triage": "drop", "reason": "Phoenix AZ, США, контракт"}
+{"id": "jooble:5837291210074844346", "triage": "drop", "reason": "Remote США, 7-9 лет опыта"}
+{"id": "jooble:-2943035482665419776", "triage": "drop", "reason": "Seattle, США"}
+{"id": "jooble:-1332154888987405648", "triage": "drop", "reason": "Washington DC, федеральная среда, США"}
+{"id": "jooble:1377537666542772196", "triage": "drop", "reason": "Evansville IN, США"}
+{"id": "jooble:964963425059224037", "triage": "drop", "reason": "Seattle onsite, США"}
+{"id": "jooble:-5551708622576298607", "triage": "drop", "reason": "Tucson AZ, США"}
+{"id": "jooble:2395640740749553697", "triage": "drop", "reason": "Senior IV, remote только East Coast США"}
+{"id": "jooble:5582854663355697688", "triage": "drop", "reason": "Офис в Касабланке, Марокко, французский"}
+{"id": "jooble:-1179556833342201779", "triage": "drop", "reason": "San Francisco, США"}
+{"id": "jooble:4915950747931555473", "triage": "drop", "reason": "Chicago, США"}
+{"id": "jooble:3192166669400387098", "triage": "drop", "reason": "Panama City FL, США"}
+{"id": "jooble:7269795533986048227", "triage": "drop", "reason": "США, 2+ лет, classified-проект"}
+{"id": "jooble:-8992011001149885377", "triage": "drop", "reason": "Нетехническая sales, только US"}
+{"id": "jooble:-3955225132746705382", "triage": "drop", "reason": "Data entry, нетехническая, US remote"}
+{"id": "jooble:6076525570864134356", "triage": "drop", "reason": "Private equity, Connecticut, нетехническая"}
+{"id": "jooble:-961674148471162567", "triage": "drop", "reason": "Юрист, США"}
+{"id": "jooble:774321352473784345", "triage": "drop", "reason": "Chicago, США, нетехническая"}
+{"id": "jooble:-6095617262752453398", "triage": "drop", "reason": "Graphic designer, нетехническая, США"}
+{"id": "jooble:-8562602946454952422", "triage": "drop", "reason": "Юрист, Калифорния"}
+{"id": "jooble:1483930668023031795", "triage": "drop", "reason": "Marketing writer, нетехническая, US"}
+{"id": "jooble:5786658075126383462", "triage": "drop", "reason": "Amazon PPC, нетехническая, Украина"}
+{"id": "jooble:-3660097686630015227", "triage": "drop", "reason": "Юрист, US remote"}
+{"id": "jooble:7740832649515108016", "triage": "drop", "reason": "Paralegal, нетехническая, США"}
+{"id": "jooble:1757805654092182576", "triage": "drop", "reason": "Remote только из Испании, испанский"}
+{"id": "jooble:-1748431771194352515", "triage": "drop", "reason": "Юрист, США"}
+{"id": "jooble:-2715400934859367789", "triage": "drop", "reason": "Marketing coordinator, нетехническая, США"}
+{"id": "jooble:-9054985030277134738", "triage": "drop", "reason": "Texas, США, геотермальные инструменты"}
+{"id": "jooble:-8441088727857639854", "triage": "keep", "reason": "Junior FDE data/automation, remote, страна не указана явно (SF), сомнение"}
+{"id": "jooble:-223542125057441481", "triage": "drop", "reason": "Юрист, Калифорния, нетехническая"}
+{"id": "jooble:4393547138757933069", "triage": "drop", "reason": "SEO iGaming, нетехническая, маркетинг"}
+{"id": "jooble:1958245325371034027", "triage": "drop", "reason": "Recruiter, нетехническая, США"}
+{"id": "jooble:-2819504747645962737", "triage": "drop", "reason": "Германия, немецкий язык, нетехническая продажи"}
+{"id": "jooble:-2693805954830505369", "triage": "drop", "reason": "Юрист, Чикаго, нетехническая"}
+{"id": "jooble:2959281152931271480", "triage": "drop", "reason": "Texas, США, CAD"}
+{"id": "jooble:439966649527343182", "triage": "keep", "reason": "CAD/rendering remote, приоритет ЮАР/LatAm, явного исключения нет, сомнение"}
+{"id": "jooble:5720797585190187903", "triage": "drop", "reason": "Houston TX, США"}
+{"id": "jooble:728214130730153339", "triage": "drop", "reason": "Kansas/Birmingham, США"}
+{"id": "jooble:-6691832713070448088", "triage": "drop", "reason": "Philadelphia, США, гражданство/clearance вероятно"}
+{"id": "jooble:6379239861838525854", "triage": "drop", "reason": "Rochester NY / Bedford NH, США"}
+{"id": "jooble:-3419902467094342768", "triage": "drop", "reason": "Tampa FL, США"}
+{"id": "jooble:6908587879116601388", "triage": "drop", "reason": "Remote только в США (West Virginia), контракт"}
+{"id": "jooble:4783995839133480715", "triage": "drop", "reason": "США, Денвер NC"}
+{"id": "jooble:-2639423437773392210", "triage": "keep", "reason": "Revit/CAD designer, remote-first, ограничения не ясны, сомнение"}
+{"id": "jooble:2212085607013478299", "triage": "drop", "reason": "New York, США"}
+{"id": "jooble:1364521118568370565", "triage": "drop", "reason": "Birmingham AL, США"}
+{"id": "jooble:-4391288925359345729", "triage": "drop", "reason": "Qualcomm, США, Калифорния, senior"}
+{"id": "jooble:2402693719917562493", "triage": "drop", "reason": "Только для США, remote"}
+{"id": "jooble:-23168165591612687", "triage": "drop", "reason": "Location US, CAD/GIS технический"}
+{"id": "jooble:-6707634693416440562", "triage": "drop", "reason": "Alba MI, США, не remote"}
+{"id": "jooble:2266673719609259571", "triage": "drop", "reason": "Remote только в США (Las Vegas)"}
+{"id": "jooble:-1780652263102482787", "triage": "drop", "reason": "Denver CO, США"}
+{"id": "jooble:-7939815923698816442", "triage": "drop", "reason": "США, TS/SCI clearance"}
+{"id": "jooble:-281507351592781087", "triage": "drop", "reason": "Houston TX, США"}
+{"id": "jooble:4569193591661554798", "triage": "drop", "reason": "Palo Alto, США"}
+{"id": "jooble:4351643531910182759", "triage": "drop", "reason": "Danbury CT, США"}
+{"id": "jooble:8651404414573318156", "triage": "drop", "reason": "Clifton TX, США"}
+{"id": "linkedin:4482065414", "triage": "keep", "reason": "Junior DevOps Azure/AKS/Docker, Wrocław hybrid 2 dni, B2B"}
+{"id": "linkedin:4283861551", "triage": "drop", "reason": "Technik farmaceutyczny, нетехническая фармация, Strzelce Opolskie далеко"}
+{"id": "linkedin:4482459313", "triage": "keep", "reason": "Tulip/MES/PLC integration analyst, Dzierżoniów ~70 км, Mid-Senior без явных лет, сомнение"}
+{"id": "linkedin:4482121723", "triage": "drop", "reason": "Senior Developer Platform Engineer, senior-уровень"}
+{"id": "linkedin:4468210874", "triage": "drop", "reason": "Требует 5+ лет embedded, senior"}
+{"id": "linkedin:4481768580", "triage": "drop", "reason": "Требует 3+ лет опыта utrzymania ruchu, 3 смены, Siechnice"}
+{"id": "linkedin:4480019017", "triage": "keep", "reason": "Automatyk PLC Siemens S7/PROFINET, Wrocław on-site в пределах формата"}
+{"id": "linkedin:4481784212", "triage": "keep", "reason": "SCADA/PLC программист Associate, Wrocław, без жёсткого требования лет"}
+{"id": "linkedin:4481367562", "triage": "keep", "reason": "Embedded/IoT intern, Wrocław on-site, студенты/выпускники"}
+{"id": "linkedin:4482491750", "triage": "keep", "reason": "EE architecture engineer (Altium), Wrocław/Opole hybrid до 80%, Associate"}
+{"id": "linkedin:4482064845", "triage": "keep", "reason": "C++/Linux software engineer, Wrocław hybrid, без явных лет"}
+{"id": "linkedin:4483136978", "triage": "drop", "reason": "Nysa (далеко от Вроцлава), документация/приёмка, Mid-Senior"}
+{"id": "linkedin:4483149133", "triage": "drop", "reason": "Nysa (далеко от Вроцлава), Mid-Senior, инженер монтажа"}
+{"id": "linkedin:4455848619", "triage": "drop", "reason": "Требует 5+ лет manual testing, mid/senior"}
+{"id": "linkedin:4480666468", "triage": "drop", "reason": "Требует 6+ лет тестирования, senior"}
+{"id": "linkedin:4482049574", "triage": "keep", "reason": "Electronics R&D engineer, Żarów ~45 км от Вроцлава, Associate"}
+{"id": "linkedin:4462444053", "triage": "drop", "reason": "Poznań (далеко), 2+ лет и командировки, control & instrumentation"}
+{"id": "linkedin:4481213404", "triage": "drop", "reason": "Требует 3+ лет опыта, нетехническая логистика"}
+{"id": "linkedin:4482078360", "triage": "drop", "reason": "Skarbimierz on-site далеко, Mid-Senior, FMCG"}
+{"id": "linkedin:4482458428", "triage": "drop", "reason": "Требует 3-8 лет опыта, mid/senior, постоянные командировки"}
+{"id": "linkedin:4482109113", "triage": "keep", "reason": "Стаж в QA компонентов Bosch Mirków рядом с Вроцлавом, студенты"}
+{"id": "linkedin:4482087278", "triage": "keep", "reason": "Дубликат стажа Bosch Automotive Wrocław, Wrocław on-site, студенты"}
+{"id": "linkedin:4482473602", "triage": "keep", "reason": "Junior Data Scientist, Ten Square Games Wrocław hybrid, Python/SQL"}
+{"id": "linkedin:4483313441", "triage": "drop", "reason": "Требует 8-10 лет опыта, mid-senior"}
+{"id": "linkedin:4469914327", "triage": "drop", "reason": "Требует 3+ лет, Opole далеко, kernel C"}
+{"id": "linkedin:4482707664", "triage": "drop", "reason": "Логистический инвойсинг, нетехническая роль"}
+{"id": "linkedin:4479417836", "triage": "keep", "reason": "Junior DevOps Azure/AKS/Docker, Wrocław hybrid"}
+{"id": "linkedin:4482060382", "triage": "drop", "reason": "Требует 5+ лет, product engineer, mid/senior"}
+{"id": "linkedin:4481383135", "triage": "drop", "reason": "Требует 5+ лет, senior, Warszawa/Wrocław"}
+{"id": "linkedin:4482830611", "triage": "drop", "reason": "ESG/sustainability, нетехническая роль"}
+{"id": "linkedin:4480667503", "triage": "keep", "reason": "Mechatronik maintenance, Jelcz-Laskowice ~25 км от Вроцлава"}
+{"id": "linkedin:4480062449", "triage": "drop", "reason": "Audit/KPMG, нетехническая роль"}
+{"id": "linkedin:4482037742", "triage": "keep", "reason": "Электрик/механик обслуживания, Świdnica ~45 км от Вроцлава, технические"}
+{"id": "linkedin:4481690033", "triage": "drop", "reason": "Вне формата: Jarocin (Wielkopolska) on-site, далеко"}
+{"id": "linkedin:4478975952", "triage": "drop", "reason": "Kościan (Wielkopolska) далеко, on-site"}
+{"id": "linkedin:4480029779", "triage": "keep", "reason": "Design engineer SolidWorks, Września, частично remote 1 день, hybrid Польша"}
