@@ -10,12 +10,16 @@ RELEVANT = re.compile(r"(automat|robot|plc|mechani|mechatron|konstrukt|design en
                       r"engineer|inżynier|technik)", re.I)
 
 def norm(s): return re.sub(r"[^a-z0-9ąćęłńóśźż ]", " ", (s or "").lower())
-EXCL = [(norm(e["company"]).strip(), set(norm(e["role"]).split())) for e in json.load(open(ROOT / "data" / "exclusions.json"))]
+# Generic title words say nothing about which role it is; only the rest are compared.
+STOP = set("""płatny platny staż staz stażysta intern internship w we z i na do dla dziale dział the of and in for at to a
+junior młodszy mlodszy senior mid specjalista specialist k m f x n d kmx engineer inżynier inzynier""".split())
+def words(s): return {w for w in norm(s).split() if w not in STOP}
+EXCL = [(norm(e["company"]).strip(), words(e["role"])) for e in json.load(open(ROOT / "data" / "exclusions.json"))]
 def applied(r):
     """Same company and a clearly overlapping role title -> already applied."""
-    c, t = norm(r["company"]), set(norm(r["title"]).split())
+    c, t = norm(r["company"]), words(r["title"])
     for ec, er in EXCL:
-        if ec and (ec in c or (c.strip() and c.strip() in ec)) and len(t & er) >= max(1, len(er) // 2): return True
+        if ec and er and (ec in c or (len(c.strip()) >= 4 and c.strip() in ec)) and len(t & er) >= max(1, (len(er) + 1) // 2): return True
     return False
 
 seen, keys, out, skipped = set(), set(), [], 0

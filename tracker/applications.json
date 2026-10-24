@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-23",
+ "checked": "2026-10-24",
  "mailbox": "r3dflzp.ns@gmail.com",
  "applications": [
   {
@@ -181,6 +181,35 @@
    "status": "confirmed",
    "updated": "2026-10-14",
    "note": "Компания в письме не названа"
+  },
+  {
+   "company": "Bosch",
+   "role": "Płatny Staż w Dziale R&D (Konstrukcja) - Mirków",
+   "applied": "2026-10-23",
+   "channel": "SmartRecruiters",
+   "status": "confirmed",
+   "updated": "2026-10-23",
+   "note": "Подтверждение Bosch; отмечено кнопкой «Подался»",
+   "url": "https://pl.linkedin.com/jobs/view/4458745750"
+  },
+  {
+   "company": "Bosch",
+   "role": "Płatny Staż w Dziale R&D - Mirków",
+   "applied": "2026-10-23",
+   "channel": "SmartRecruiters",
+   "status": "confirmed",
+   "updated": "2026-10-23",
+   "note": "Подтверждение Bosch; отмечено кнопкой «Подался»",
+   "url": "https://pl.linkedin.com/jobs/view/p%C5%82atny-sta%C5%BC-w-dziale-r-d-k-m-at-bosch-4480964923?position=53&pageNum=0&refId=Nz4oAvjDCeQWW2qR5ikaLw%3D%3D&trackingId=ssg48jWIO5eFy4wwhcR8JA%3D%3D"
+  },
+  {
+   "company": "? (praca.pl, внешняя форма)",
+   "role": "Programista/programistka",
+   "applied": "2026-10-22",
+   "channel": "praca.pl",
+   "status": "on_hold",
+   "updated": "2026-10-22",
+   "note": "НЕ ОТПРАВЛЕНО: praca.pl ждёт подтверждения по ссылке в письме"
   }
  ],
  "no_email_trace": [
