@@ -1,0 +1,15 @@
+[
+ {"domain":"olx.pl/praca","queries":2,"results":0,"saved":0,"status":"no_results","note":"site: filter returned no olx.pl pages; hits came from other boards (pracuj.pl, praca.pl, justjoin.it, etc.) and are saved under their own domains"},
+ {"domain":"nabory.kprm.gov.pl","queries":2,"results":0,"saved":0,"status":"no_results","note":"no pages from this domain in results; job-board hits only"},
+ {"domain":"theprotocol.it","queries":2,"results":0,"saved":0,"status":"no_results","note":"no pages from this domain in results; job-board hits only"},
+ {"domain":"glassdoor.com","queries":2,"results":0,"saved":0,"status":"error","note":"query 1 returned no glassdoor pages; query 2 failed with too_many_requests; retry blocked by per-turn WebSearch budget"},
+ {"domain":"jobs.ch","queries":2,"results":0,"saved":0,"status":"error","note":"both queries failed with too_many_requests; retry blocked by per-turn WebSearch budget"},
+ {"domain":"jobs.eu-startups.com","queries":2,"results":0,"saved":0,"status":"error","note":"both queries failed with too_many_requests; retry blocked by per-turn WebSearch budget"},
+ {"domain":"academicpositions.com","queries":2,"results":0,"saved":0,"status":"error","note":"query 1 returned no academicpositions pages (PWR biurokarier category pages only, not saved as vacancies); query 2 failed with too_many_requests; retry blocked"},
+ {"domain":"workingnomads.com","queries":2,"results":1,"saved":0,"status":"error","note":"both queries failed with too_many_requests, retry blocked; one expired Working Nomads listing (Appsilon) surfaced via another query and was saved as drop"},
+ {"domain":"pangian.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"no pangian.com pages in results"},
+ {"domain":"monster.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"no monster.com pages in results; job-board hits saved under their own domains"},
+ {"domain":"upwork.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"no upwork job postings; only a freelancer profile page, not saved"},
+ {"domain":"outlier.ai","queries":1,"results":0,"saved":0,"status":"no_results","note":"no outlier.ai pages; only one query run before the search budget ran out; third-party Outlier listings (Built In) saved under builtin domains"},
+ {"domain":"jobs.smartrecruiters.com","queries":2,"results":0,"saved":0,"status":"no_results","note":"no smartrecruiters pages in results; job-board hits only"}
+]

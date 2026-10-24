@@ -1,0 +1,15 @@
+[
+{"domain":"pl.jooble.org","queries":2,"results":10,"saved":2,"status":"error","note":"Zapytanie 1: site: nie zadziałał, wyniki z innych portali (pracuj, praca.pl). Zapytanie 2: too_many_requests. Zapisane wpisy pochodzą z wyników zapytania dla tego domeny."},
+{"domain":"studentjob.pl","queries":2,"results":8,"saved":1,"status":"error","note":"Zapytanie 1: brak wyników z domeny. Zapytanie 2: too_many_requests."},
+{"domain":"4programmers.net/Praca","queries":2,"results":9,"saved":0,"status":"error","note":"Zapytanie 1: too_many_requests. Zapytanie 2: brak wyników z domeny, tylko pracuj/praca.pl/Indeed."},
+{"domain":"berlinstartupjobs.com","queries":2,"results":18,"saved":0,"status":"no_results","note":"Brak wyników z domeny w obu zapytaniach (site: ignorowany). Wyniki z Berlina poza zakresem."},
+{"domain":"landing.jobs","queries":2,"results":10,"saved":1,"status":"error","note":"Zapytanie 1: brak wyników z domeny. Zapytanie 2: too_many_requests."},
+{"domain":"cwjobs.co.uk","queries":2,"results":9,"saved":4,"status":"error","note":"Zapytanie 1: too_many_requests. Zapytanie 2: brak wyników z domeny (justjoin, pracuj)."},
+{"domain":"weworkremotely.com","queries":2,"results":19,"saved":1,"status":"no_results","note":"Brak wyników z domeny w obu zapytaniach."},
+{"domain":"dynamitejobs.com","queries":2,"results":0,"saved":0,"status":"error","note":"Oba zapytania zwróciły too_many_requests. Limit wyszukiwania na turę został wyczerpany."},
+{"domain":"hnhiring.com","queries":2,"results":9,"saved":1,"status":"error","note":"Zapytanie 1: brak wyników z domeny. Zapytanie 2: too_many_requests."},
+{"domain":"turing.com","queries":2,"results":9,"saved":0,"status":"error","note":"Zapytanie 1: wyniki agregatorów, bez ofert junior w Polsce (ogłoszenia senior/3+ lata). Zapytanie 2: too_many_requests."},
+{"domain":"cadcrowd.com","queries":2,"results":19,"saved":0,"status":"no_results","note":"Zapytanie 1: tylko profile freelancerów i strony kategorii, bez ofert junior/staż. Zapytanie 2: brak wyników z domeny."},
+{"domain":"jobs.lever.co","queries":2,"results":10,"saved":7,"status":"ok","note":"Zapytanie 1: too_many_requests. Zapytanie 2: 3 wyniki Lever (Jobgether), reszta z justjoin/pracuj/infopraca. Zapisane 7, z nich 1 drop (senior) i 1 drop (wygasłe)."},
+{"domain":"traffit.com","queries":2,"results":18,"saved":6,"status":"ok","note":"Site: ignorowany w obu zapytaniach, wyniki z innych portali (talentdays, pracuj, justjoin, praca.pl). Zapisane 6 ofert z Wrocławia i Polski."}
+]

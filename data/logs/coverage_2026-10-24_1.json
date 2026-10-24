@@ -1,0 +1,114 @@
+[
+ {
+  "domain": "praca.pl",
+  "queries": 2,
+  "results": 18,
+  "saved": 5,
+  "status": "ok",
+  "note": "site: оператор не сработал, выдача в основном агрегаторы; найдены 2 страницы praca.pl; записи с этого запроса: 5 (3 keep)"
+ },
+ {
+  "domain": "oferty.praca.gov.pl",
+  "queries": 2,
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц gov-сайта в выдаче нет"
+ },
+ {
+  "domain": "nofluffjobs.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 3,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц nofluffjobs нет; записи найдены через агрегаторы"
+ },
+ {
+  "domain": "oferia.pl",
+  "queries": 2,
+  "results": 18,
+  "saved": 0,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц oferia.pl нет"
+ },
+ {
+  "domain": "swissdevjobs.ch",
+  "queries": 2,
+  "results": 10,
+  "saved": 0,
+  "status": "error",
+  "note": "второй запрос упал: too_many_requests; в первом только швейцарские вакансии"
+ },
+ {
+  "domain": "euremotejobs.com",
+  "queries": 2,
+  "results": 0,
+  "saved": 0,
+  "status": "error",
+  "note": "оба запроса упали: too_many_requests"
+ },
+ {
+  "domain": "euraxess.ec.europa.eu",
+  "queries": 2,
+  "results": 9,
+  "saved": 2,
+  "status": "error",
+  "note": "второй запрос упал: too_many_requests; страниц EURAXESS нет"
+ },
+ {
+  "domain": "wellfound.com",
+  "queries": 2,
+  "results": 9,
+  "saved": 3,
+  "status": "error",
+  "note": "первый запрос упал: too_many_requests; страниц wellfound нет"
+ },
+ {
+  "domain": "4dayweek.io",
+  "queries": 2,
+  "results": 0,
+  "saved": 0,
+  "status": "error",
+  "note": "оба запроса упали: too_many_requests"
+ },
+ {
+  "domain": "dice.com",
+  "queries": 2,
+  "results": 9,
+  "saved": 0,
+  "status": "error",
+  "note": "второй запрос упал: too_many_requests; результаты dice.com не найдены, US-вакансии"
+ },
+ {
+  "domain": "contra.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 5,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц contra.com нет; записи через агрегаторы"
+ },
+ {
+  "domain": "alignerr.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 5,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц alignerr.com нет; записи через агрегаторы"
+ },
+ {
+  "domain": "apply.workable.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 3,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц workable нет"
+ },
+ {
+  "domain": "myworkdayjobs.com",
+  "queries": 2,
+  "results": 18,
+  "saved": 4,
+  "status": "no_results",
+  "note": "site: оператор поиска не сработал, выдача в основном агрегаторы; страниц workday нет"
+ }
+]
