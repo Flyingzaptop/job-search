@@ -1,0 +1,100 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Inteca_SoftwareAutomation_PL.pdf",
+ "lang": "pl",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Software & Automation Engineer | Python, automatyzacja, AI, administracja IT",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu. Samodzielnie buduję aplikacje i automatyzacje: LabFlow (Django, DRF, React, PostgreSQL), JobHunter (n8n, Playwright, lokalny LLM z walidacją schematów JSON, przegląd przez człowieka) oraz badania ML w Pythonie. Chcę rozwijać się w praktyce w zespole doświadczonych inżynierów, w programowaniu, AI i automatyzacji.",
+ "projects": [
+  {
+   "name": "JobHunter",
+   "sub": "automatyzacja i workflow z modelem językowym",
+   "stack": "Node.js, n8n, PostgreSQL, Playwright, React, Ollama, Docker Compose, GitHub Actions",
+   "link": "github.com/Flyingzaptop/jobhunter-n8n",
+   "bullets": [
+    "Workflow n8n zbierają dane z zewnętrznych źródeł, wyciągają strukturę lokalnym LLM (Ollama) z walidacją schematów JSON i kierują wyniki do przeglądu przez człowieka. Stan w PostgreSQL, usługa przeglądarkowa na Playwright.",
+    "CI na GitHub Actions (frontend, backend, testy regresji Chromium). Status częściowy, bez automatycznej wysyłki."
+   ]
+  },
+  {
+   "name": "LabFlow",
+   "sub": "aplikacja webowa Django i DRF",
+   "stack": "Python, Django 5, Django REST Framework, React 19, TypeScript, PostgreSQL",
+   "link": "github.com/Flyingzaptop/LabFlow",
+   "bullets": [
+    "Backend w Django i DRF z dokumentacją OpenAPI, role i uprawnienia, dziennik audytu; frontend React i TypeScript; testy backendu i Vitest.",
+    "Wdrożenie na Windows i Ubuntu (Gunicorn, Caddy, systemd) z instrukcjami kopii zapasowej i odtwarzania; opcjonalny lokalny czat LLM (Ollama)."
+   ]
+  },
+  {
+   "name": "Financial time-series ML",
+   "sub": "dwa lata samodzielnych badań",
+   "stack": "Python, PyTorch, Polars, PyArrow, Rust (PyO3)",
+   "bullets": [
+    "Potoki danych, projekt cech i etykiet, walidacja walk-forward i kontrola przyczynowości dla danych zdarzeniowych. Wniosek: NO_TRADE, czyli użyteczne narzędzia ewaluacji, a nie dochodowa strategia."
+   ],
+   "link": "github.com/Flyingzaptop/gc-mbo-research"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Młodszy Administrator IT",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – obecnie",
+   "bullets": [
+    "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje, konfiguracja i przygotowanie stanowisk, połączenia LAN i switche.",
+    "Odtwarzanie zgłaszanych błędów i testowanie scenariuszy aplikacji przed wdrożeniem zmian.",
+    "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Programowanie i AI",
+   "items": "Python (do OOP), TypeScript, JavaScript, Node.js, SQL, PostgreSQL, Django/DRF, React, Ollama, n8n, Playwright"
+  },
+  {
+   "label": "Narzędzia i systemy",
+   "items": "Git, GitHub Actions, Docker Compose, Linux (podstawy), Windows, Microsoft 365, sieci LAN, konfiguracja stanowisk"
+  }
+ ],
+ "education": [
+  {
+   "title": "Politechnika Wrocławska",
+   "dates": "10.2022 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku: Robotyka i Automatyzacja Procesów. Ukończonych 5 z 7 semestrów."
+  },
+  {
+   "title": "WSB Merito we Wrocławiu",
+   "dates": "03.2026 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku (niestacjonarne): Inżynieria sieci, systemów i bezpieczeństwa IT. II semestr."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Języki",
+   "text": "Polski i angielski zaawansowane; ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."
+  },
+  {
+   "label": "Dostępność",
+   "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."
+  }
+ ],
+ "must_contain": [
+  "JobHunter",
+  "Python"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}
