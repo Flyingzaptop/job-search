@@ -339,6 +339,15 @@
    "status": "confirmed",
    "updated": "2026-10-27",
    "note": "Страница подтверждения Traffit (thankyou/106); письмо проверить"
+  },
+  {
+   "company": "MasterBorn",
+   "role": "Intern Integration Consultant (part-time ~6h/day, remote)",
+   "applied": "2026-10-27",
+   "channel": "Lever (форма заполнена автоматически, отправил Denis сам)",
+   "status": "confirmed",
+   "updated": "2026-10-27",
+   "note": "Страница /thanks и письмо Lever 'Your application just landed at MasterBorn'. Польский указан C1"
   }
  ],
  "no_email_trace": [
