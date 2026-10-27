@@ -1,0 +1,105 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Vertex_DataEng_PL.pdf",
+ "lang": "pl",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Trainee Data Engineer | Python, SQL, potoki danych",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu. W Pythonie samodzielnie buduję potoki danych: kolektory strumieniowe zapisujące dane do Parquet z kompresją zstd, przetwarzanie w Polars i PyArrow oraz walidację na danych zdarzeniowych. Znam SQL i PostgreSQL, Dockera i GitHub Actions. Chmura, Spark i Kafka to obszary, w których dopiero się uczę.",
+ "projects": [
+  {
+   "name": "stargaze-l2-vwap",
+   "sub": "kolektory danych rynkowych",
+   "stack": "Python, asyncio, aiohttp, Parquet, zstd, pytest, GitHub Actions",
+   "link": "github.com/Flyingzaptop/stargaze-l2-vwap",
+   "bullets": [
+    "Asynchroniczne kolektory WebSocket z kilku giełd, obsługa kolejności zdarzeń, ponownych połączeń i znaczników czasu.",
+    "Zapis append-only do niezależnych ramek Parquet skompresowanych zstd, z sumami kontrolnymi i odtwarzaniem po awarii; testy pytest i CI."
+   ]
+  },
+  {
+   "name": "gc-mbo-research",
+   "sub": "dane zdarzeniowe i ML",
+   "stack": "Python, Rust (PyO3), Polars, PyArrow, Parquet, PyTorch",
+   "link": "github.com/Flyingzaptop/gc-mbo-research",
+   "bullets": [
+    "Odtwarzanie księgi zleceń z danych zdarzeniowych, cechy, etykiety, walidacja walk-forward i kontrola przyczynowości; formaty DBN i Parquet.",
+    "Dwadzieścia katalogów eksperymentów. Wniosek: NO_TRADE, czyli narzędzia ewaluacji, a nie dochodowa strategia."
+   ]
+  },
+  {
+   "name": "LabFlow i JobHunter",
+   "sub": "aplikacje na PostgreSQL",
+   "stack": "PostgreSQL, SQL, Django, Node.js, Docker Compose, GitHub Actions",
+   "link": "github.com/Flyingzaptop",
+   "bullets": [
+    "Migracje SQL, model danych z wersjonowaniem procedur i dziennikiem audytu (LabFlow); stan workflow w PostgreSQL i walidacja schematów (JobHunter).",
+    "Docker Compose, CI na GitHub Actions z testami backendu i frontendu."
+   ]
+  }
+ ],
+ "experience": [
+  {
+   "title": "Młodszy Administrator IT",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – obecnie",
+   "bullets": [
+    "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje, konfiguracja stanowisk, połączenia LAN i switche.",
+    "Odtwarzanie zgłaszanych błędów i testowanie scenariuszy aplikacji przed wdrożeniem zmian.",
+    "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Dane",
+   "items": "Python (do OOP), SQL, PostgreSQL, SQLite, Polars, PyArrow, Parquet, zstd, podstawy ETL"
+  },
+  {
+   "label": "Narzędzia",
+   "items": "Docker Compose, Git, GitHub Actions (CI), pytest, asyncio"
+  },
+  {
+   "label": "W trakcie nauki",
+   "items": "Spark/PySpark, Databricks, Airflow, chmura (Azure, podstawowa styczność), Kafka"
+  }
+ ],
+ "education": [
+  {
+   "title": "Politechnika Wrocławska",
+   "dates": "10.2022 – obecnie",
+   "text": "Robotyka i Automatyzacja Procesów (inżynierskie). Ukończonych pięć semestrów."
+  },
+  {
+   "title": "WSB Merito we Wrocławiu",
+   "dates": "03.2026 – obecnie",
+   "text": "Inżynieria sieci, systemów i bezpieczeństwa IT (niestacjonarne), II semestr."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Języki",
+   "text": "Polski i angielski zaawansowane; ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."
+  },
+  {
+   "label": "Dostępność",
+   "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."
+  }
+ ],
+ "must_contain": [
+  "Parquet",
+  "SQL"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

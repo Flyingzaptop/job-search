@@ -1,0 +1,1 @@
+Подано 27.10.2026 через Traffit (Vertex Recruitments, Trainee Data Engineer, UZ, remote). Подтверждение: страница 'pomyślnie przesłany' и письмо 'Podziękowanie za aplikację!'. CV: cv/out2/Denis_Gruszkiewicz_CV_Vertex_DataEng_PL.pdf. Ответы на вопросы формы хранятся вне публичной репы.
