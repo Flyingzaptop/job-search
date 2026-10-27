@@ -1,4 +1,4 @@
-# Подача заявок с участием человека (для сессии на компьютере Denis)
+﻿# Подача заявок с участием человека (для сессии на компьютере Denis)
 
 Цель: Denis сам проходит проверки на бота (Cloudflare, reCAPTCHA) в своём браузере, всё остальное делает Claude. Запускать в Claude Desktop или `claude remote-control` в этой папке, чтобы были инструменты браузера и Computer Use.
 
@@ -14,7 +14,6 @@
 ## Очередь (на 27.10.2026)
 | # | Вакансия | Форма | Что мешало автоматике | CV |
 |---|---|---|---|---|
-| 1 | Fabrity S.A., Junior Python Developer (UoP, remote) | https://form.erecruiter.pl/form/cf0689d8231342e4b83d979568bb03df | сервер даёт 403 на загрузку CV из облака; нужен уровень английского: C1; модель работы «Zdalny»; зарплата цифрой | cv/out2/Denis_Gruszkiewicz_CV_Fabrity_PL.pdf |
 | 2 | IRIS Galerie, Odoo support / Junior Python (UoP, 9–12k PLN, 90% remote, Skawina 10%) | страница justjoin: https://justjoin.it/job-offer/iris-galerie-distribution-sp-z-o-o--odoo-support-junior-python-developer-skawina-python, кнопка Apply | аккаунт justjoin и reCAPTCHA | cv/out2/Denis_Gruszkiewicz_CV_IRIS_Odoo_EN.pdf |
 | 3 | smartware, Junior Test Automation Engineer (UoP 5000–6500 PLN, remote/hybrid) | LinkedIn, «Aplikuj»: pl.linkedin.com/jobs/view/junior-test-automation-engineer-at-smartware-sp-z-o-o-4475005096 | нужен вход в LinkedIn, реальная форма скрыта | собрать под вакансию |
 | 4 | MasterBorn, Intern Integration Consultant (UZL 4300 PLN, ~6 ч/день, remote/hybrid) | LinkedIn: pl.linkedin.com/jobs/view/intern-integration-consultant-at-masterborn-4470211285 | то же | собрать под вакансию |
@@ -26,3 +25,4 @@
 
 ## Уже подано автоматически (27.10)
 Cloudfide (Junior Software AI Engineer), Vertex Recruitments (Trainee Data Engineer): подтверждения на почте.
+
