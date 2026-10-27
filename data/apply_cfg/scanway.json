@@ -1,0 +1,32 @@
+{
+ "url": "https://scanway.peopleforce.io/careers/v/240101-modszy-specjalista-ds-it-fm/a/new?source_id=54179",
+ "submit": "^Apply",
+ "success": "thank|dziękuj|received|submitted|wysłan",
+ "actions": [
+  {
+   "label": "full_name",
+   "value": "Denis Gruszkiewicz"
+  },
+  {
+   "label": "\\[email\\]",
+   "value": "r3dflzp.ns@gmail.com"
+  },
+  {
+   "label": "phone_numbers",
+   "value": "+48 511 592 887"
+  },
+  {
+   "label": "resume",
+   "kind": "file",
+   "value": "C:/Users/r3d_flzp/Desktop/job-search/cv/out2/Denis_Gruszkiewicz_CV_Scanway_IT_PL.pdf"
+  },
+  {
+   "label": "321990",
+   "value": "5000"
+  },
+  {
+   "label": "320228",
+   "value": "Od zaraz (okres wypowiedzenia 1 tydzień)"
+  }
+ ]
+}

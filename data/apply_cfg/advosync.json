@@ -1,0 +1,34 @@
+{
+ "url": "https://justjoin.it/job-offer/advosync-polska-sp-z-o-o--junior-software-engineer-wroclaw-javascript",
+ "submit": "^Apply$",
+ "success": "application has been sent|has been sent|submitted|thank",
+ "actions": [
+  {
+   "label": "First and last name|name",
+   "value": "Denis Gruszkiewicz"
+  },
+  {
+   "label": "^email| email",
+   "value": "r3dflzp.ns@gmail.com"
+  },
+  {
+   "label": "attachment",
+   "kind": "file",
+   "value": "C:/Users/r3d_flzp/Desktop/job-search/cv/out2/Denis_Gruszkiewicz_CV_ADVOSYNC_SoftwareEng_EN.pdf"
+  },
+  {
+   "label": ".*",
+   "kind": "checkall",
+   "value": ""
+  },
+  {
+   "label": "marketing_consent",
+   "kind": "check",
+   "value": "off"
+  },
+  {
+   "label": "message",
+   "value": "Hello, I am a student of Robotics and Process Automation (PWr) and IT systems (WSB Merito), and a Junior IT Administrator since June 2025. I build full-stack projects in TypeScript, React, Node.js and PostgreSQL on my own (github.com/Flyingzaptop). I would like to start as a junior in your team. Best regards, Denis Gruszkiewicz"
+  }
+ ]
+}

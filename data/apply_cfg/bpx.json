@@ -1,0 +1,55 @@
+{
+ "url": "https://bpxsa.traffit.com/public/form/a/0ecaa1dba518df8ff414de26da186471536f5446?source=justjoin.it",
+ "submit": "^Wyślij",
+ "success": "dziękuj|dziekuj|pomyślnie|wysłan|thank",
+ "actions": [
+  {
+   "label": "Imię",
+   "value": "Denis"
+  },
+  {
+   "label": "Nazwisko",
+   "value": "Gruszkiewicz"
+  },
+  {
+   "label": "5712",
+   "kind": "file",
+   "value": "C:/Users/r3d_flzp/Desktop/job-search/cv/out2/Denis_Gruszkiewicz_CV_BPX_IT_PL.pdf"
+  },
+  {
+   "label": "E-mail",
+   "value": "r3dflzp.ns@gmail.com"
+  },
+  {
+   "label": "Telefon",
+   "value": "+48 511 592 887"
+  },
+  {
+   "label": "powiedzieć",
+   "value": "Dzień dobry, jestem studentem Robotyki i Automatyzacji Procesów (PWr) oraz IT (WSB Merito) i od czerwca 2025 pracuję jako Młodszy Administrator IT w ZOZ w Bolesławcu: wsparcie użytkowników, Windows, Microsoft 365, konfiguracja stanowisk, sieć LAN. Chętnie będę się dalej rozwijać w Państwa zespole. Pozdrawiam, Denis Gruszkiewicz"
+  },
+  {
+   "label": "języki obce",
+   "value": "angielski",
+   "selectize": true
+  },
+  {
+   "label": "typ umowy",
+   "value": "UoP"
+  },
+  {
+   "label": "finansowe",
+   "value": "5000-6000 zł brutto"
+  },
+  {
+   "label": "provisions\\]\\[4\\]|provisions.4",
+   "kind": "check",
+   "value": ""
+  },
+  {
+   "label": "provisions\\]\\[3\\]|provisions.3",
+   "kind": "check",
+   "value": ""
+  }
+ ]
+}

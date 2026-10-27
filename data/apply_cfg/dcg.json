@@ -1,0 +1,43 @@
+{
+ "url": "https://dcg.pl/aplikuj,234,pl&offer=6878",
+ "submit": "^Aplikuj",
+ "success": "dziękuj|dziekuj|wysłan|zostało|thank",
+ "actions": [
+  {
+   "label": "name",
+   "value": "Denis"
+  },
+  {
+   "label": "surname",
+   "value": "Gruszkiewicz"
+  },
+  {
+   "label": "^.*email",
+   "value": "r3dflzp.ns@gmail.com"
+  },
+  {
+   "label": "phone",
+   "value": "511592887"
+  },
+  {
+   "label": "Wyrażam zgodę",
+   "kind": "check",
+   "value": ""
+  },
+  {
+   "label": "userfile",
+   "kind": "file",
+   "value": "C:/Users/r3d_flzp/Desktop/job-search/cv/out2/Denis_Gruszkiewicz_CV_DCG_FirstLine_PL.pdf"
+  },
+  {
+   "label": "availability",
+   "kind": "select",
+   "value": "Jestem gotowy/-a do podjęcia pracy od zaraz"
+  },
+  {
+   "label": "voivodeship",
+   "kind": "select",
+   "value": "Dolnośląskie"
+  }
+ ]
+}

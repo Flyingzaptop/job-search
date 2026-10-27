@@ -1,0 +1,103 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_ADVOSYNC_SoftwareEng_EN.pdf",
+ "lang": "en",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Software Engineer | TypeScript, React, Node.js, SQL/PostgreSQL, Git",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student of Robotics and Process Automation (PWr) and IT systems (WSB Merito), with over a year as a Junior IT Administrator in a hospital. I build full-stack web applications on my own: LabFlow has a React 19 and TypeScript frontend with a Django REST Framework backend and PostgreSQL; JobHunter uses Node.js, PostgreSQL and Playwright. I use Git in all my projects and write tests (Vitest, pytest).",
+ "projects": [
+  {
+   "name": "LabFlow",
+   "sub": "laboratory workflow application",
+   "stack": "Django 5, DRF, React 19, TypeScript, PostgreSQL, Ollama, faster-whisper",
+   "bullets": [
+    "Full-stack app with versioned procedures, samples, process stages, role-based permissions, audit log, sessions, CSRF protection and request throttling.",
+    "Optional local LLM chat (Ollama, streaming) and Polish speech-to-text; Windows and Ubuntu deployment (Gunicorn/Waitress, Caddy, systemd) with backup and restore guides. Public demo with fictional data; backend and Vitest tests."
+   ],
+   "link": "github.com/Flyingzaptop/LabFlow"
+  },
+  {
+   "name": "JobHunter",
+   "sub": "job-search automation platform",
+   "stack": "Node.js, n8n, PostgreSQL, Playwright, React, Ollama, Docker Compose, GitHub Actions",
+   "bullets": [
+    "Collects and analyses vacancies with n8n workflows, a PostgreSQL state store, schema-validated LLM extraction and browser automation, with human review. CI runs frontend, backend and Chromium regression tests; status partial, no unattended submissions."
+   ],
+   "link": "github.com/Flyingzaptop/jobhunter-n8n"
+  },
+  {
+   "name": "Financial time-series ML",
+   "sub": "two years of self-directed research",
+   "stack": "Python, PyTorch, Polars, PyArrow, Rust (PyO3)",
+   "bullets": [
+    "Data pipelines, feature and label design, walk-forward validation and causality checks for event-level market data. Concluded NO_TRADE: a reusable evaluation toolkit, not a profitable strategy."
+   ],
+   "link": "github.com/Flyingzaptop/gc-mbo-research"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Junior IT Administrator",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – present",
+   "bullets": [
+    "Day-to-day support for hospital staff: hardware, Windows, Microsoft 365 and application problems, workstation setup, LAN and switch connections.",
+    "Reproduce reported errors and test application scenarios before changes go live.",
+    "Part of the team that built an employee-management and scheduling system (shifts, duty swaps, leave); built and handed over."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Support",
+   "items": "Windows, Microsoft 365 (strong), joining PCs to a domain, LAN, DHCP and routing basics, Linux basics"
+  },
+  {
+   "label": "Development",
+   "items": "Python (up to OOP), Django/DRF, React, TypeScript, Node.js, SQL, PostgreSQL, SQLite, Git, GitHub Actions"
+  },
+  {
+   "label": "Automation and AI",
+   "items": "n8n, Playwright, local LLMs (Ollama), schema-validated LLM output, PyTorch basics"
+  }
+ ],
+ "education": [
+  {
+   "title": "Wrocław University of Science and Technology",
+   "dates": "10.2022 – present",
+   "text": "Higher education, engineering studies in progress: Robotics and Process Automation. Five of seven semesters completed."
+  },
+  {
+   "title": "WSB Merito University, Wrocław",
+   "dates": "03.2026 – present",
+   "text": "Higher education, engineering studies in progress (part-time): network, systems and IT security. Second semester."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Languages",
+   "text": "Polish and English advanced; Ukrainian and Russian native. Category B driving licence (3 years)."
+  },
+  {
+   "label": "Availability",
+   "text": "Start with 1 week notice. Flexible hours. From March 2027 onsite in Wrocław up to 1-2 days a week, remote the rest; part-time possible."
+  }
+ ],
+ "must_contain": [
+  "TypeScript",
+  "React"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

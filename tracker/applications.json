@@ -357,6 +357,33 @@
    "status": "confirmed",
    "updated": "2026-10-27",
    "note": "Страница 'Thank you for filling up the questionnaire'; CV Inteca_SoftwareAutomation_PL; UZ, 4000-6000 net, 1 неделя"
+  },
+  {
+   "company": "ADVOSYNC Polska",
+   "role": "Junior Software Engineer (Wrocław, hybrid, TypeScript/React/Node)",
+   "applied": "2026-10-27",
+   "channel": "justjoin (нативная форма, авто-подача)",
+   "status": "confirmed",
+   "updated": "2026-10-27",
+   "note": "Письмо justjoin 'You applied for Junior Software Engineer'; CV ADVOSYNC_SoftwareEng_EN; Opus одобрил после правок"
+  },
+  {
+   "company": "Scanway",
+   "role": "Młodszy specjalista ds. IT (Wrocław, офис, UoP/UZ)",
+   "applied": "2026-10-27",
+   "channel": "PeopleForce (форма на сайте Scanway, авто-подача)",
+   "status": "confirmed",
+   "updated": "2026-10-27",
+   "note": "Письмо 'Dziękujemy za aplikacje do Scanway'. Требуют Windows Server — в CV не заявлено; офис, риск отказа по графику"
+  },
+  {
+   "company": "DCG",
+   "role": "First Line Analyst with English (remote, UoP)",
+   "applied": "2026-10-27",
+   "channel": "dcg.pl форма (авто-подача, e-mail подтверждён по ссылке)",
+   "status": "confirmed",
+   "updated": "2026-10-27",
+   "note": "Письмо DCG, подтверждение адреса пройдено ('Weryfikacja prawidłowa'); CV DCG_FirstLine_PL"
   }
  ],
  "no_email_trace": [

@@ -1,0 +1,89 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_BPX_IT_PL.pdf",
+ "lang": "pl",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Młodszy Specjalista IT | Windows, Microsoft 365, sieci LAN, wsparcie użytkowników",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT, sieci i bezpieczeństwa (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu: wsparcie użytkowników, diagnozowanie problemów ze sprzętem, systemami i aplikacjami, konfiguracja stanowisk. Poza pracą buduję projekty w Pythonie i znam SQL. Szukam stabilnej roli w IT, w której będę się dalej rozwijać.",
+ "projects": [
+  {
+   "name": "LabFlow",
+   "sub": "aplikacja webowa z instrukcjami wdrożenia",
+   "stack": "Python, Django, DRF, React, PostgreSQL",
+   "link": "github.com/Flyingzaptop/LabFlow",
+   "bullets": [
+    "Wdrożenie na Windows i Ubuntu (Gunicorn, Caddy, systemd) z instrukcjami kopii zapasowej i odtwarzania; role i uprawnienia, dziennik audytu, testy."
+   ]
+  },
+  {
+   "name": "JobHunter",
+   "sub": "automatyzacja workflow",
+   "stack": "Node.js, n8n, PostgreSQL, SQL, Playwright, Docker Compose, GitHub Actions",
+   "bullets": [
+    "Migracje SQL, stan aplikacji w PostgreSQL, API i panel React; testy i CI na GitHub Actions (frontend, backend, Chromium). Projekt rozwijany lokalnie, status częściowy."
+   ],
+   "link": "github.com/Flyingzaptop/jobhunter-n8n"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Młodszy Administrator IT",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – obecnie",
+   "bullets": [
+    "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje, konfiguracja i przygotowanie stanowisk, dołączanie komputerów do domeny, połączenia LAN i switche.",
+    "Diagnozowanie problemów ze sprzętem, systemem i aplikacjami; odtwarzanie zgłaszanych błędów i testowanie scenariuszy przed wdrożeniem zmian.",
+    "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Wsparcie IT",
+   "items": "Windows, Microsoft 365, dołączanie komputerów do domeny, sieci LAN, DHCP i routing (podstawy), konfiguracja stanowisk, Linux (podstawy)"
+  },
+  {
+   "label": "Programowanie i narzędzia",
+   "items": "Python (do OOP), SQL, PostgreSQL, Django/DRF, TypeScript, Git, GitHub Actions, Docker Compose"
+  }
+ ],
+ "education": [
+  {
+   "title": "Politechnika Wrocławska",
+   "dates": "10.2022 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku: Robotyka i Automatyzacja Procesów. Ukończonych 5 z 7 semestrów."
+  },
+  {
+   "title": "WSB Merito we Wrocławiu",
+   "dates": "03.2026 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku (niestacjonarne): Inżynieria sieci, systemów i bezpieczeństwa IT. II semestr."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Języki",
+   "text": "Polski i angielski zaawansowane; ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."
+  },
+  {
+   "label": "Dostępność",
+   "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."
+  }
+ ],
+ "must_contain": [
+  "Windows",
+  "Microsoft 365"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}
