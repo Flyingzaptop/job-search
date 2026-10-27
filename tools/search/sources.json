@@ -345,7 +345,8 @@
   "name": "Remote OK",
   "domain": "remoteok.com",
   "group": "remote",
-  "method": "api"
+  "method": "api",
+  "note": "в fetch_apis.py (с 27.10)"
  },
  {
   "name": "We Work Remotely",
@@ -375,7 +376,8 @@
   "name": "Himalayas",
   "domain": "himalayas.app",
   "group": "remote",
-  "method": "api"
+  "method": "api",
+  "note": "в fetch_apis.py (с 27.10)"
  },
  {
   "name": "Jobspresso",
@@ -423,7 +425,8 @@
   "name": "Jobicy",
   "domain": "jobicy.com",
   "group": "remote",
-  "method": "api"
+  "method": "api",
+  "note": "в fetch_apis.py (с 27.10)"
  },
  {
   "name": "Pangian",
@@ -681,6 +684,36 @@
   "name": "Fantastic.jobs (ATS aggregate)",
   "domain": "data.fantastic.jobs",
   "group": "ats",
+  "method": "api"
+ },
+ {
+  "name": "justjoin.it API (junior/intern, вся Польша)",
+  "domain": "api.justjoin.it",
+  "group": "pl-general",
+  "method": "api"
+ },
+ {
+  "name": "SmartRecruiters (Bosch, ServiceNow: PL/DE/CZ)",
+  "domain": "api.smartrecruiters.com",
+  "group": "ats",
+  "method": "api"
+ },
+ {
+  "name": "Greenhouse boards (remote-first компании)",
+  "domain": "boards-api.greenhouse.io",
+  "group": "ats",
+  "method": "api"
+ },
+ {
+  "name": "Lever boards",
+  "domain": "api.lever.co",
+  "group": "ats",
+  "method": "api"
+ },
+ {
+  "name": "Remotive API",
+  "domain": "remotive.com/api",
+  "group": "remote",
   "method": "api"
  }
 ]

@@ -20,7 +20,7 @@
   и в `data/exclusions.json` (`company`, `role`, why `applied (button)`).
 
 ## 1. Сбор и triage (сабагенты: model `haiku`, effort `low`, до 8 параллельно)
-- API-источники запускаю сам: `python3 tools/fetch_apis.py jooble fantastic arbeitnow apify_linkedin2` (+ remoteok/himalayas/jobicy, если добавлены).
+- API-источники запускаю сам: `python3 tools/fetch_apis.py jooble fantastic arbeitnow apify_linkedin2 justjoin himalayas jobicy remoteok remotive smartrecruiters greenhouse_lever` (последние семь без ключей; justjoin, smartrecruiters и ATS-платы сразу дают полный текст объявления; список компаний ATS — `tools/search/ats_boards.json`). Ключи Jooble/Fantastic/Apify могут отсутствовать: тогда эти источники пропускаются, остальные идут дальше. Именно API-источники дают основной объём, WebSearch по `site:` часто отдаёт 0 результатов или `too_many_requests`.
   Бюджеты: Apify ≤ $1 за запуск; Fantastic ≤ 100 вакансий за запуск.
 - Остальные источники (`method: site|fetch`) делю на пачки по ~14 и отдаю Haiku-сабагентам (model `haiku`, effort `low`). Каждый:
   - для каждого источника делает 2–4 запроса WebSearch вида `site:<domain> (<keywords eng>) (Wrocław OR zdalnie OR remote)` и `site:<domain> (<keywords it>) ...`;

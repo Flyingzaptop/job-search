@@ -123,6 +123,118 @@ def apify_linkedin2():
     ]
     apify_linkedin(urls, out="linkedin2", cap="1.0")
 
+
+import re, html as _html
+from concurrent.futures import ThreadPoolExecutor
+ENTRY = re.compile(r"junior|\bjr\b|intern|trainee|stażyst|\bstaż|praktyk|entry|graduate|młodsz|working student|werkstudent|apprentice|associate|early career|new grad", re.I)
+UA = {"User-Agent": "Mozilla/5.0"}
+def _txt(s): return re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+def justjoin():
+    """justjoin.it open candidate API: all junior/intern offers in Poland (list + detail body for the text)."""
+    items, off = [], 0
+    while True:
+        d = http(f"https://justjoin.it/api/candidate-api/offers?experienceLevels=junior&experienceLevels=intern&from={off}", headers=UA)
+        items += d["data"]
+        nxt = (d.get("meta") or {}).get("next", {}).get("cursor")
+        if not nxt or not d["data"] or off > 2000: break
+        off = nxt
+    def row(j):
+        try: body = http(f"https://justjoin.it/api/candidate-api/offers/{j['slug']}", headers=UA).get("body", "")
+        except Exception: body = ""
+        sal = "; ".join(f"{e.get('type')} {e.get('from')}-{e.get('to')} {e.get('currency')}" for e in j.get("employmentTypes", []) if e.get("from"))
+        return {"source": "justjoin", "id": f"justjoin:{j['slug']}", "title": j["title"], "company": j["companyName"],
+                "location": ", ".join(sorted({l.get("city") or "" for l in j.get("locations", [])}) or [j.get("city") or ""]),
+                "type": f"{j.get('workplaceType')}, {j.get('workingTime')}", "salary": sal, "posted": (j.get("publishedAt") or "")[:10],
+                "url": f"https://justjoin.it/job-offer/{j['slug']}", "text": f"{j.get('workplaceType')} | {j.get('workingTime')} | {j.get('experienceLevel')} | " + _txt(body)[:3800]}
+    with ThreadPoolExecutor(8) as ex: rows = list(ex.map(row, items))
+    save("justjoin", rows)
+
+def himalayas():
+    rows, seen = [], set()
+    def get(a):
+        q, sen, page = a
+        try: return http(f"https://himalayas.app/jobs/api/search?q={urllib.parse.quote(q)}&seniority={sen}&sort=recent&page={page+1}", headers=UA)
+        except Exception: return {}
+    qs = [(q, sen, pg) for q in ["python", "automation", "machine learning", "QA", "support engineer", "data analyst", "mechanical", "robotics", "AI", "IT support", "intern"] for sen in ("Entry-level", "Intern") for pg in range(2)]
+    with ThreadPoolExecutor(6) as ex: results = list(ex.map(get, qs))
+    if True:
+        if True:
+            for d in results:
+                for j in d.get("jobs", []):
+                    k = j.get("guid") or j.get("applicationLink") or j["title"] + j["companyName"]
+                    if k in seen: continue
+                    seen.add(k)
+                    rows.append({"source": "himalayas", "id": f"himalayas:{k}", "title": j["title"], "company": j["companyName"],
+                                 "location": ", ".join(j.get("locationRestrictions") or ["Worldwide"]), "type": "remote", "salary": j.get("minSalary"),
+                                 "posted": time.strftime("%Y-%m-%d", time.gmtime(j["pubDate"])) if isinstance(j.get("pubDate"), (int, float)) else "",
+                                 "url": j.get("applicationLink") or j.get("guid"), "text": f"remote | {j.get('seniority')} | tz {j.get('timezoneRestrictions')} | " + _txt(j.get("description") or j.get("excerpt"))[:3800]})
+    save("himalayas", rows)
+
+def jobicy():
+    rows, seen = [], set()
+    for tag in ["python", "automation", "machine-learning", "support", "qa", "data", "engineering", "ai"]:
+        for geo in ("europe", "poland", "anywhere"):
+            try: d = http(f"https://jobicy.com/api/v2/remote-jobs?count=50&tag={tag}&geo={geo}", headers=UA)
+            except Exception: continue
+            for j in d.get("jobs", []):
+                if j["id"] in seen or not (ENTRY.search(j["jobTitle"]) or str(j.get("jobLevel", "")).lower() in ("junior", "entry", "any")): continue
+                seen.add(j["id"])
+                rows.append({"source": "jobicy", "id": f"jobicy:{j['id']}", "title": j["jobTitle"], "company": j["companyName"], "location": j.get("jobGeo"),
+                             "type": "remote", "posted": (j.get("pubDate") or "")[:10], "url": j["url"],
+                             "text": f"remote | {j.get('jobLevel')} | " + _txt(j.get("jobDescription") or j.get("jobExcerpt"))[:3800]})
+    save("jobicy", rows)
+
+def remoteok():
+    d = http("https://remoteok.com/api", headers=UA)[1:]
+    rows = [{"source": "remoteok", "id": f"remoteok:{j['id']}", "title": j["position"], "company": j["company"], "location": j.get("location") or "Worldwide",
+             "type": "remote", "salary": j.get("salary_min"), "posted": (j.get("date") or "")[:10], "url": j["url"],
+             "text": "remote | " + ",".join(j.get("tags") or []) + " | " + _txt(j.get("description"))[:3800]} for j in d if ENTRY.search(j.get("position", ""))]
+    save("remoteok", rows)
+
+def smartrecruiters(companies=("BoschGroup", "ServiceNow"), countries=("pl", "de", "cz")):
+    rows = []
+    for c in companies:
+        for cc in countries:
+            off = 0
+            while True:
+                d = http(f"https://api.smartrecruiters.com/v1/companies/{c}/postings?country={cc}&limit=100&offset={off}", headers=UA)
+                for j in d.get("content", []):
+                    loc = j.get("location", {})
+                    lvl = f"{j.get('experienceLevel', {}).get('id')} {j.get('typeOfEmployment', {}).get('id')}"
+                    if not (ENTRY.search(j["name"]) or re.search(r"entry|intern|trainee|student", lvl, re.I)): continue
+                    try: det = http(f"https://api.smartrecruiters.com/v1/companies/{c}/postings/{j['id']}", headers=UA)["jobAd"]["sections"]
+                    except Exception: det = {}
+                    body = " ".join(_txt(s.get("text")) for s in det.values() if isinstance(s, dict))
+                    rows.append({"source": "smartrecruiters", "id": f"smartrecruiters:{j['id']}", "title": j["name"], "company": j["company"]["name"],
+                                 "location": loc.get("fullLocation"), "type": "remote" if loc.get("remote") else ("hybrid" if loc.get("hybrid") else "onsite"),
+                                 "posted": (j.get("releasedDate") or "")[:10], "url": f"https://jobs.smartrecruiters.com/{c}/{j['id']}",
+                                 "text": f"{j.get('typeOfEmployment', {}).get('label')} | {j.get('experienceLevel', {}).get('label')} | " + body[:3800]})
+                off += 100
+                if off >= d.get("totalFound", 0): break
+    save("smartrecruiters", rows)
+
+def greenhouse_lever():
+    """Remote-first companies' own boards (Greenhouse / Lever); only entry-level titles are kept."""
+    cfg = json.loads((ROOT / "tools" / "search" / "ats_boards.json").read_text(encoding="utf-8"))
+    rows = []
+    for s in cfg["greenhouse"]:
+        try: d = http(f"https://boards-api.greenhouse.io/v1/boards/{s}/jobs?content=true", headers=UA)
+        except Exception: continue
+        for j in d.get("jobs", []):
+            if not ENTRY.search(j["title"]): continue
+            rows.append({"source": "greenhouse", "id": f"greenhouse:{s}:{j['id']}", "title": j["title"], "company": s, "location": (j.get("location") or {}).get("name"),
+                         "posted": (j.get("updated_at") or "")[:10], "url": j["absolute_url"], "text": _txt(j.get("content"))[:4000]})
+    for s in cfg["lever"]:
+        try: d = http(f"https://api.lever.co/v0/postings/{s}?mode=json", headers=UA)
+        except Exception: continue
+        for j in d:
+            if not ENTRY.search(j["text"]): continue
+            c = j.get("categories", {})
+            rows.append({"source": "lever", "id": f"lever:{s}:{j['id']}", "title": j["text"], "company": s, "location": c.get("location"), "type": j.get("workplaceType"),
+                         "posted": time.strftime("%Y-%m-%d", time.gmtime(j["createdAt"] / 1000)), "url": j["hostedUrl"], "text": (j.get("descriptionPlain") or "")[:4000]})
+    save("ats_boards", rows)
+
 if __name__ == "__main__":
     for name in sys.argv[1:] or ["jooble", "fantastic", "arbeitnow", "remotive", "apify_linkedin"]:
         try: globals()[name]()

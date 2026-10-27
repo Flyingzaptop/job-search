@@ -1,0 +1,20 @@
+{
+ "greenhouse": [
+  "gitlab",
+  "elastic",
+  "mongodb",
+  "datadog",
+  "cloudflare",
+  "grafanalabs",
+  "airbnb",
+  "figma",
+  "twilio",
+  "okta",
+  "samsara"
+ ],
+ "lever": [
+  "spotify",
+  "palantir",
+  "mistral"
+ ]
+}
