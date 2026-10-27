@@ -384,6 +384,15 @@
    "status": "confirmed",
    "updated": "2026-10-27",
    "note": "Письмо DCG, подтверждение адреса пройдено ('Weryfikacja prawidłowa'); CV DCG_FirstLine_PL"
+  },
+  {
+   "company": "Grupa Komputronik",
+   "role": "Młodszy Specjalista ds. Dokumentacji IT (100% remote, UoP)",
+   "applied": "2026-10-27",
+   "channel": "eRecruiter (форма Komputronik, авто-подача)",
+   "status": "confirmed",
+   "updated": "2026-10-27",
+   "note": "Письмо eRecruiter 'Dziękujemy za złożenie aplikacji'; CV Komputronik_Dokumentacja_PL; зарплата 5000-6000 brutto; Opus одобрил"
   }
  ],
  "no_email_trace": [

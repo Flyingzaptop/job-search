@@ -1,0 +1,80 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Komputronik_Dokumentacja_PL.pdf",
+ "lang": "pl",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Młodszy Specjalista ds. Dokumentacji IT | instrukcje, procedury, Microsoft 365",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT, sieci i bezpieczeństwa (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu. Lubię porządkować informacje i opisywać problemy tak, by dało się je powtórzyć: w projektach własnych przygotowuję dokumentację wdrożenia, kopii zapasowej i odtwarzania, a w pracy opisuję zgłaszane błędy dla zespołu. Szukam pierwszej roli w dużym dziale IT, w pracy zdalnej.",
+ "projects": [
+  {
+   "name": "LabFlow",
+   "sub": "aplikacja webowa z dokumentacją techniczną",
+   "stack": "Python, Django, DRF, React, PostgreSQL",
+   "link": "github.com/Flyingzaptop/LabFlow",
+   "bullets": [
+    "Dokumentacja techniczna wdrożenia na Windows i Ubuntu oraz instrukcje kopii zapasowej i odtwarzania; opis API w standardzie OpenAPI; testy backendu i frontendu."
+   ]
+  }
+ ],
+ "experience": [
+  {
+   "title": "Młodszy Administrator IT",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – obecnie",
+   "bullets": [
+    "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje, konfiguracja stanowisk.",
+    "Odtwarzanie zgłaszanych błędów i opisywanie ich tak, by zespół mógł je powtórzyć i naprawić; testowanie scenariuszy przed wdrożeniem zmian.",
+    "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Dokumentacja i narzędzia",
+   "items": "Microsoft 365, Git, OpenAPI, opisywanie procesów i zgłoszeń"
+  },
+  {
+   "label": "IT",
+   "items": "Windows, sieci LAN (podstawy), Linux (podstawy), Python (do OOP), SQL"
+  }
+ ],
+ "education": [
+  {
+   "title": "Politechnika Wrocławska",
+   "dates": "10.2022 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku: Robotyka i Automatyzacja Procesów. Ukończonych 5 z 7 semestrów."
+  },
+  {
+   "title": "WSB Merito we Wrocławiu",
+   "dates": "03.2026 – obecnie",
+   "text": "Studia wyższe inżynierskie w toku (niestacjonarne): Inżynieria sieci, systemów i bezpieczeństwa IT. II semestr."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Języki",
+   "text": "Polski i angielski zaawansowane; ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."
+  },
+  {
+   "label": "Dostępność",
+   "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."
+  }
+ ],
+ "must_contain": [
+  "Microsoft 365",
+  "LabFlow"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

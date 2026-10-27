@@ -1,0 +1,62 @@
+{
+ "url": "https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?WebID=e14f708dba8e4e45b7b4f016d37fdfee",
+ "submit": "^$|Wyślij|Aplikuj",
+ "success": "dziękuj|dziekuj|zostało|przesłan|wysłan|aplikacj",
+ "actions": [
+  {
+   "label": "tbName",
+   "value": "Denis"
+  },
+  {
+   "label": "tbSurname",
+   "value": "Gruszkiewicz"
+  },
+  {
+   "label": "tbMail",
+   "value": "r3dflzp.ns@gmail.com"
+  },
+  {
+   "label": "tbCellPhone",
+   "value": "511592887"
+  },
+  {
+   "label": "lstCountries",
+   "kind": "select",
+   "value": "Polska"
+  },
+  {
+   "label": "lstRegions",
+   "kind": "select",
+   "value": "dolnośląskie"
+  },
+  {
+   "label": "tbCity",
+   "value": "Wrocław"
+  },
+  {
+   "label": "fuCv",
+   "kind": "file",
+   "value": "C:/Users/r3d_flzp/Desktop/job-search/cv/out2/Denis_Gruszkiewicz_CV_Komputronik_Dokumentacja_PL.pdf"
+  },
+  {
+   "label": "ddAvailability",
+   "kind": "select",
+   "value": "natychmiast"
+  },
+  {
+   "label": "ctl74.tbText",
+   "value": "5000-6000 zł brutto (umowa o pracę)"
+  },
+  {
+   "label": "^Nie\b(?! chcę)",
+   "kind": "check",
+   "value": ""
+  },
+  {
+   "label": "cbxConsent",
+   "kind": "check",
+   "value": ""
+  }
+ ],
+ "submitSel": "[name$=bttnSend]"
+}
