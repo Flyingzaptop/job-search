@@ -3,3 +3,6 @@ bin/
 cv/out/*.png
 cv/out2/*.png
 cv/out2/*.html
+
+.playwright-mcp/
+*_before_submit.png
