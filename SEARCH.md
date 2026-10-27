@@ -15,28 +15,28 @@
 - `tools/search/sources.json` — ≥100 источников. `tools/search/keywords.json` — ключевые слова.
 - Исключения: `tracker/applications.json` + `PROFILE.md` («Уже подготовлено / подано») + уже оценённые id в `data/scored_*.jsonl`.
 
-- Отметки кнопкой «Подался»: `ArtifactData query` трекера (https://claude.ai/artifact/2aQPnoGJwT91XGBRgYHyQ5), коллекция `status`,
+- Отметки кнопкой «Подался»: `ArtifactData query` трекера (https://claude.ai/artifact/8B7ApFD1p6cHC6uDTDNYM5), коллекция `status`,
   `status == "applied"` → добавить в `tracker/applications.json` (status `confirmed`, note «Отмечено кнопкой «Подался»», url)
   и в `data/exclusions.json` (`company`, `role`, why `applied (button)`).
 
 ## 1. Сбор и triage (сабагенты: model `haiku`, effort `low`, до 8 параллельно)
 - API-источники запускаю сам: `python3 tools/fetch_apis.py jooble fantastic arbeitnow apify_linkedin2` (+ remoteok/himalayas/jobicy, если добавлены).
   Бюджеты: Apify ≤ $1 за запуск; Fantastic ≤ 100 вакансий за запуск.
-- Остальные источники (`method: site|fetch`) делю на пачки по ~14 и отдаю Sonnet-сабагентам. Каждый:
+- Остальные источники (`method: site|fetch`) делю на пачки по ~14 и отдаю Haiku-сабагентам (model `haiku`, effort `low`). Каждый:
   - для каждого источника делает 2–4 запроса WebSearch вида `site:<domain> (<keywords eng>) (Wrocław OR zdalnie OR remote)` и `site:<domain> (<keywords it>) ...`;
   - открывает (WebFetch) только объявления, похожие на junior/intern/staż и подходящие по локации;
   - пишет найденное в `data/raw/web_<YYYY-MM-DD>_<batch>.jsonl` в формате fetch_apis (`source`, `id`=`web:<url>`, `title`, `company`, `location`, `type`, `salary`, `posted`, `url`, `text` ≤ 4000 символов);
   - пишет журнал покрытия `data/logs/coverage_<YYYY-MM-DD>_<batch>.json`: по каждому источнику — запросы, число результатов, ошибки/блокировки.
   - не обходит капчи и защиту от ботов: заблокировано → отмечает `blocked` и идёт дальше;
   - **triage** каждой найденной вакансии: поле `triage` = `keep` | `drop` + `triage_reason` (одна фраза).
-    `drop` только для явного мимо: senior/lead, 3+ лет обязательно, нетехническая роль, обязательный немецкий и т.п. Сомнение → `keep`.
+    `drop` только для явного мимо: senior/lead, 3+ лет обязательно, нетехническая роль, обязательный немецкий и т.п. Также `drop`, если в тексте объявления прямо сказано: полный день только в офисе без hybrid/часть ставки/удалёнки, «6 miesięcy stacjonarnie», фиксированные 5 дней/сменный график вне Вроцлава. Слово «hybrydowo» само по себе не повод оставлять. Сомнение → `keep`.
 
 ## 2. Фильтр
 `python3 tools/prefilter.py` → `data/candidates.jsonl` (дедуп, senior/немецкий, исключение уже поданных).
 Новые = кандидаты без оценки и без `triage: drop` → `data/part_<дата>.jsonl`.
 
 ## 3. Финальная оценка (сабагенты: model `sonnet`, effort `medium`, по ~200 строк)
-Каждая вакансия оценивается вручную по `tools/search/SCORING.md`. Результат → `data/scored_<дата>_<n>.jsonl`.
+Каждая вакансия оценивается вручную по `tools/search/SCORING.md`. Результат → `data/scored_<дата>_<n>.jsonl`. Читать объявление целиком и подробно; в `schedule_evidence` приводить цитату из текста, на которой основан график (без цитаты и без явных слов о формате работы — `schedule` ≤ 5).
 
 ## 3a. Надзор (Opus)
 - Журналы покрытия: сколько источников реально ответили; пачки с ошибками перезапустить один раз.

@@ -236,7 +236,7 @@ $("list").addEventListener("change", e => {
 const APP_LABEL = {action: "Нужно действие", confirmed: "Подано", rejected: "Отказ", on_hold: "На паузе", reply: "Есть ответ", interview: "Собеседование", offer: "Оффер"};
 const APP_ORDER = {action: -1, offer: 0, interview: 1, reply: 2, on_hold: 3, confirmed: 4, rejected: 5};
 // "Искать" fires the job-search scheduled task in Claude Code, which runs SEARCH.md and republishes this page.
-const SEARCH_TRIGGER = "trig_019KAWBsJo8TvynSSEkwvRWX";
+const SEARCH_TRIGGER = "trig_01KfRrmNyHoja7XhFVqpcxF7";
 $("runSearch").addEventListener("click", async () => {
   const btn = $("runSearch"), msg = $("searchMsg");
   const mcp = await claude.use("mcp");
@@ -278,6 +278,19 @@ fetch("jobs.json").then(r => r.json()).then(rows => {
   merge();
 }).catch(() => {});
 
+// One-time import of marks made on 2026-10-27 from the mail check (marks_seed.json): applied where a reply was found, skip otherwise.
+async function seedMarks() {
+  try {
+    if (!db || !canWrite) return;
+    const flag = db.doc("meta/seed-2026-10-27");
+    if ((await flag.get()).exists) return;
+    const seed = await (await fetch("marks_seed.json")).json();
+    await new Promise(r => setTimeout(r, 1500));
+    for (const m of seed) if (!marks[m.id]) await db.doc("status/" + m.id).set({status: m.status, note: m.note, updatedAt: new Date().toISOString()});
+    await flag.set({done: true, count: seed.length, at: new Date().toISOString()});
+  } catch {}
+}
+
 (async () => {
   db = await claude.use("db");
   const user = await claude.use("user");
@@ -287,5 +300,6 @@ fetch("jobs.json").then(r => r.json()).then(rows => {
     marks = Object.fromEntries(snap.docs.map(d => [d.id, d.data()]));
     merge();
   }, () => {});
+  seedMarks();
 })();
 </script>
