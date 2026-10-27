@@ -1,3 +1,5 @@
 bin/
 .env
 cv/out/*.png
+cv/out2/*.png
+cv/out2/*.html
