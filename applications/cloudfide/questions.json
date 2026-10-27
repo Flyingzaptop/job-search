@@ -1,0 +1,95 @@
+[
+  {
+    "label": "Name",
+    "type": "text",
+    "required": true,
+    "answer": "Denis",
+    "source": "bank:Имя"
+  },
+  {
+    "label": "Surname",
+    "type": "text",
+    "required": true,
+    "answer": "Gruszkiewicz",
+    "source": "bank:Фамилия"
+  },
+  {
+    "label": "CV",
+    "type": "file",
+    "required": true,
+    "answer": "Denis_Gruszkiewicz_CV_Cloudfide_AI_EN.pdf",
+    "source": "cv"
+  },
+  {
+    "label": "E-mail",
+    "type": "text",
+    "required": true,
+    "answer": "r3dflzp.ns@gmail.com",
+    "source": "bank:Email"
+  },
+  {
+    "label": "Mobile phone",
+    "type": "text",
+    "required": true,
+    "answer": "511592887",
+    "source": "bank:Телефон (поле без выбора кода страны)"
+  },
+  {
+    "label": "How do you know about this job",
+    "type": "selectize",
+    "required": true,
+    "answer": "JustJoinIT",
+    "source": "bank:Откуда узнал",
+    "options": [
+      "NoFluffJobs",
+      "Other job boards",
+      "University Careers office",
+      "Cloudfide's careers page",
+      "Discord",
+      "Workshops, conferences",
+      "Facebook groups post",
+      "InHire",
+      "JustJoinIT",
+      "LinkedIn",
+      "Pracuj.pl",
+      "the:protocol.it",
+      "Recruiter contacted me",
+      "Rocket Jobs",
+      "Someone's recommendation",
+      "This is IT"
+    ]
+  },
+  {
+    "label": "Notice period duration (days)",
+    "type": "selectize",
+    "required": true,
+    "answer": "7",
+    "source": "bank:Срок уведомления",
+    "options": [
+      "7",
+      "14",
+      "21",
+      "30",
+      "60",
+      "90",
+      "120",
+      "asap"
+    ]
+  },
+  {
+    "label": "Consent: future recruitment (provisions 1)",
+    "type": "checkbox",
+    "required": false,
+    "answer": "checked",
+    "source": "bank:Согласия (необязательное, рекрутинг на будущее)",
+    "text": "I hereby give my consent for the processing of my personal data for further recruitment processes performed by Cloudfide Sp. z o.o., with its registered office in Warsaw (ul. Jana Nowaka-Jeziorańskiego 53A, 03-982 Warsaw), within the next 36 months."
+  },
+  {
+    "label": "Consent: application processing (provisions 2)",
+    "type": "checkbox",
+    "required": true,
+    "answer": "checked",
+    "source": "bank:Согласия (обязательное, RODO)",
+    "text": "I hereby give my consent for the processing of my personal data included in the job application for the purpose of the recruitment process performed by Cloudfide Sp. z o.o., with its registered office in Warsaw (ul. Jana Nowaka-Jeziorańskiego 53A, 03-982 Warsaw)."
+  }
+]

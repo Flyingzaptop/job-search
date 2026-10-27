@@ -1,0 +1,1 @@
+Подано 27.10.2026 через Traffit. Подтверждение: страница 'pomyślnie przesłany' и письмо 'Thank you Denis for applying to Junior Software AI Engineer'. CV: cv/out2/Denis_Gruszkiewicz_CV_Cloudfide_AI_EN.pdf. Ожидания: рекрутер просмотрит заявку; условия объявления: UZ или B2B, remote-first, гибкие часы.

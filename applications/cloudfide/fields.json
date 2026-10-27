@@ -1,0 +1,47 @@
+[
+  {
+    "label": "CV",
+    "value": "Denis_Gruszkiewicz_CV_Cloudfide_AI_EN.pdf",
+    "source": "cv"
+  },
+  {
+    "label": "Name",
+    "value": "Denis",
+    "source": "bank:Имя"
+  },
+  {
+    "label": "Surname",
+    "value": "Gruszkiewicz",
+    "source": "bank:Фамилия"
+  },
+  {
+    "label": "E-mail",
+    "value": "r3dflzp.ns@gmail.com",
+    "source": "bank:Email"
+  },
+  {
+    "label": "Mobile phone",
+    "value": "511592887",
+    "source": "bank:Телефон"
+  },
+  {
+    "label": "How do you know about this job",
+    "value": "JustJoinIT",
+    "source": "bank:Откуда узнал"
+  },
+  {
+    "label": "Notice period duration (days)",
+    "value": "7",
+    "source": "bank:Срок уведомления"
+  },
+  {
+    "label": "Consent: future recruitment (provisions 1)",
+    "value": "checked",
+    "source": "bank:Согласия"
+  },
+  {
+    "label": "Consent: application processing (provisions 2, required)",
+    "value": "checked",
+    "source": "bank:Согласия"
+  }
+]
