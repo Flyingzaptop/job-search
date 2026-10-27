@@ -1,0 +1,30 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Smartware_QA_PL.pdf",
+ "lang": "pl",
+ "max_pages": 1,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Test Automation Engineer | TypeScript, Playwright, testy automatyczne",
+ "contacts": ["Wrocław, Poland", "+48 511 592 887", "r3dflzp.ns@gmail.com", "github.com/Flyingzaptop", "antillia.tech", "linkedin.com/in/denis-gruszkiewicz-70739b411"],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu: odtwarzam zgłaszane błędy, testuję scenariusze aplikacji i sprawdzam poprawki przed wdrożeniem. W projektach własnych piszę testy automatyczne (Playwright, Vitest, pytest) i konfiguruję CI na GitHub Actions. Programuję w TypeScript, JavaScript i Pythonie, znam SQL. Szukam pierwszej roli w automatyzacji testów.",
+ "projects": [
+  {"name": "JobHunter", "sub": "automatyzacja przeglądarki i testy", "stack": "Node.js, TypeScript, Playwright (Chromium), PostgreSQL, React, GitHub Actions", "link": "github.com/Flyingzaptop/jobhunter-n8n",
+   "bullets": ["Usługa przeglądarkowa na Playwright z adapterami formularzy i sprawdzaniem stanu strony; testy regresji Chromium, testy backendu w Node i testy frontendu w CI.", "Walidacja schematów danych (AJV) i testy w Node; status projektu częściowy, bez automatycznej wysyłki."]},
+  {"name": "LabFlow", "sub": "aplikacja webowa z testami", "stack": "TypeScript, React 19, Vitest, Django/DRF, PostgreSQL", "link": "github.com/Flyingzaptop/LabFlow",
+   "bullets": ["Testy frontendu w Vitest i testy backendu; reguły dostępu, uprawnienia ról i dziennik audytu jako scenariusze do weryfikacji.", "Wdrożenie na Windows i Ubuntu z instrukcjami kopii zapasowej i odtwarzania."]},
+  {"name": "stargaze-l2-vwap", "sub": "testy i odtwarzanie po awarii", "stack": "Python, pytest, asyncio, Parquet, GitHub Actions", "link": "github.com/Flyingzaptop/stargaze-l2-vwap",
+   "bullets": ["Testy pytest i CI (Python 3.12) dla kolektorów danych oraz zapisu append-only z sumami kontrolnymi i odtwarzaniem po awarii."]}],
+ "experience": [
+  {"title": "Młodszy Administrator IT", "org": "ZOZ w Bolesławcu", "dates": "06.2025 – obecnie",
+   "bullets": ["Odtwarzanie zgłaszanych błędów, testowanie scenariuszy aplikacji i poprawek przed wdrożeniem zmian; opisywanie problemów tak, by dało się je powtórzyć.", "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje.", "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."]}],
+ "skills": [
+  {"label": "Testy", "items": "Playwright, Vitest, pytest, testy regresji i scenariuszowe, odtwarzanie błędów, dane testowe"},
+  {"label": "Programowanie", "items": "TypeScript, JavaScript, Node.js, Python (do OOP), SQL, PostgreSQL, React"},
+  {"label": "Narzędzia", "items": "Git, GitHub Actions (CI), Docker Compose; Selenium, Java, Jira i Xray: w trakcie nauki"}],
+ "education": [
+  {"title": "Politechnika Wrocławska", "dates": "10.2022 – obecnie", "text": "Studia wyższe inżynierskie w toku: Robotyka i Automatyzacja Procesów. Ukończonych 5 z 7 semestrów."},
+  {"title": "WSB Merito we Wrocławiu", "dates": "03.2026 – obecnie", "text": "Studia wyższe inżynierskie w toku (niestacjonarne): Inżynieria sieci, systemów i bezpieczeństwa IT. II semestr."}],
+ "extras": [
+  {"label": "Języki", "text": "Polski i angielski zaawansowane (angielski C1); ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."},
+  {"label": "Dostępność", "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."}],
+ "must_contain": ["Playwright", "TypeScript"]
+}

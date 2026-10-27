@@ -17,7 +17,7 @@
   {
    "name": "LabFlow",
    "sub": "aplikacja webowa Django i DRF",
-   "stack": "Python, Django 5, Django REST Framework, React 19, TypeScript, PostgreSQL, SQLite, GitHub Actions",
+   "stack": "Python, Django 5, Django REST Framework, React 19, TypeScript, PostgreSQL, SQLite",
    "bullets": [
     "Backend w Django i DRF: endpointy REST z dokumentacją OpenAPI, modele i migracje, wersjonowane procedury, role i uprawnienia (RBAC), dziennik audytu, sesje, CSRF i ograniczanie liczby żądań.",
     "Testy backendu i frontendu (Vitest), wdrożenie na Windows i Ubuntu (Gunicorn, Caddy, systemd) z instrukcjami kopii zapasowej i odtwarzania. Wersja publiczna to demonstrator z fikcyjnymi danymi."

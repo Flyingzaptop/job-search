@@ -6,7 +6,7 @@ Content: {"file": "...pdf", "lang": "en|pl", "name", "role", "contacts": [..], "
           "labels": {"summary": ..., "projects": ..., ...}, "max_pages": 2, "must_contain": [], "must_not_contain": []}
 Usage: python3 tools/cv/build_cv2.py cv/content2/IT_EN.json [...]
 """
-import json, os, subprocess, sys
+import json, os, shutil, subprocess, sys
 from html import escape as e
 from pathlib import Path
 
@@ -87,9 +87,10 @@ def build(path):
     html_path = OUT / (Path(s["file"]).stem + ".html"); html_path.write_text("".join(h), encoding="utf-8")
     pdf = OUT / s["file"]
     js = f"""const {{ chromium }} = require('playwright'); (async()=>{{ const b=await chromium.launch(); const p=await b.newPage();
-      await p.goto('file://{html_path}'); await p.evaluate(()=>document.fonts.ready);
-      await p.pdf({{path:'{pdf}', format:'A4', printBackground:true, preferCSSPageSize:true}}); await b.close(); }})();"""
-    subprocess.run(["node", "-e", js], check=True, env={**os.environ, "NODE_PATH": subprocess.check_output(["npm", "root", "-g"], text=True).strip()})
+      await p.goto({json.dumps(html_path.resolve().as_uri())}); await p.evaluate(()=>document.fonts.ready);
+      await p.pdf({{path:{json.dumps(str(pdf.resolve()))}, format:'A4', printBackground:true, preferCSSPageSize:true}}); await b.close(); }})();"""
+    npm = shutil.which("npm") or "npm"  # npm is npm.cmd on Windows
+    subprocess.run(["node", "-e", js], check=True, env={**os.environ, "NODE_PATH": subprocess.check_output([npm, "root", "-g"], text=True).strip()})
     import pdfplumber, pypdfium2 as pdfium
     with pdfplumber.open(pdf) as d:
         pages, text = len(d.pages), " ".join(p.extract_text() or "" for p in d.pages)

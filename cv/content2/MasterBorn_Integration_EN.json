@@ -1,0 +1,30 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_MasterBorn_Integration_EN.pdf",
+ "lang": "en",
+ "max_pages": 1,
+ "name": "Denis Gruszkiewicz",
+ "role": "Integration Consultant Intern | APIs, SQL, issue investigation, documentation",
+ "contacts": ["Wrocław, Poland", "+48 511 592 887", "r3dflzp.ns@gmail.com", "github.com/Flyingzaptop", "antillia.tech", "linkedin.com/in/denis-gruszkiewicz-70739b411"],
+ "summary": "Active student of Robotics and Process Automation (PWr) and IT systems (WSB Merito), and a Junior IT Administrator in a hospital for over a year. At work I reproduce user-reported issues, narrow down what is actually broken and write findings so someone else can act on them. In my own projects I build REST APIs and integrations (Django REST Framework, Node.js, TypeScript), query PostgreSQL with SQL and work in Git every day. Polish and English at C1 level.",
+ "projects": [
+  {"name": "LabFlow", "sub": "REST API and workflow application", "stack": "Django REST Framework, OpenAPI, TypeScript, React, PostgreSQL, Vitest", "link": "github.com/Flyingzaptop/LabFlow",
+   "bullets": ["REST API with OpenAPI description, versioned procedures, sessions, role-based permissions and audit log.", "Technical documentation for Windows and Ubuntu deployment, backup and restore; backend tests and Vitest frontend tests."]},
+  {"name": "JobHunter", "sub": "data collection and integration workflows", "stack": "Node.js, TypeScript, n8n, PostgreSQL, Playwright, JSON schemas (AJV)", "link": "github.com/Flyingzaptop/jobhunter-n8n",
+   "bullets": ["Workflows that pull data from external sources, validate JSON against schemas and store state in PostgreSQL; failed or inconsistent records go to a human review step.", "SQL migrations, CI with GitHub Actions; status partial, with no unattended actions."]},
+  {"name": "stargaze-l2-vwap", "sub": "market data collectors", "stack": "Python, asyncio, aiohttp, WebSocket, Parquet, pytest", "link": "github.com/Flyingzaptop/stargaze-l2-vwap",
+   "bullets": ["Collectors that connect to several exchange APIs over WebSocket, handle event ordering and reconnects, and write checksummed Parquet frames with recovery after a crash."]}],
+ "experience": [
+  {"title": "Junior IT Administrator", "org": "ZOZ w Bolesławcu", "dates": "06.2025 – present",
+   "bullets": ["Investigate reported problems in applications and systems: reproduce them, narrow down the cause and describe findings clearly for the team.", "Test application scenarios and fixes before changes go live; day-to-day support for hospital staff in Windows and Microsoft 365.", "Part of the team that built an employee-management and scheduling system (shifts, duty swaps, leave); built and handed over."]}],
+ "skills": [
+  {"label": "Integrations", "items": "REST and HTTP (methods, status codes, JSON), OpenAPI, JSON schema validation, WebSocket clients"},
+  {"label": "Data", "items": "SQL (SELECT, WHERE, JOIN, reading schemas), PostgreSQL, SQLite"},
+  {"label": "Development", "items": "TypeScript, JavaScript, Node.js, Python (up to OOP), Git (commits, branches, pull requests), GitHub Actions"}],
+ "education": [
+  {"title": "Wrocław University of Science and Technology", "dates": "10.2022 – present", "text": "Higher education, engineering studies in progress: Robotics and Process Automation. Five of seven semesters completed. Active student status."},
+  {"title": "WSB Merito University, Wrocław", "dates": "03.2026 – present", "text": "Higher education, engineering studies in progress (part-time): network, systems and IT security. Second semester."}],
+ "extras": [
+  {"label": "Languages", "text": "Polish C1, English C1; Ukrainian and Russian native. Category B driving licence (3 years)."},
+  {"label": "Availability", "text": "Start with 1 week notice. Part-time of about 6 hours a day works. Remote, or hybrid in Wrocław."}],
+ "must_contain": ["TypeScript", "SQL"]
+}
