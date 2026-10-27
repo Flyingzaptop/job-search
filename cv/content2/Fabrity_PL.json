@@ -1,0 +1,103 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Fabrity_PL.pdf",
+ "lang": "pl",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Python Developer | Django, DRF, SQL",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student Robotyki i Automatyzacji Procesów (PWr) oraz IT (WSB Merito), od ponad roku Młodszy Administrator IT w szpitalu. Poza pracą buduję aplikacje webowe w Pythonie: LabFlow w Django 5 i Django REST Framework z React, PostgreSQL, uprawnieniami ról, audytem i testami. Chcę zdobyć komercyjne doświadczenie w zespole i pod okiem doświadczonych inżynierów.",
+ "projects": [
+  {
+   "name": "LabFlow",
+   "sub": "aplikacja webowa Django i DRF",
+   "stack": "Python, Django 5, Django REST Framework, React 19, TypeScript, PostgreSQL, SQLite, GitHub Actions",
+   "bullets": [
+    "Backend w Django i DRF: endpointy REST z dokumentacją OpenAPI, modele i migracje, wersjonowane procedury, role i uprawnienia (RBAC), dziennik audytu, sesje, CSRF i ograniczanie liczby żądań.",
+    "Testy backendu i frontendu (Vitest), wdrożenie na Windows i Ubuntu (Gunicorn, Caddy, systemd) z instrukcjami kopii zapasowej i odtwarzania. Wersja publiczna to demonstrator z fikcyjnymi danymi."
+   ],
+   "link": "github.com/Flyingzaptop/LabFlow"
+  },
+  {
+   "name": "JobHunter",
+   "sub": "automatyzacja workflow",
+   "stack": "Node.js, n8n, PostgreSQL, SQL, Playwright, Docker Compose, GitHub Actions",
+   "bullets": [
+    "Migracje SQL, stan aplikacji w PostgreSQL, API i panel React; testy i CI na GitHub Actions (frontend, backend, Chromium). Projekt rozwijany lokalnie, status częściowy."
+   ],
+   "link": "github.com/Flyingzaptop/jobhunter-n8n"
+  },
+  {
+   "name": "Financial time-series ML",
+   "sub": "dwa lata samodzielnych badań",
+   "stack": "Python, PyTorch, Polars, PyArrow, Rust (PyO3)",
+   "bullets": [
+    "Potoki danych, projekt cech i etykiet, walidacja walk-forward i kontrola przyczynowości dla danych zdarzeniowych. Wniosek: NO_TRADE, czyli użyteczne narzędzia ewaluacji, a nie dochodowa strategia."
+   ],
+   "link": "github.com/Flyingzaptop/gc-mbo-research"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Młodszy Administrator IT",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – obecnie",
+   "bullets": [
+    "Bieżące wsparcie pracowników szpitala: sprzęt, Windows, Microsoft 365 i aplikacje, konfiguracja stanowisk, połączenia LAN i switche.",
+    "Odtwarzanie zgłaszanych błędów i testowanie scenariuszy aplikacji przed wdrożeniem zmian.",
+    "Członek zespołu, który zbudował system zarządzania pracownikami i grafikami (zmiany, wymiana dyżurów, urlopy); zrealizowany i przekazany."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Python i web",
+   "items": "Python (do OOP), Django, Django REST Framework, SQL, PostgreSQL, SQLite, React, TypeScript, Node.js"
+  },
+  {
+   "label": "Narzędzia",
+   "items": "Git (branche, pull requesty), GitHub Actions, Docker Compose, testy automatyczne (pytest, Vitest)"
+  },
+  {
+   "label": "Wsparcie",
+   "items": "Windows, Microsoft 365, podstawy Linuxa i sieci LAN"
+  }
+ ],
+ "education": [
+  {
+   "title": "Politechnika Wrocławska",
+   "dates": "10.2022 – obecnie",
+   "text": "Robotyka i Automatyzacja Procesów (inżynierskie). Ukończonych pięć semestrów."
+  },
+  {
+   "title": "WSB Merito we Wrocławiu",
+   "dates": "03.2026 – obecnie",
+   "text": "Inżynieria sieci, systemów i bezpieczeństwa IT (niestacjonarne), II semestr."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Języki",
+   "text": "Polski i angielski zaawansowane; ukraiński i rosyjski ojczyste. Prawo jazdy kat. B (3 lata)."
+  },
+  {
+   "label": "Dostępność",
+   "text": "Gotowy do pracy od zaraz (okres wypowiedzenia 1 tydzień). Elastyczne godziny. Od marca 2027 praca zdalna lub biuro we Wrocławiu 1–2 dni w tygodniu; możliwy niepełny wymiar."
+  }
+ ],
+ "must_contain": [
+  "Django REST Framework",
+  "Python"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

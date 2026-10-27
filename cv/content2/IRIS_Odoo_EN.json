@@ -1,0 +1,103 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_IRIS_Odoo_EN.pdf",
+ "lang": "en",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Python Developer and application support | Python, SQL, Linux shell",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Junior IT administrator in a hospital for over a year: I reproduce user-reported issues, explain system behaviour to non-technical staff and test fixes. I write Python and SQL in my own projects (Django, PostgreSQL) and use AI tools daily, with my own architecture and review. No ERP experience yet; I learn systems step by step and say so when I don't understand something.",
+ "projects": [
+  {
+   "name": "LabFlow",
+   "sub": "laboratory workflow application",
+   "stack": "Django 5, DRF, React 19, TypeScript, PostgreSQL, Ollama, faster-whisper",
+   "bullets": [
+    "Python/Django backend with models, migrations and business rules for lab procedures, samples and process stages; PostgreSQL and SQLite; audit log and role-based permissions.",
+    "CSV and data handling in tests; deployment on Windows and Ubuntu with systemd, logs and backup and restore guides. Backend and Vitest tests."
+   ],
+   "link": "github.com/Flyingzaptop/LabFlow"
+  },
+  {
+   "name": "JobHunter",
+   "sub": "job-search automation platform",
+   "stack": "Node.js, n8n, PostgreSQL, Playwright, React, Ollama, Docker Compose, GitHub Actions",
+   "bullets": [
+    "Collects and analyses vacancies with n8n workflows, a PostgreSQL state store, schema-validated LLM extraction and browser automation, with human review. CI runs frontend, backend and Chromium regression tests; status partial, no unattended submissions."
+   ],
+   "link": "github.com/Flyingzaptop/jobhunter-n8n"
+  },
+  {
+   "name": "Financial time-series ML",
+   "sub": "two years of self-directed research",
+   "stack": "Python, PyTorch, Polars, PyArrow, Rust (PyO3)",
+   "bullets": [
+    "Data pipelines, feature and label design, walk-forward validation and causality checks for event-level market data. Concluded NO_TRADE: a reusable evaluation toolkit, not a profitable strategy."
+   ],
+   "link": "github.com/Flyingzaptop/gc-mbo-research"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Junior IT Administrator",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – present",
+   "bullets": [
+    "Support for hospital staff: investigate and reproduce reported problems in applications and Windows, write up findings, explain how the system behaves, assist with settings and data corrections.",
+    "Test application scenarios and fixes before changes go live; Linux and shell basics for diagnostics.",
+    "Part of the team that built an employee-management and scheduling system (shifts, duty swaps, leave); built and handed over."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "Python and data",
+   "items": "Python (data structures, classes, exceptions, modules), SQL (SELECT, joins, filters), PostgreSQL, SQLite, CSV/JSON"
+  },
+  {
+   "label": "Support",
+   "items": "Reproducing and documenting issues, user communication, Windows, Microsoft 365, Linux shell basics"
+  },
+  {
+   "label": "Tools",
+   "items": "Git, GitHub Actions, Django/DRF, React, n8n, AI-assisted development"
+  }
+ ],
+ "education": [
+  {
+   "title": "Wrocław University of Science and Technology",
+   "dates": "10.2022 – present",
+   "text": "Robotics and Process Automation (engineering). Five semesters completed."
+  },
+  {
+   "title": "WSB Merito University, Wrocław",
+   "dates": "03.2026 – present",
+   "text": "Network, systems and IT security engineering (part-time), second semester."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Languages",
+   "text": "Polish and English advanced; Ukrainian and Russian native. Category B driving licence (3 years)."
+  },
+  {
+   "label": "Availability",
+   "text": "Start with 1 week notice. Flexible hours. 90% remote with occasional onsite visits works; from March 2027 part-time hours may be needed because of studies."
+  }
+ ],
+ "must_contain": [
+  "Python",
+  "SQL"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "file": "Denis_Gruszkiewicz_CV_Cloudfide_AI_EN.pdf",
+ "lang": "en",
+ "max_pages": 2,
+ "name": "Denis Gruszkiewicz",
+ "role": "Junior Software AI Engineer | Python, LLM workflows and automation",
+ "contacts": [
+  "Wrocław, Poland",
+  "+48 511 592 887",
+  "r3dflzp.ns@gmail.com",
+  "github.com/Flyingzaptop",
+  "antillia.tech",
+  "linkedin.com/in/denis-gruszkiewicz-70739b411"
+ ],
+ "summary": "Student of Robotics and Process Automation (PWr) and IT systems (WSB Merito), with over a year in hospital IT support. I build LLM-based automations on my own: JobHunter combines n8n workflows, schema-validated LLM output, browser automation and a human review step; LabFlow adds a streaming local LLM chat and speech-to-text. Python is my main language.",
+ "projects": [
+  {
+   "name": "JobHunter",
+   "sub": "LLM-based automation workflows",
+   "stack": "Node.js, n8n, PostgreSQL, Playwright, React, Ollama, Docker Compose, GitHub Actions",
+   "bullets": [
+    "Workflows that collect vacancies, extract structured data with a local LLM (Ollama) validated against JSON schemas, score them with deterministic rules and send them to a human review step (Telegram and React dashboard).",
+    "Playwright browser service, PostgreSQL state, Docker Compose; CI runs frontend, backend and Chromium regression tests. Status partial: no unattended submissions."
+   ],
+   "link": "github.com/Flyingzaptop/jobhunter-n8n"
+  },
+  {
+   "name": "LabFlow",
+   "sub": "laboratory workflow application",
+   "stack": "Django 5, DRF, React 19, TypeScript, PostgreSQL, Ollama, faster-whisper",
+   "bullets": [
+    "Full-stack app (Django, DRF, React, TypeScript) with versioned procedures, role-based permissions and audit log.",
+    "Local LLM chat with Ollama (streaming) and Polish speech-to-text with faster-whisper; both optional. Backend and Vitest tests."
+   ],
+   "link": "github.com/Flyingzaptop/LabFlow"
+  },
+  {
+   "name": "Financial time-series ML",
+   "sub": "two years of self-directed research",
+   "stack": "Python, PyTorch, Polars, PyArrow, Rust (PyO3)",
+   "bullets": [
+    "Data pipelines, feature and label design, walk-forward validation and causality checks for event-level market data. Concluded NO_TRADE: a reusable evaluation toolkit, not a profitable strategy."
+   ],
+   "link": "github.com/Flyingzaptop/gc-mbo-research"
+  }
+ ],
+ "experience": [
+  {
+   "title": "Junior IT Administrator",
+   "org": "ZOZ w Bolesławcu",
+   "dates": "06.2025 – present",
+   "bullets": [
+    "Day-to-day support for hospital staff: hardware, Windows, Microsoft 365 and application problems, workstation setup, LAN and switch connections.",
+    "Reproduce reported errors and test application scenarios before changes go live.",
+    "Part of the team that built an employee-management and scheduling system (shifts, duty swaps, leave); built and handed over."
+   ]
+  }
+ ],
+ "skills": [
+  {
+   "label": "AI and automation",
+   "items": "LLM integration (Ollama), schema-validated output, n8n, Playwright, PyTorch basics"
+  },
+  {
+   "label": "Development",
+   "items": "Python (up to OOP), SQL, PostgreSQL, Django/DRF, React, TypeScript, Node.js, Git, GitHub Actions, Docker Compose"
+  },
+  {
+   "label": "Support",
+   "items": "Windows, Microsoft 365, Linux basics, LAN basics"
+  }
+ ],
+ "education": [
+  {
+   "title": "Wrocław University of Science and Technology",
+   "dates": "10.2022 – present",
+   "text": "Robotics and Process Automation (engineering). Five semesters completed."
+  },
+  {
+   "title": "WSB Merito University, Wrocław",
+   "dates": "03.2026 – present",
+   "text": "Network, systems and IT security engineering (part-time), second semester."
+  }
+ ],
+ "extras": [
+  {
+   "label": "Languages",
+   "text": "Polish and English advanced; Ukrainian and Russian native. Category B driving licence (3 years)."
+  },
+  {
+   "label": "Availability",
+   "text": "Start with 1 week notice. Flexible hours. From March 2027 onsite in Wrocław up to 1-2 days a week, remote the rest; part-time possible."
+  }
+ ],
+ "must_contain": [
+  "JobHunter",
+  "Python"
+ ],
+ "must_not_contain": [
+  "Windows Server",
+  "Greenbrier",
+  "DRACO"
+ ]
+}

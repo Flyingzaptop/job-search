@@ -3,7 +3,7 @@
 Прочитай PROFILE.md. Для каждой вакансии строка JSON:
 {"id", "fit": 0-10, "schedule": 0-10, "track": "eng"|"it", "level": "intern|junior|mid+|unclear",
  "format": "onsite|hybrid|remote|unclear", "office_days": "число или пусто", "flex_hours": true|false|"unclear",
- "cv": "eng"|"it", "schedule_evidence": "цитата из объявления про формат/график/часы работы или пусто", "why": "1 конкретная фраза по-русски", "red_flags": "коротко или пусто"}
+ "cv": "eng"|"it", "contract": "uop|uz|b2b|b2b_only|unclear", "schedule_evidence": "цитата из объявления про формат/график/часы работы или пусто", "why": "1 конкретная фраза по-русски", "red_flags": "коротко или пусто"}
 
 **fit — навыки.** Сравни обязательные требования с подтверждённой базой (PROFILE.md, context/1_skills_projects_base.md).
 mid/senior или 3+ года обязательного опыта → ≤3. Обязательный язык кроме PL/EN/UA/RU → ≤2. Нетехническая роль → ≤1.
@@ -22,3 +22,5 @@ mid/senior или 3+ года обязательного опыта → ≤3. О
 - Только офис без гибкости (в т.ч. полный день вне Вроцлава) → ≤ 3.
 - Полная удалёнка worldwide → 9–10 при гибких часах или część etatu.
 - schedule основывать на цитате из текста (`schedule_evidence`), не на слове «hybrydowo» и не на догадке; нет цитаты → ≤ 5.
+
+**Тип договора (27.10):** у Denis только umowa o pracę (UoP) или umowa zlecenie (UZ), B2B невозможен. Если в объявлении только B2B / «Typ kontraktu: B2B» / freelance без UoP-эквивалента, ставь `contract: "b2b_only"`, `fit` ≤ 2 и пиши это в `red_flags`. «B2B / UoP», «UZ or B2B» подходят. Проверяй тип договора в тексте объявления, а не только в поле API.
