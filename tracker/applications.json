@@ -393,6 +393,24 @@
    "status": "confirmed",
    "updated": "2026-10-27",
    "note": "Письмо eRecruiter 'Dziękujemy za złożenie aplikacji'; CV Komputronik_Dokumentacja_PL; зарплата 5000-6000 brutto; Opus одобрил"
+  },
+  {
+   "company": "Ten Square Games",
+   "role": "Junior Data Scientist (f/m/d) (Wrocław, hybrid, UoP)",
+   "applied": "2026-10-28",
+   "channel": "Recruitee (форма TSG; заполнено Claude, капча и отправка Денис)",
+   "status": "confirmed",
+   "updated": "2026-10-28",
+   "note": "Письмо 'Potwierdzenie aplikacji' 28.10. CV TenSquare_DataScience_EN + cover letter. Ответы на вопросы про офис 3 дня/полный день выбрал Денис; на собесе объяснит график"
+  },
+  {
+   "company": "AmRest",
+   "role": "IT Menu Junior Administrator (Wrocław, hybrid, UoP)",
+   "applied": "2026-10-28",
+   "channel": "SAP SuccessFactors (аккаунт и подача Денис)",
+   "status": "submitted_by_user",
+   "updated": "2026-10-28",
+   "note": "Денис подал сам, письма-подтверждения в Gmail пока не проверялось"
   }
  ],
  "no_email_trace": [
