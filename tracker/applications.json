@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-26",
+ "checked": "2026-10-31",
  "mailbox": "r3dflzp.ns@gmail.com + flyingzaptop@gmail.com",
  "applications": [
   {
@@ -7,9 +7,9 @@
    "role": "CAD Evaluation Engineer",
    "applied": "2026-10-22",
    "channel": "JustJoin.it",
-   "status": "confirmed",
-   "updated": "2026-10-22",
-   "note": "Подтверждение JustJoin, ID 01a16565"
+   "status": "action",
+   "updated": "2026-10-30",
+   "note": "Takehome получен 30.10 (CAD Evaluation Engineer, mid, B2B). Задание: harness для FreeCAD (arwinai/test_example3); без строгого дедлайна"
   },
   {
    "company": "FOTC",
@@ -142,9 +142,9 @@
    "role": "Data Scientist / AI Engineer",
    "applied": "2026-10-14",
    "channel": "Recruitee",
-   "status": "confirmed",
-   "updated": "2026-10-14",
-   "note": ""
+   "status": "rejected",
+   "updated": "2026-10-26",
+   "note": "Отказ Addepto 26.10"
   },
   {
    "company": "Coherent Solutions",
@@ -197,9 +197,9 @@
    "role": "Płatny Staż w Dziale R&D - Mirków",
    "applied": "2026-10-23",
    "channel": "SmartRecruiters",
-   "status": "confirmed",
-   "updated": "2026-10-23",
-   "note": "Подтверждение Bosch; отмечено кнопкой «Подался»",
+   "status": "rejected",
+   "updated": "2026-10-28",
+   "note": "Отказ Bosch 28.10 (Płatny Staż w Dziale R&D)",
    "url": "https://pl.linkedin.com/jobs/view/p%C5%82atny-sta%C5%BC-w-dziale-r-d-k-m-at-bosch-4480964923?position=53&pageNum=0&refId=Nz4oAvjDCeQWW2qR5ikaLw%3D%3D&trackingId=ssg48jWIO5eFy4wwhcR8JA%3D%3D"
   },
   {
@@ -399,9 +399,9 @@
    "role": "Junior Data Scientist (f/m/d) (Wrocław, hybrid, UoP)",
    "applied": "2026-10-28",
    "channel": "Recruitee (форма TSG; заполнено Claude, капча и отправка Денис)",
-   "status": "confirmed",
-   "updated": "2026-10-28",
-   "note": "Письмо 'Potwierdzenie aplikacji' 28.10. CV TenSquare_DataScience_EN + cover letter. Ответы на вопросы про офис 3 дня/полный день выбрал Денис; на собесе объяснит график"
+   "status": "rejected",
+   "updated": "2026-10-30",
+   "note": "Отказ 30.10 (Junior Data Scientist)"
   },
   {
    "company": "AmRest",
@@ -411,6 +411,15 @@
    "status": "submitted_by_user",
    "updated": "2026-10-28",
    "note": "Денис подал сам, письма-подтверждения в Gmail пока не проверялось"
+  },
+  {
+   "company": "Parleto",
+   "role": "Programista Backend (Python) Junior (Gdańsk, hybryda/стационар)",
+   "applied": "2026-10-27",
+   "channel": "justjoin / Parleto",
+   "status": "action",
+   "updated": "2026-10-30",
+   "note": "Задание рекрутацийне (#59582DT) получено 30.10, ссылка активна 6 дней (до ~5.11)"
   }
  ],
  "no_email_trace": [
