@@ -9,7 +9,7 @@
    "channel": "JustJoin.it",
    "status": "action",
    "updated": "2026-10-30",
-   "note": "Takehome получен 30.10 (CAD Evaluation Engineer, mid, B2B). Задание: harness для FreeCAD (arwinai/test_example3); без строгого дедлайна"
+   "note": "Takehome получен 30.10 (CAD Evaluation Engineer, mid, B2B). Нужно написать harness для FreeCAD (arwinai/test_example3), без строгого дедлайна"
   },
   {
    "company": "FOTC",
@@ -144,7 +144,7 @@
    "channel": "Recruitee",
    "status": "rejected",
    "updated": "2026-10-26",
-   "note": "Отказ Addepto 26.10"
+   "note": "Отказ 26.10"
   },
   {
    "company": "Coherent Solutions",
@@ -199,7 +199,7 @@
    "channel": "SmartRecruiters",
    "status": "rejected",
    "updated": "2026-10-28",
-   "note": "Отказ Bosch 28.10 (Płatny Staż w Dziale R&D)",
+   "note": "Отказ 28.10 (письмо SmartRecruiters)",
    "url": "https://pl.linkedin.com/jobs/view/p%C5%82atny-sta%C5%BC-w-dziale-r-d-k-m-at-bosch-4480964923?position=53&pageNum=0&refId=Nz4oAvjDCeQWW2qR5ikaLw%3D%3D&trackingId=ssg48jWIO5eFy4wwhcR8JA%3D%3D"
   },
   {
@@ -225,9 +225,9 @@
    "role": "Automation & Control Systems Intern",
    "applied": "2026-10-24",
    "channel": "SuccessFactors",
-   "status": "confirmed",
-   "updated": "2026-10-24",
-   "note": "Аккаунт создан, заявка получена"
+   "status": "reply",
+   "updated": "2026-10-29",
+   "note": "Звонок 29.10 (стажировка, гибрид, Nysa): предварительно подходит, CV передают дальше; время собеседования назначат"
   },
   {
    "company": "Hewlett Packard Enterprise",
@@ -401,7 +401,7 @@
    "channel": "Recruitee (форма TSG; заполнено Claude, капча и отправка Денис)",
    "status": "rejected",
    "updated": "2026-10-30",
-   "note": "Отказ 30.10 (Junior Data Scientist)"
+   "note": "Отказ 30.10 (письмо Ten Square Games)"
   },
   {
    "company": "AmRest",
@@ -411,6 +411,33 @@
    "status": "submitted_by_user",
    "updated": "2026-10-28",
    "note": "Денис подал сам, письма-подтверждения в Gmail пока не проверялось"
+  },
+  {
+   "company": "LV BET Zakłady Bukmacherskie",
+   "role": "Manual QA Engineer (Łódź, hybrid, 5500-8500 gross)",
+   "applied": "2026-10-29",
+   "channel": "justjoin (нативная форма; капчу прошёл Denis)",
+   "status": "confirmed",
+   "updated": "2026-10-29",
+   "note": "Письмо justjoin 'You applied for Manual QA Engineer'; CV IT_PL базовое; Лодзь, офис: ответ по банку"
+  },
+  {
+   "company": "Rublon",
+   "role": "Młodszy Programista Python (k/m) (Zielona Góra, 3 дня офиса, zlecenie 35-55 PLN/h)",
+   "applied": "2026-10-29",
+   "channel": "Traffit (форма Rublon, авто-подача)",
+   "status": "confirmed",
+   "updated": "2026-10-29",
+   "note": "Страница thankyou/76; CV IT_PL базовое; ставка 36 PLN/ч, офис 1-2 дня, доступность сразу; письмо не проверено"
+  },
+  {
+   "company": "Parleto",
+   "role": "Programista Backend (Python) Junior (Gdańsk, офис/гибрид)",
+   "applied": "2026-10-29",
+   "channel": "cv.parleto.io (форма, авто-подача)",
+   "status": "action",
+   "updated": "2026-10-30",
+   "note": "Подано 29.10; 30.10 пришло задание рекрутации #59582DT, ссылка активна 6 дней (до ~5.11). Сделать до срока"
   }
  ],
  "no_email_trace": [

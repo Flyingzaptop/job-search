@@ -7,15 +7,18 @@
   --paper: #f4f6f8; --sheet: #ffffff; --ink: #18232e; --muted: #5d6b78; --rule: #d3dbe2;
   --accent: #1f5fa8; --accent-soft: #e3edf8;
   --good: #1e7a4a; --warn: #a86a12; --bad: #b2362b;
+  --fb: #1e7a4a; --fb-soft: #e4f3ea; --offer: #6b3fa0; --offer-soft: #efe6f8;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --paper: #0f161d; --sheet: #16202a; --ink: #e4ebf1; --muted: #93a3b1; --rule: #2a3946;
-  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71; color-scheme: dark } }
+  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71;
+  --fb: #5cc28a; --fb-soft: #153326; --offer: #b896e6; --offer-soft: #2a1f3d; color-scheme: dark } }
 :root[data-theme="dark"] {
   --paper: #0f161d; --sheet: #16202a; --ink: #e4ebf1; --muted: #93a3b1; --rule: #2a3946;
-  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71; color-scheme: dark }
+  --accent: #6ea8e8; --accent-soft: #1b2c3f; --good: #5cc28a; --warn: #e0a74c; --bad: #ec7d71;
+  --fb: #5cc28a; --fb-soft: #153326; --offer: #b896e6; --offer-soft: #2a1f3d; color-scheme: dark }
 body { background: var(--paper); color: var(--ink); font: 14px/1.45 var(--sans); }
 .wrap { max-width: 1100px; margin: 0 auto; padding-block: 20px 48px;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
@@ -54,8 +57,11 @@ button.copy { font: 12px var(--sans); background: none; border: 1px solid var(--
 .msgbtn { font: 500 12px var(--sans); color: var(--ink); background: none; border: 1px solid var(--rule); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
 .msgbox { width: 100%; min-height: 140px; font: 13px/1.4 var(--sans); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); padding: 6px; grid-column: 1 / -1; }
 .cvbtn { font: 500 12px var(--sans); color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 3px; padding: 3px 8px; cursor: pointer; }
-.st-applied, .st-reply, .st-interview { border-color: var(--accent) !important; }
-.st-offer { border-color: var(--good) !important; }
+.st-applied { border-color: var(--accent) !important; }
+.st-reply, .st-interview { border-color: var(--fb) !important; background: var(--fb-soft); }
+.st-offer { border-color: var(--offer) !important; background: var(--offer-soft); }
+#apps tr.r-reply td, #apps tr.r-interview td { background: var(--fb-soft); }
+#apps tr.r-offer td { background: var(--offer-soft); }
 .st-rejected, .st-skip { opacity: .6; }
 h2 { font-size: 16px; font-weight: 600; margin: 0; }
 h2.reg { margin: 0; }
@@ -74,7 +80,8 @@ button.run:disabled { opacity: .55; cursor: default; }
 .pill { font: 500 11px var(--mono); padding: 1px 7px; border: 1px solid currentColor; white-space: nowrap; }
 .p-action { color: var(--bad); font-weight: 600; }
 .p-confirmed { color: var(--accent); } .p-rejected { color: var(--bad); } .p-on_hold { color: var(--warn); }
-.p-reply, .p-interview, .p-offer { color: var(--good); }
+.p-reply, .p-interview { color: var(--fb); font-weight: 600; }
+.p-offer { color: var(--offer); font-weight: 600; }
 .muted { color: var(--muted); font-size: 13px; }
 .empty { border: 1px dashed var(--rule); padding: 28px; text-align: center; color: var(--muted); background: var(--sheet); }
 @media (max-width: 640px) {
@@ -267,7 +274,7 @@ function renderApps() {
   const rows = d.applications.concat(manual).sort((a, b) => (APP_ORDER[a.status] - APP_ORDER[b.status]) || b.applied.localeCompare(a.applied));
   const n = s => rows.filter(r => r.status === s).length;
   $("appsMeta").textContent = `${rows.length} откликов (${manual.length} отмечено вручную) · отказов ${n("rejected")} · на паузе ${n("on_hold")} · почта проверена ${d.checked}`;
-  $("apps").tBodies[0].innerHTML = rows.map(r => `<tr><td>${esc(r.company)}</td><td>${esc(r.role)}</td><td class="d">${esc(r.applied)}</td>
+  $("apps").tBodies[0].innerHTML = rows.map(r => `<tr class="r-${esc(r.status)}"><td>${esc(r.company)}</td><td>${esc(r.role)}</td><td class="d">${esc(r.applied)}</td>
     <td><span class="pill p-${esc(r.status)}">${esc(APP_LABEL[r.status] || r.status)}</span></td><td class="d">${esc(r.updated)}</td><td class="muted">${esc(r.note)}</td></tr>`).join("");
   $("appsUnconf").textContent = "Без следа в почте: " + d.no_email_trace.join("; ") + ".";
 }
